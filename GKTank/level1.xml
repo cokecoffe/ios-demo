@@ -1,0 +1,28 @@
+<tank map="level 1" author="graeme">
+
+  <!-- level stuff -->
+  <background file="default"/>
+  <player1 x="160" y="30"/>
+  <player2 x="160" y="450"/>
+  <win at="5"/>
+  <next level="level2"/>
+  
+  <!-- level blocks -->
+  <vblock x="88" y="60"/>
+  <vblock x="224" y="60"/>
+  <vblock x="48" y="160"/>
+  <vblock x="264" y="160"/>
+  <vblock x="48" y="288"/>
+  <vblock x="264" y="288"/>
+  <vblock x="88" y="388"/>
+  <vblock x="224" y="388"/>
+
+  <hblock x="96" y="92"/>
+  <hblock x="160" y="92"/>
+  <hblock x="56" y="192"/>
+  <hblock x="200" y="192"/>
+  <hblock x="56" y="280"/>
+  <hblock x="200" y="280"/>
+  <hblock x="96" y="380"/>
+  <hblock x="160" y="380"/>
+</tank>

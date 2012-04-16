@@ -1,0 +1,342 @@
+TMultiView
+v7
+r0
+t347443216.333242
+cCheck dependencies
+cProcessInfoPlistFile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/Info.plist MultiView-Info.plist
+cCompileXIB /Users/suichangming/Desktop/MultiView/MainWindow.xib
+cCompileXIB /Users/suichangming/Desktop/MultiView/BlueView.xib
+cCompileXIB /Users/suichangming/Desktop/MultiView/YellowView.xib
+cProcessPCH /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch.gch MultiView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/main.o /Users/suichangming/Desktop/MultiView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiViewAppDelegate.o /Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/SwitchViewController.o /Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/BlueViewController.o /Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/YellowViewController.o /Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView normal i386
+cGenerateDSYMFile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app.dSYM /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView
+cTouch /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/suichangming/Desktop/MultiView/BlueView.xib
+c000000004F055862000000000000491C
+t1325750370
+s18716
+
+N/Users/suichangming/Desktop/MultiView/Classes/BlueViewController.h
+c000000004F0546EA0000000000000104
+t1325745898
+s260
+i<UIKit/UIKit.h>
+
+N/Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m
+c000000004F054B1A00000000000006B8
+t1325746970
+s1720
+i"BlueViewController.h"
+
+N/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.h
+c000000004F05381500000000000001E6
+t1325742101
+s486
+i<UIKit/UIKit.h>
+
+N/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m
+c000000004F054C35000000000000072A
+t1325747253
+s1834
+i"MultiViewAppDelegate.h"
+i"SwitchViewController.h"
+
+N/Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.h
+c000000004F053A5B0000000000000229
+t1325742683
+s553
+i<UIKit/UIKit.h>
+
+N/Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m
+c000000004F054F290000000000000945
+t1325748009
+s2373
+i"SwitchViewController.h"
+i"BlueViewController.h"
+i"YellowViewController.h"
+
+N/Users/suichangming/Desktop/MultiView/Classes/YellowViewController.h
+c000000004F054706000000000000010A
+t1325745926
+s266
+i<UIKit/UIKit.h>
+
+N/Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m
+c000000004F054BC700000000000006C6
+t1325747143
+s1734
+i"YellowViewController.h"
+
+N/Users/suichangming/Desktop/MultiView/MainWindow.xib
+c000000004F0556DF000000000000612C
+t1325749983
+s24876
+
+N/Users/suichangming/Desktop/MultiView/MultiView_Prefix.pch
+c000000004F05352500000000000000BB
+t1325741349
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/suichangming/Desktop/MultiView/YellowView.xib
+c000000004F0549FA00000000000049DE
+t1325746682
+s18910
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app
+t1325750400
+s272
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app.dSYM
+t1325748010
+s102
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/BlueView.nib
+t1325750400
+s1466
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/Info.plist
+t1325746977
+s806
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MainWindow.nib
+t1325750229
+s1485
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView
+t1325748010
+s24788
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/PkgInfo
+t1325746977
+s8
+
+N/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/YellowView.nib
+t1325746978
+s1472
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/BlueViewController.o
+t1325746980
+s45080
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiView.LinkFileList
+c000000004F054B2100000000000002AF
+t1325746977
+s687
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiViewAppDelegate.o
+t1325747257
+s50356
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/SwitchViewController.o
+t1325748010
+s45760
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/YellowViewController.o
+t1325747179
+s45144
+
+N/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/main.o
+t1325746980
+s6300
+
+N/Users/suichangming/Desktop/MultiView/main.m
+c000000004F0535250000000000000167
+t1325741349
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch.gch
+t1325746980
+s15453392
+
+NMultiView-Info.plist
+c000000004F05352500000000000004D6
+t1325741349
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies347443216#347443216#0(0"0(0#1#0"8608238944#0"0#
+
+CCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/BlueViewController.o /Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s347439780.686818
+e347439780.751600
+r1
+xCompileC
+xbuild/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/BlueViewController.o
+x/Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m347439780#347439780#0(0"0(0#0#66"/Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m8604210400#1979"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -include /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch -c /Users/suichangming/Desktop/MultiView/Classes/BlueViewController.m -o /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/BlueViewController.o0#
+
+CCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiViewAppDelegate.o /Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s347440056.942492
+e347440057.087450
+r1
+xCompileC
+xbuild/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiViewAppDelegate.o
+x/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m: In function '-[MultiViewAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m:25: warning: control reaches end of non-void function
+lSLF07#2@76"Compile /Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m347440056#347440057#0(275"/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m: In function '-[MultiViewAppDelegate application:didFinishLaunchingWithOptions:]':/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m:25: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function347440057#152#123#0(6@68"/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m347440053#25#0#25#0#40"control reaches end of non-void function0(0#0#68"/Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m8618895680#1983"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -include /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch -c /Users/suichangming/Desktop/MultiView/Classes/MultiViewAppDelegate.m -o /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiViewAppDelegate.o0#
+
+CCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/SwitchViewController.o /Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s347440810.635211
+e347440810.793859
+r1
+xCompileC
+xbuild/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/SwitchViewController.o
+x/Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m347440810#347440810#0(0"0(0#0#68"/Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m8616570912#1983"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -include /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch -c /Users/suichangming/Desktop/MultiView/Classes/SwitchViewController.m -o /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/SwitchViewController.o0#
+
+CCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/YellowViewController.o /Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s347439979.608460
+e347439979.677771
+r1
+xCompileC
+xbuild/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/YellowViewController.o
+x/Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m347439979#347439979#0(0"0(0#0#68"/Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m8616386400#1983"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -include /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch -c /Users/suichangming/Desktop/MultiView/Classes/YellowViewController.m -o /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/YellowViewController.o0#
+
+CCompileC build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/main.o /Users/suichangming/Desktop/MultiView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s347439780.425667
+e347439780.567511
+r1
+xCompileC
+xbuild/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/main.o
+x/Users/suichangming/Desktop/MultiView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/suichangming/Desktop/MultiView/main.m347439780#347439780#0(0"0(0#0#44"/Users/suichangming/Desktop/MultiView/main.m8613172320#1943"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -include /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch -c /Users/suichangming/Desktop/MultiView/main.m -o /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/suichangming/Desktop/MultiView/BlueView.xib
+s347443199.956487
+e347443200.497717
+r1
+xCompileXIB
+x/Users/suichangming/Desktop/MultiView/BlueView.xib
+o2012-01-05 16:00:00.353 Interface Builder Cocoa Touch Tool[1034:1903] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@23"CompileXIB BlueView.xib347443199#347443200#0(246"2012-01-05 16:00:00.353 Interface Builder Cocoa Touch Tool[1034:1903] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#50"/Users/suichangming/Desktop/MultiView/BlueView.xib8618417120#565"    cd /Users/suichangming/Desktop/MultiView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/BlueView.nib /Users/suichangming/Desktop/MultiView/BlueView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/suichangming/Desktop/MultiView/MainWindow.xib
+s347443029.118664
+e347443029.706603
+r1
+xCompileXIB
+x/Users/suichangming/Desktop/MultiView/MainWindow.xib
+o2012-01-05 15:57:09.588 Interface Builder Cocoa Touch Tool[1011:1903] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib347443029#347443029#0(246"2012-01-05 15:57:09.588 Interface Builder Cocoa Touch Tool[1011:1903] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#52"/Users/suichangming/Desktop/MultiView/MainWindow.xib8617059552#569"    cd /Users/suichangming/Desktop/MultiView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MainWindow.nib /Users/suichangming/Desktop/MultiView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/suichangming/Desktop/MultiView/YellowView.xib
+s347439778.223141
+e347439778.629992
+r1
+xCompileXIB
+x/Users/suichangming/Desktop/MultiView/YellowView.xib
+o2012-01-05 15:02:58.531 Interface Builder Cocoa Touch Tool[558:1b03] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB YellowView.xib347439778#347439778#0(329"2012-01-05 15:02:58.531 Interface Builder Cocoa Touch Tool[558:1b03] CFPreferences: user home directory at file://localhost/Users/suichangming/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#52"/Users/suichangming/Desktop/MultiView/YellowView.xib8612770304#569"    cd /Users/suichangming/Desktop/MultiView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/YellowView.nib /Users/suichangming/Desktop/MultiView/YellowView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app.dSYM /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView
+s347440810.817055
+e347440810.838676
+r1
+xGenerateDSYMFile
+x/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app.dSYM
+x/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/MultiView.app.dSYM build/Debug-iphonesimulator/MultiView.app/MultiView347440810#347440810#0(0"0(0#0#89"/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView8617119904#386"    cd /Users/suichangming/Desktop/MultiView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView -o /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app.dSYM0#
+
+CLd /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView normal i386
+s347440810.793965
+e347440810.816948
+r1
+xLd
+x/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView
+xnormal
+xi386
+lSLF07#2@94"Link /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView347440810#347440810#0(0"0(0#0#0"8618377856#905"    cd /Users/suichangming/Desktop/MultiView    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -filelist /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/Objects-normal/i386/MultiView.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/MultiView0#
+
+CProcessInfoPlistFile /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/Info.plist MultiView-Info.plist
+s347439777.421326
+e347439777.451211
+r1
+xProcessInfoPlistFile
+x/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/Info.plist
+xMultiView-Info.plist
+lSLF07#2@28"Process MultiView-Info.plist347439777#347439777#0(0"0(0#0#58"/Users/suichangming/Desktop/MultiView/MultiView-Info.plist32651513917341812#482"    cd /Users/suichangming/Desktop/MultiView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MultiView-Info.plist -genpkginfo /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app/Info.plist0#
+
+CProcessPCH /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch.gch MultiView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s347439778.630184
+e347439780.425102
+r1
+xProcessPCH
+x/var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch.gch
+xMultiView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MultiView_Prefix.pch347439778#347439780#0(0"0(0#0#58"/Users/suichangming/Desktop/MultiView/MultiView_Prefix.pch8616082176#1834"    cd /Users/suichangming/Desktop/MultiView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-generated-files.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-own-target-headers.hmap -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-all-target-headers.hmap -iquote /Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/MultiView-project-headers.hmap -F/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator -I/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/include -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources/i386 -I/Users/suichangming/Desktop/MultiView/build/MultiView.build/Debug-iphonesimulator/MultiView.build/DerivedSources -c /Users/suichangming/Desktop/MultiView/MultiView_Prefix.pch -o /var/folders/GQ/GQg-EXXeE3eWGZXJMpLnzU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MultiView_Prefix-eecibqonubvicyepzsdsiztyphhz/MultiView_Prefix.pch.gch0#
+
+CTouch /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app
+s347443200.499033
+e347443200.502536
+r1
+xTouch
+x/Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app
+lSLF07#2@85"Touch /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app347443200#347443200#0(0"0(0#0#0"8621447008#278"    cd /Users/suichangming/Desktop/MultiView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/suichangming/Desktop/MultiView/build/Debug-iphonesimulator/MultiView.app0#
+

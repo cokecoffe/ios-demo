@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URLGetURLText</key>
+	<string>ftp://ftp.apple.com/developer/Technical_Documentation/MultipleUsers_Info_Kit_R3/files/images/multu.gif</string>
+	<key>GetURLText</key>
+	<string>ftp://ftp.apple.com/developer/Technical_Documentation/MultipleUsers_Info_Kit_R3/files/images/multu.gif</string>
+	<key>ListURLText</key>
+	<string>ftp://ftp.apple.com/developer/Development_Kits/</string>
+	<key>PutURLText</key>
+	<string>ftp://localhost/</string>
+	<key>CreateDirURLText</key>
+	<string>ftp://localhost/</string>
+	<key>CreateDirNameText</key>
+	<string>untitled</string>
+	<key>Username</key>
+	<string></string>
+	<key>Password</key>
+	<string></string>
+</dict>
+</plist>

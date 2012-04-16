@@ -1,0 +1,267 @@
+TPickers
+v7
+r1
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/apple.png
+c0000000049D2EC80000000000000024E
+t1238559872
+s590
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/bar.png
+c0000000049D2EC800000000000000409
+t1238559872
+s1033
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/cherry.png
+c0000000049D2EC8000000000000001C4
+t1238559872
+s452
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/crown.png
+c0000000049D2EC8000000000000003CC
+t1238559872
+s972
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/lemon.png
+c0000000049D2EC80000000000000039A
+t1238559872
+s922
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Images/seven.png
+c0000000049D2EC800000000000000227
+t1238559872
+s551
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Sounds/crunch.wav
+c0000000049D2EC800000000000000A48
+t1238559872
+s2632
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Custom Picker Sounds/win.wav
+c0000000049D2EC80000000000000912E
+t1238559872
+s37166
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/CustomPickerView.xib
+c0000000049D2EC800000000000002F67
+t1238559872
+s12135
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DatePickerView.xib
+c0000000049D2EC800000000000002C02
+t1238559872
+s11266
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DependentComponentPickerView.xib
+c0000000049D2EC80000000000000269B
+t1238559872
+s9883
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DoubleComponentPickerView.xib
+c0000000049D2EC80000000000000269D
+t1238559872
+s9885
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/MainWindow.xib
+c0000000049D2EC800000000000005070
+t1238559872
+s20592
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/SingleComponentPickerView.xib
+c0000000049D2EC8000000000000026A1
+t1238559872
+s9889
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Tab Bar Icons/clockicon.png
+c0000000049D2EC800000000000000F8E
+t1238559872
+s3982
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Tab Bar Icons/dependenticon.png
+c0000000049D2EC800000000000000B66
+t1238559872
+s2918
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Tab Bar Icons/doubleicon.png
+c0000000049D2EC800000000000000BCA
+t1238559872
+s3018
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Tab Bar Icons/singleicon.png
+c0000000049D2EC800000000000000B59
+t1238559872
+s2905
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/Tab Bar Icons/toolicon.png
+c0000000049D2EC800000000000000F2C
+t1238559872
+s3884
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Info.plist
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/CustomPickerView.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/DatePickerView.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/DependentComponentPickerView.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/DoubleComponentPickerView.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/SingleComponentPickerView.nib
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/apple.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/bar.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/cherry.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/clockicon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/crown.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/crunch.wav
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/dependenticon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/doubleicon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/lemon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/seven.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/singleicon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/statedictionary.plist
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/toolicon.png
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/win.wav
+t2
+s0
+
+N/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/statedictionary.plist
+c0000000049D2EC8000000000000CA69D
+t1238559872
+s829085
+
+NInfo.plist
+c0000000049D2EC800000000000000381
+t1238559872
+s897
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/CustomPickerView.xib"
+r0
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DatePickerView.xib"
+r0
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DependentComponentPickerView.xib"
+r0
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/DoubleComponentPickerView.xib"
+r0
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/SingleComponentPickerView.xib"
+r0
+
+CCopyPlistFile "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Resources/statedictionary.plist" statedictionary.plist
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/apple.png "Custom Picker Images/apple.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/bar.png "Custom Picker Images/bar.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/cherry.png "Custom Picker Images/cherry.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/clockicon.png "Tab Bar Icons/clockicon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/crown.png "Custom Picker Images/crown.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/crunch.wav "Custom Picker Sounds/crunch.wav"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/dependenticon.png "Tab Bar Icons/dependenticon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/doubleicon.png "Tab Bar Icons/doubleicon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/lemon.png "Custom Picker Images/lemon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/seven.png "Custom Picker Images/seven.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/singleicon.png "Tab Bar Icons/singleicon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/toolicon.png "Tab Bar Icons/toolicon.png"
+r0
+
+CCpResource build/Debug/Pickers.app/Contents/Resources/win.wav "Custom Picker Sounds/win.wav"
+r0
+
+CProcessInfoPlistFile "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app/Contents/Info.plist" Info.plist
+r0
+
+CTouch "/Users/suichangming/Documents/Beginning iPhone Development Projects Oct 12 2009/07 Pickers/build/Debug/Pickers.app"
+r0
+
