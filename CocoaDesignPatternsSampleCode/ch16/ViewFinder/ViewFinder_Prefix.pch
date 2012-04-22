@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ViewFinder' target in the 'ViewFinder' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

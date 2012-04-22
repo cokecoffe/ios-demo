@@ -1,0 +1,178 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F61EA7DB0F80DC4200685CDB /* ValidatingButton */;
+		activeTarget = 8D1107260486CEB800E47090 /* ValidatingButton */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ValidatingButton */,
+		);
+		codeSenseManager = F61EA7E80F80DC4A00685CDB /* Code sense */;
+		executables = (
+			F61EA7DB0F80DC4200685CDB /* ValidatingButton */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					439,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260354431;
+			PBXWorkspaceStateSaveDate = 260354431;
+		};
+		perUserProjectItems = {
+			F61EA8120F80E54C00685CDB /* PBXTextBookmark */ = F61EA8120F80E54C00685CDB /* PBXTextBookmark */;
+			F67A3FB30F84B1C300EE0332 /* PBXTextBookmark */ = F67A3FB30F84B1C300EE0332 /* PBXTextBookmark */;
+			F6E5E3FD0F8179740002D71B /* PBXTextBookmark */ = F6E5E3FD0F8179740002D71B /* PBXTextBookmark */;
+			F6E5E3FF0F8179740002D71B /* PBXTextBookmark */ = F6E5E3FF0F8179740002D71B /* PBXTextBookmark */;
+			F6E5E4000F8179740002D71B /* PBXTextBookmark */ = F6E5E4000F8179740002D71B /* PBXTextBookmark */;
+			F6E5E4010F8179740002D71B /* PBXTextBookmark */ = F6E5E4010F8179740002D71B /* PBXTextBookmark */;
+		};
+		sourceControlManager = F61EA7E70F80DC4A00685CDB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* ValidatingButton_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {636, 412}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 163}";
+		};
+	};
+	8D1107260486CEB800E47090 /* ValidatingButton */ = {
+		activeExec = 0;
+		executables = (
+			F61EA7DB0F80DC4200685CDB /* ValidatingButton */,
+		);
+	};
+	F61EA7DB0F80DC4200685CDB /* ValidatingButton */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ValidatingButton;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F61EA7E70F80DC4A00685CDB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	F61EA7E80F80DC4A00685CDB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F61EA7EC0F80DC7700685CDB /* MyValidatingButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {617, 412}}";
+			sepNavSelRange = "{150, 77}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	F61EA7ED0F80DC7700685CDB /* MyValidatingButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 504}}";
+			sepNavSelRange = "{673, 0}";
+			sepNavVisRange = "{92, 933}";
+		};
+	};
+	F61EA8120F80E54C00685CDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ValidatingButton_Prefix.pch */;
+		name = "ValidatingButton_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 163;
+		vrLoc = 0;
+	};
+	F67A3FB30F84B1C300EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F61EA7ED0F80DC7700685CDB /* MyValidatingButton.m */;
+		name = "MyValidatingButton.m: 25";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 92;
+	};
+	F6E5E3FD0F8179740002D71B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F61EA7EC0F80DC7700685CDB /* MyValidatingButton.h */;
+		name = "MyValidatingButton.h: 9";
+		rLen = 77;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	F6E5E3FF0F8179740002D71B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F61EA7ED0F80DC7700685CDB /* MyValidatingButton.m */;
+		name = "MyValidatingButton.m: 19";
+		rLen = 0;
+		rLoc = 408;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 146;
+	};
+	F6E5E4000F8179740002D71B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F61EA7EC0F80DC7700685CDB /* MyValidatingButton.h */;
+		name = "MyValidatingButton.h: 9";
+		rLen = 77;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	F6E5E4010F8179740002D71B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F61EA7ED0F80DC7700685CDB /* MyValidatingButton.m */;
+		name = "MyValidatingButton.m: 22";
+		rLen = 0;
+		rLoc = 525;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 146;
+	};
+}

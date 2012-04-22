@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	033A02101071523E00A27C05 /* Junction */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Junction;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	033A021F1071525D00A27C05 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	033A02201071525D00A27C05 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	033A02371071533300A27C05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D3983B0F375ED700F5C33C /* JunctionAppController.h */;
+		name = "JunctionAppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 156;
+		vrLoc = 0;
+	};
+	033A02381071533300A27C05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	03A839371071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6AE44FE0F3829E0008B8D5E /* NSArray+HOM.m */;
+		name = "NSArray+HOM.m: 19";
+		rLen = 92;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	03A839381071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6AE44FD0F3829E0008B8D5E /* NSArray+HOM.h */;
+		name = "NSArray+HOM.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 158;
+		vrLoc = 0;
+	};
+	03A839391071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6AE45020F382B05008B8D5E /* MYTrampoline.m */;
+		name = "MYTrampoline.m: 47";
+		rLen = 0;
+		rLoc = 891;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	03A8393A1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6AE45010F382B05008B8D5E /* MYTrampoline.h */;
+		name = "MYTrampoline.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	03A8393B1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D398350F37578300F5C33C /* MYJunctionHelper.m */;
+		name = "MYJunctionHelper.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	03A8393C1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D398340F37578300F5C33C /* MYJunctionHelper.h */;
+		name = "MYJunctionHelper.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 98;
+		vrLoc = 0;
+	};
+	03A8393D1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D3982D0F37573E00F5C33C /* MYJunction.m */;
+		name = "MYJunction.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	03A8393E1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D3982C0F37573D00F5C33C /* MYJunction.h */;
+		name = "MYJunction.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	03A8393F1071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D3983C0F375ED700F5C33C /* JunctionAppController.m */;
+		name = "JunctionAppController.m: 26";
+		rLen = 0;
+		rLoc = 511;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	03A839441071537800F473F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6D3983B0F375ED700F5C33C /* JunctionAppController.h */;
+		name = "JunctionAppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 156;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 033A02101071523E00A27C05 /* Junction */;
+		activeTarget = 8D1107260486CEB800E47090 /* Junction */;
+		codeSenseManager = 033A02201071525D00A27C05 /* Code sense */;
+		executables = (
+			033A02101071523E00A27C05 /* Junction */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					571,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275862367;
+			PBXWorkspaceStateSaveDate = 275862367;
+		};
+		perUserProjectItems = {
+			033A02371071533300A27C05 /* PBXTextBookmark */ = 033A02371071533300A27C05 /* PBXTextBookmark */;
+			033A02381071533300A27C05 /* PBXTextBookmark */ = 033A02381071533300A27C05 /* PBXTextBookmark */;
+			03A839371071537800F473F3 /* PBXTextBookmark */ = 03A839371071537800F473F3 /* PBXTextBookmark */;
+			03A839381071537800F473F3 /* PBXTextBookmark */ = 03A839381071537800F473F3 /* PBXTextBookmark */;
+			03A839391071537800F473F3 /* PBXTextBookmark */ = 03A839391071537800F473F3 /* PBXTextBookmark */;
+			03A8393A1071537800F473F3 /* PBXTextBookmark */ = 03A8393A1071537800F473F3 /* PBXTextBookmark */;
+			03A8393B1071537800F473F3 /* PBXTextBookmark */ = 03A8393B1071537800F473F3 /* PBXTextBookmark */;
+			03A8393C1071537800F473F3 /* PBXTextBookmark */ = 03A8393C1071537800F473F3 /* PBXTextBookmark */;
+			03A8393D1071537800F473F3 /* PBXTextBookmark */ = 03A8393D1071537800F473F3 /* PBXTextBookmark */;
+			03A8393E1071537800F473F3 /* PBXTextBookmark */ = 03A8393E1071537800F473F3 /* PBXTextBookmark */;
+			03A8393F1071537800F473F3 /* PBXTextBookmark */ = 03A8393F1071537800F473F3 /* PBXTextBookmark */;
+			03A839441071537800F473F3 /* PBXTextBookmark */ = 03A839441071537800F473F3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 033A021F1071525D00A27C05 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 338}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 121}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Junction */ = {
+		activeExec = 0;
+		executables = (
+			033A02101071523E00A27C05 /* Junction */,
+		);
+	};
+	F6AE44FD0F3829E0008B8D5E /* NSArray+HOM.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 158}";
+		};
+	};
+	F6AE44FE0F3829E0008B8D5E /* NSArray+HOM.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 496}}";
+			sepNavSelRange = "{381, 92}";
+			sepNavVisRange = "{0, 478}";
+		};
+	};
+	F6AE45010F382B05008B8D5E /* MYTrampoline.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 345}";
+		};
+	};
+	F6AE45020F382B05008B8D5E /* MYTrampoline.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 752}}";
+			sepNavSelRange = "{891, 0}";
+			sepNavVisRange = "{0, 441}";
+		};
+	};
+	F6D3982C0F37573D00F5C33C /* MYJunction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 159}";
+		};
+	};
+	F6D3982D0F37573E00F5C33C /* MYJunction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 1344}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 316}";
+		};
+	};
+	F6D398340F37578300F5C33C /* MYJunctionHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 98}";
+		};
+	};
+	F6D398350F37578300F5C33C /* MYJunctionHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	F6D3983B0F375ED700F5C33C /* JunctionAppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 156}";
+		};
+	};
+	F6D3983C0F375ED700F5C33C /* JunctionAppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 640}}";
+			sepNavSelRange = "{511, 0}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+}

@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F655695E0F4A34D0007E63CA /* ViewFinder */;
+		activeTarget = 8D1107260486CEB800E47090 /* ViewFinder */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ViewFinder */,
+		);
+		codeSenseManager = F655696E0F4A34EB007E63CA /* Code sense */;
+		executables = (
+			F655695E0F4A34D0007E63CA /* ViewFinder */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					455,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260357356;
+			PBXWorkspaceStateSaveDate = 260357356;
+		};
+		perUserProjectItems = {
+			F65569D00F4AB20E007E63CA /* PlistBookmark */ = F65569D00F4AB20E007E63CA /* PlistBookmark */;
+			F65569D30F4AB20E007E63CA /* PlistBookmark */ = F65569D30F4AB20E007E63CA /* PlistBookmark */;
+			F65569D40F4AB20E007E63CA /* PBXTextBookmark */ = F65569D40F4AB20E007E63CA /* PBXTextBookmark */;
+			F67A401A0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401A0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A401B0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401B0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A401C0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401C0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A401D0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401D0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A401E0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401E0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A401F0F84D99D00EE0332 /* PBXTextBookmark */ = F67A401F0F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A40200F84D99D00EE0332 /* PBXTextBookmark */ = F67A40200F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A40210F84D99D00EE0332 /* PBXTextBookmark */ = F67A40210F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A40220F84D99D00EE0332 /* PBXTextBookmark */ = F67A40220F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A40230F84D99D00EE0332 /* PBXTextBookmark */ = F67A40230F84D99D00EE0332 /* PBXTextBookmark */;
+			F67A40240F84D99D00EE0332 /* PBXTextBookmark */ = F67A40240F84D99D00EE0332 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F655696D0F4A34EB007E63CA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* ViewFinder */ = {
+		activeExec = 0;
+		executables = (
+			F655695E0F4A34D0007E63CA /* ViewFinder */,
+		);
+	};
+	F655695E0F4A34D0007E63CA /* ViewFinder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ViewFinder;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	F655696D0F4A34EB007E63CA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	F655696E0F4A34EB007E63CA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F655696F0F4A69D6007E63CA /* MYViewFinderController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {633, 420}}";
+			sepNavSelRange = "{148, 398}";
+			sepNavVisRange = "{0, 546}";
+		};
+	};
+	F65569700F4A69D6007E63CA /* MYViewFinderController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {633, 2520}}";
+			sepNavSelRange = "{4156, 1142}";
+			sepNavVisRange = "{4156, 1148}";
+		};
+	};
+	F65569AB0F4AA5CF007E63CA /* MYHighlightingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {633, 420}}";
+			sepNavSelRange = "{144, 75}";
+			sepNavVisRange = "{0, 219}";
+		};
+	};
+	F65569AC0F4AA5CF007E63CA /* MYHighlightingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 504}}";
+			sepNavSelRange = "{144, 593}";
+			sepNavVisRange = "{140, 597}";
+		};
+	};
+	F65569D00F4AB20E007E63CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/don/ViewFinder/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F65569D30F4AB20E007E63CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/don/ViewFinder/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F65569D40F4AB20E007E63CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F655696F0F4A69D6007E63CA /* MYViewFinderController.h */;
+		name = "MYViewFinderController.h: 20";
+		rLen = 15;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	F67A401A0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AB0F4AA5CF007E63CA /* MYHighlightingView.h */;
+		name = "MYHighlightingView.h: 9";
+		rLen = 75;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	F67A401B0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AC0F4AA5CF007E63CA /* MYHighlightingView.m */;
+		name = "MYHighlightingView.m: 9";
+		rLen = 593;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 140;
+	};
+	F67A401C0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F655696F0F4A69D6007E63CA /* MYViewFinderController.h */;
+		name = "MYViewFinderController.h: 9";
+		rLen = 398;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	F67A401D0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569700F4A69D6007E63CA /* MYViewFinderController.m */;
+		name = "MYViewFinderController.m: 15";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	F67A401E0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569700F4A69D6007E63CA /* MYViewFinderController.m */;
+		name = "MYViewFinderController.m: 15";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	F67A401F0F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AB0F4AA5CF007E63CA /* MYHighlightingView.h */;
+		name = "MYHighlightingView.h: 13";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	F67A40200F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AC0F4AA5CF007E63CA /* MYHighlightingView.m */;
+		name = "MYHighlightingView.m: 12";
+		rLen = 18;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 140;
+	};
+	F67A40210F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AB0F4AA5CF007E63CA /* MYHighlightingView.h */;
+		name = "MYHighlightingView.h: 9";
+		rLen = 75;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	F67A40220F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569AC0F4AA5CF007E63CA /* MYHighlightingView.m */;
+		name = "MYHighlightingView.m: 9";
+		rLen = 593;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 140;
+	};
+	F67A40230F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F655696F0F4A69D6007E63CA /* MYViewFinderController.h */;
+		name = "MYViewFinderController.h: 9";
+		rLen = 398;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	F67A40240F84D99D00EE0332 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F65569700F4A69D6007E63CA /* MYViewFinderController.m */;
+		name = "MYViewFinderController.m: 151";
+		rLen = 1142;
+		rLoc = 4156;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 4156;
+	};
+}

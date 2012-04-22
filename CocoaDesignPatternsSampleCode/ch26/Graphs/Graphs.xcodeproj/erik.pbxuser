@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	037AD73D107151D200905A90 /* Graphs */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Graphs;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	037AD74C107151F100905A90 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	037AD74D107151F100905A90 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	037AD75A1071522700905A90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBA8E5E30F48DC38005E526F /* GraphController.h */;
+		name = "GraphController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	037AD75B1071522700905A90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBA8E5E40F48DC38005E526F /* GraphController.m */;
+		name = "GraphController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	037AD75C1071522700905A90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBA8E5E50F48DC38005E526F /* MYDirectoryChartGenerator.h */;
+		name = "MYDirectoryChartGenerator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	037AD75D1071522700905A90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBA8E5E60F48DC38005E526F /* MYDirectoryChartGenerator.m */;
+		name = "MYDirectoryChartGenerator.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 0;
+	};
+	037AD76B1071522700905A90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBA8E5E60F48DC38005E526F /* MYDirectoryChartGenerator.m */;
+		name = "MYDirectoryChartGenerator.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 037AD73D107151D200905A90 /* Graphs */;
+		activeTarget = 8D1107260486CEB800E47090 /* Graphs */;
+		codeSenseManager = 037AD74D107151F100905A90 /* Code sense */;
+		executables = (
+			037AD73D107151D200905A90 /* Graphs */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					621,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275861970;
+			PBXWorkspaceStateSaveDate = 275861970;
+		};
+		perUserProjectItems = {
+			037AD75A1071522700905A90 /* PBXTextBookmark */ = 037AD75A1071522700905A90 /* PBXTextBookmark */;
+			037AD75B1071522700905A90 /* PBXTextBookmark */ = 037AD75B1071522700905A90 /* PBXTextBookmark */;
+			037AD75C1071522700905A90 /* PBXTextBookmark */ = 037AD75C1071522700905A90 /* PBXTextBookmark */;
+			037AD75D1071522700905A90 /* PBXTextBookmark */ = 037AD75D1071522700905A90 /* PBXTextBookmark */;
+			037AD76B1071522700905A90 /* PBXTextBookmark */ = 037AD76B1071522700905A90 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 037AD74C107151F100905A90 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Graphs */ = {
+		activeExec = 0;
+		executables = (
+			037AD73D107151D200905A90 /* Graphs */,
+		);
+	};
+	EBA8E5E30F48DC38005E526F /* GraphController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 508}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 198}";
+		};
+	};
+	EBA8E5E40F48DC38005E526F /* GraphController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 508}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	EBA8E5E50F48DC38005E526F /* MYDirectoryChartGenerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 508}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	EBA8E5E60F48DC38005E526F /* MYDirectoryChartGenerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 1408}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 878}";
+		};
+	};
+}

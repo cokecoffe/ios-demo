@@ -1,0 +1,81 @@
+===========================================================================
+
+                              Sample Code for
+                           Cocoa Design Patterns
+                 by Erik M. Buck and Donald A. Yacktman
+
+===========================================================================
+
+This README contains details about the sample Xcode projects that accompany
+the book, "Cocoa Design Patterns," by Erik M. Buck and Donald A. Yacktman.
+The projects contained in this disk image are organized by chapter, and
+can be freely used within your own applications.
+
+The sample code is distributed on an "As-Is" basis, without warranty.
+While every precaution has been taken in the preparation of the code,
+neither the authors nor Pearson Education, Inc. shall have any liability
+to any person or entity with respect to any loss or damage caused or 
+alleged to be caused directly or indirectly by the sample code.
+
+If you encounter any errors or have any problems with the sample code,
+feel free to contact the authors directly, at:
+
+    Erik M. Buck
+    erik.buck@sbcglobal.net
+
+    Donald A. Yacktman
+    dyacktman@gmail.com
+
+---------------------------------------------------------------------------
+
+===============
+Sample Projects
+===============
+ch02:
+  - MVCPayCalculator
+  - NiavePayCalculator
+
+ch05:
+  - RPN
+
+ch08:
+  - Enumeration
+
+ch15: 
+  - MYBarViewExample
+
+ch16:
+  - ViewFinder
+
+ch18:
+  - ResponderChainTrace
+  - ValidatingButton
+
+ch20:
+  - Invocations
+
+ch25:
+  - MYShortStringTest
+
+ch26:
+  - Graphs
+
+ch27:
+  - Junction
+
+ch29:
+  - MYShapeEditor0
+  - MYShapeEditor1
+  - MYShapeEditor2
+  - MYShapeEditor3
+  - MYShapeEditor4
+  - Sample.shape
+
+ch32:
+  - BindingSample
+
+At the time of writing, these projects were built and tested using
+Xcode on Mac OS X Leopard (v 10.5) and Mac OS X Snow Leopard (v 10.6).
+
+==========================================================================
+eof
