@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1021F715497302008456B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1021F615497302008456B2 /* Cocoa.framework */; };
+		2B10220115497302008456B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1021FF15497302008456B2 /* InfoPlist.strings */; };
+		2B10220315497302008456B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B10220215497302008456B2 /* main.m */; };
+		2B10220715497302008456B2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2B10220515497302008456B2 /* Credits.rtf */; };
+		2B10220A15497302008456B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B10220915497302008456B2 /* AppDelegate.m */; };
+		2B10220D15497302008456B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B10220B15497302008456B2 /* MainMenu.xib */; };
+		2B10221515497376008456B2 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B10221415497376008456B2 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B1021F215497302008456B2 /* CaseTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1021F615497302008456B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B1021F915497302008456B2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2B1021FA15497302008456B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B1021FB15497302008456B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B1021FE15497302008456B2 /* CaseTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaseTool-Info.plist"; sourceTree = "<group>"; };
+		2B10220015497302008456B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B10220215497302008456B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B10220415497302008456B2 /* CaseTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaseTool-Prefix.pch"; sourceTree = "<group>"; };
+		2B10220615497302008456B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2B10220815497302008456B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B10220915497302008456B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B10220C15497302008456B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B10221315497376008456B2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		2B10221415497376008456B2 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1021EF15497302008456B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1021F715497302008456B2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1021E715497302008456B2 = {
+			isa = PBXGroup;
+			children = (
+				2B1021FC15497302008456B2 /* CaseTool */,
+				2B1021F515497302008456B2 /* Frameworks */,
+				2B1021F315497302008456B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1021F315497302008456B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1021F215497302008456B2 /* CaseTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1021F515497302008456B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1021F615497302008456B2 /* Cocoa.framework */,
+				2B1021F815497302008456B2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B1021F815497302008456B2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1021F915497302008456B2 /* AppKit.framework */,
+				2B1021FA15497302008456B2 /* CoreData.framework */,
+				2B1021FB15497302008456B2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B1021FC15497302008456B2 /* CaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				2B10220815497302008456B2 /* AppDelegate.h */,
+				2B10220915497302008456B2 /* AppDelegate.m */,
+				2B10220B15497302008456B2 /* MainMenu.xib */,
+				2B10221315497376008456B2 /* AppController.h */,
+				2B10221415497376008456B2 /* AppController.m */,
+				2B1021FD15497302008456B2 /* Supporting Files */,
+			);
+			path = CaseTool;
+			sourceTree = "<group>";
+		};
+		2B1021FD15497302008456B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1021FE15497302008456B2 /* CaseTool-Info.plist */,
+				2B1021FF15497302008456B2 /* InfoPlist.strings */,
+				2B10220215497302008456B2 /* main.m */,
+				2B10220415497302008456B2 /* CaseTool-Prefix.pch */,
+				2B10220515497302008456B2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1021F115497302008456B2 /* CaseTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B10221015497302008456B2 /* Build configuration list for PBXNativeTarget "CaseTool" */;
+			buildPhases = (
+				2B1021EE15497302008456B2 /* Sources */,
+				2B1021EF15497302008456B2 /* Frameworks */,
+				2B1021F015497302008456B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaseTool;
+			productName = CaseTool;
+			productReference = 2B1021F215497302008456B2 /* CaseTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1021E915497302008456B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2B1021EC15497302008456B2 /* Build configuration list for PBXProject "CaseTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B1021E715497302008456B2;
+			productRefGroup = 2B1021F315497302008456B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1021F115497302008456B2 /* CaseTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1021F015497302008456B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B10220115497302008456B2 /* InfoPlist.strings in Resources */,
+				2B10220715497302008456B2 /* Credits.rtf in Resources */,
+				2B10220D15497302008456B2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1021EE15497302008456B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B10220315497302008456B2 /* main.m in Sources */,
+				2B10220A15497302008456B2 /* AppDelegate.m in Sources */,
+				2B10221515497376008456B2 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B1021FF15497302008456B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B10220015497302008456B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B10220515497302008456B2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B10220615497302008456B2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2B10220B15497302008456B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B10220C15497302008456B2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B10220E15497302008456B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B10220F15497302008456B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B10221115497302008456B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseTool/CaseTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B10221215497302008456B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaseTool/CaseTool-Prefix.pch";
+				INFOPLIST_FILE = "CaseTool/CaseTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1021EC15497302008456B2 /* Build configuration list for PBXProject "CaseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B10220E15497302008456B2 /* Debug */,
+				2B10220F15497302008456B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B10221015497302008456B2 /* Build configuration list for PBXNativeTarget "CaseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B10221115497302008456B2 /* Debug */,
+				2B10221215497302008456B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1021E915497302008456B2 /* Project object */;
+}
