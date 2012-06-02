@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Enumeration' target in the 'Enumeration' project.
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
