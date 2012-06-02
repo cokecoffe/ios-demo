@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/33/trunk/ipad.demo/Classes
+END
+DetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/DetailViewController.xib
+END
+RootViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/RootViewController.xib
+END
+ipad_demoAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/ipad_demoAppDelegate.h
+END
+DetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/DetailViewController.h
+END
+ipad_demoAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/ipad_demoAppDelegate.m
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/RootViewController.h
+END
+DetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/DetailViewController.m
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/33/trunk/ipad.demo/Classes/RootViewController.m
+END

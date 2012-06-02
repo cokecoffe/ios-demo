@@ -1,0 +1,26 @@
+//
+//  ipad_demoAppDelegate.h
+//  ipad.demo
+//
+//  Created by wangjun on 10-10-18.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "RootViewController.h"
+#import "DetailViewController.h"
+@class ipad_demoViewController;
+
+@interface ipad_demoAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+	UISplitViewController *splitViewController;
+	//RootViewController *rootViewController;
+   // DetailViewController *detailViewController;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UISplitViewController *splitViewController;
+//@property (nonatomic, retain) IBOutlet RootViewController *rootViewController;
+//@property (nonatomic, retain)  IBOutlet DetailViewController *detailViewController;
+@end
+

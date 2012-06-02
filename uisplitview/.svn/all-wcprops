@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/34/trunk/ipad.demo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/33/trunk/ipad.demo/main.m
+END
+ipad_demo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/33/trunk/ipad.demo/ipad_demo-Info.plist
+END
+ipad_demo_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/33/trunk/ipad.demo/ipad_demo_Prefix.pch
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/33/trunk/ipad.demo/MainWindow.xib
+END
