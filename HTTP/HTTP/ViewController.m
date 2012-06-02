@@ -128,7 +128,7 @@
                                   options:NSJSONReadingAllowFragments 
                                   error:&error];
             
-            NSLog(@"%@",[json objectForKey:@"message"]);
+            statusLabel.text = [json objectForKey:@"message"];
             
         }
     }
