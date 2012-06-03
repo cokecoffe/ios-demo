@@ -16,7 +16,8 @@ This is a readme file
 	包括设置导航栏标题、左右按钮、返回按钮标题
 3.animation 
 	UIView过场动画:http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html
-
+4.ProgressHUD:
+	状态指示器
 
 Objective-C语言方面
 ==================================================================
