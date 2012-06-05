@@ -30,6 +30,8 @@ Web方面
 	演示IOS5的JSON解析支持与HTTP的POST、GET
 2.UeNetWork:
         测试网络链接，获取IP，同步异步下载，身份验证，XML、JSON解析 总结
+3.SOAP:
+	使用SOAP协议向服务器请求，返回XML，并解析
 
 
 
