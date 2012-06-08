@@ -159,7 +159,20 @@
     if(![jsonStr isEqualToString:@""])
     {
         NSLog(@"%@",jsonStr);
-        greeting.text = jsonStr;
+              
+        
+        //json String->Data
+        NSData *jsData = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];        
+
+        //Data->Dictionary
+        NSError *error;
+        NSDictionary *jsDic =  [NSJSONSerialization JSONObjectWithData:jsData options:NSJSONReadingMutableLeaves error:&error];
+        
+        NSLog(@"字典内");
+        NSLog(@"%@",jsDic);
+        
+        greeting.text = [jsDic objectForKey:@"message"];
+        
     }   
     [webData release];
 }
