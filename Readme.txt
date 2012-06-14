@@ -22,6 +22,8 @@ test
 	状态指示器
 5.RadioButtonWithUIKit:
 	单选框的实现
+6.LazyTableImages:
+	Apple官方的列表中图片异步加载
 Objective-C语言方面
 ==================================================================
 
