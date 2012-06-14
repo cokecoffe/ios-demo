@@ -140,8 +140,9 @@ static NSString *kEntryStr  = @"entry";
                                        qualifiedName:(NSString *)qName
                                           attributes:(NSDictionary *)attributeDict
 {
-    // entry: { id (link), im:name (app name), im:image (variable height) }
-    //
+
+    // entry: { id (link), im:name (app name), im:image (variable height) }    
+    //    
     if ([elementName isEqualToString:kEntryStr])
 	{
         self.workingEntry = [[[AppRecord alloc] init] autorelease];
