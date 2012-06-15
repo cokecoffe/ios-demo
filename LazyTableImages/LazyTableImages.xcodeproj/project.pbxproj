@@ -265,6 +265,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = LazyTable;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
+				SDKROOT = iphoneos;
+=======
+>>>>>>> 4c2a817d35526c15f1cf9fbb89c56d8bec6cea0d
 			};
 			name = Debug;
 		};
@@ -280,6 +284,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = LazyTable;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
+				SDKROOT = iphoneos;
+=======
+>>>>>>> 4c2a817d35526c15f1cf9fbb89c56d8bec6cea0d
 			};
 			name = Release;
 		};
@@ -295,7 +303,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
+				SDKROOT = iphoneos4.0;
+=======
 				SDKROOT = iphoneos5.1;
+>>>>>>> 4c2a817d35526c15f1cf9fbb89c56d8bec6cea0d
 			};
 			name = Debug;
 		};
@@ -310,7 +322,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+<<<<<<< HEAD
+				SDKROOT = iphoneos4.0;
+=======
 				SDKROOT = iphoneos5.1;
+>>>>>>> 4c2a817d35526c15f1cf9fbb89c56d8bec6cea0d
 			};
 			name = Release;
 		};
