@@ -5,10 +5,6 @@ test
 1.SQLite的基本使用：
 	一个联系人的Demo，可以存储用户名，地址，电话号码，并提供了查询功能。
 
-
-
-
-
 视图方面
 ==================================================================
 1.UITableview的异步加载:
@@ -22,16 +18,11 @@ test
 	状态指示器
 5.RadioButtonWithUIKit:
 	单选框的实现
-<<<<<<< HEAD
-6.LazyImageTable
-	官方的一个异步加载图片的例子
 7.TPKeyboardAvoiding
 	防止键盘遮挡UITextField
-
-=======
 6.LazyTableImages:
 	Apple官方的列表中图片异步加载
->>>>>>> f4989739367f230fb2af09c5229e3366eecb9ac3
+	
 Objective-C语言方面
 ==================================================================
 
@@ -45,6 +36,9 @@ Web方面
         测试网络链接，获取IP，同步异步下载，身份验证，XML、JSON解析 总结
 3.SOAP:
 	使用SOAP协议向服务器请求，返回XML，并解析
+4.WebServiceDemo:
+	访问WebService的一个例子
+	使用了MBProgressHUD ASIHTTPRequest JSON三个库
 
 
 
