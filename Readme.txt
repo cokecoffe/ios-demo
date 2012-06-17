@@ -22,8 +22,16 @@ test
 	状态指示器
 5.RadioButtonWithUIKit:
 	单选框的实现
+<<<<<<< HEAD
+6.LazyImageTable
+	官方的一个异步加载图片的例子
+7.TPKeyboardAvoiding
+	防止键盘遮挡UITextField
+
+=======
 6.LazyTableImages:
 	Apple官方的列表中图片异步加载
+>>>>>>> f4989739367f230fb2af09c5229e3366eecb9ac3
 Objective-C语言方面
 ==================================================================
 
