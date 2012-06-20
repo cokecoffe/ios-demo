@@ -54,8 +54,7 @@
 
 /*弹出框消失会回调此函数*/
 -(void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
-{
-    
+{    
     if (popoverController == popToolVC) 
     {
         if (ContentToolVC.a_switch.on) 
@@ -77,12 +76,13 @@
     }
 }
 
+/*弹出列表*/
 - (IBAction)PopTable:(id)sender
 {
     if (popTableVC == nil)
     {
         popTableVC = [[UIPopoverController alloc]initWithContentViewController:ContentTableVC];
-        [popTableVC presentPopoverFromRect:((UIButton*)sender).frame inView:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        [popTableVC presentPopoverFromRect:[sender frame] inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
         popTableVC.delegate = self;
     }
 }
