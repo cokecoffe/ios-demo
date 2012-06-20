@@ -13,7 +13,8 @@
 @end
 
 @implementation ViewController
-@synthesize popContentVC;
+@synthesize ContentToolVC;
+@synthesize ContentTableVC;
 
 - (void)viewDidLoad
 {
@@ -23,6 +24,7 @@
 
 - (void)viewDidUnload
 {
+    [self setContentTableVC:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -33,16 +35,18 @@
 }
 -(void)dealloc
 {
-    [popContentVC release];
+    [ContentToolVC release];
+    [ContentTableVC release];
     [super dealloc];
 }
 - (IBAction)Configure:(id)sender
 {
-    if (popoverVC == nil) {
-        popoverVC = [[UIPopoverController alloc]initWithContentViewController:popContentVC];
+    if (popToolVC == nil) 
+    {
+        popToolVC = [[UIPopoverController alloc]initWithContentViewController:ContentToolVC];
+        [popToolVC presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        popToolVC.delegate = self;
     }
-    [popoverVC presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-    popoverVC.delegate = self;
 }
 
 #pragma mark
@@ -51,17 +55,35 @@
 /*弹出框消失会回调此函数*/
 -(void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
-    if (popContentVC.a_switch.on) 
-    {
-        popContentVC.a_switch.on = NO;
-    }
-    else 
-    {
-        popContentVC.a_switch.on = YES;
-    }
     
-    [popoverVC release];
-     popoverVC = nil;
+    if (popoverController == popToolVC) 
+    {
+        if (ContentToolVC.a_switch.on) 
+        {
+            ContentToolVC.a_switch.on = NO;
+        }
+        else 
+        {
+            ContentToolVC.a_switch.on = YES;
+        }
+        
+        [popToolVC release];
+        popToolVC = nil;
+    }
+    else if(popoverController == popTableVC)
+    {
+        [popTableVC release];
+        popTableVC = nil;
+    }
 }
 
+- (IBAction)PopTable:(id)sender
+{
+    if (popTableVC == nil)
+    {
+        popTableVC = [[UIPopoverController alloc]initWithContentViewController:ContentTableVC];
+        [popTableVC presentPopoverFromRect:((UIButton*)sender).frame inView:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        popTableVC.delegate = self;
+    }
+}
 @end
