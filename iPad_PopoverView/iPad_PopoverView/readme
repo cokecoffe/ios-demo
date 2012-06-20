@@ -1,0 +1,13 @@
+实现要点:
+    1.弹出框视图（popContentViewController的view）需要设置contentSizeViewInPopover属性，来控制弹出框的尺寸。
+    2.弹出控制器 
+            2.1 (UIPopOverController)initWithContentViewController方法来设置要弹出的内容视图。
+            2.2 presentPopoverFromBarButtonItem: permittedArrowDirections: animated:来设置弹出的箭头，动画
+    3.委托:拥有弹出框的控制器类中要实现UIPopoverControllerDelegate的
+            popoverControllerDidDismissPopover方法，来处理弹出框消失
+
+PS:
+此demo中PopContentViewController在ViewController中创建的实例，每次加载viewcontroller.xib的时候会实例化,在delloac中释放。
+此策略适合弹出视图较少的情况，如果弹出框较多，那么每显示弹出框都实例化内容视图控制器，在弹出框关闭的时候释放。
+
+

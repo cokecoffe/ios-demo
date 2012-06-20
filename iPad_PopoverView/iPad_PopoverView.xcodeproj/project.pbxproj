@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B8247615915D290065A609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B8247515915D290065A609 /* UIKit.framework */; };
+		B8B8247815915D290065A609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B8247715915D290065A609 /* Foundation.framework */; };
+		B8B8247A15915D290065A609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B8247915915D290065A609 /* CoreGraphics.framework */; };
+		B8B8248015915D290065A609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B8247E15915D290065A609 /* InfoPlist.strings */; };
+		B8B8248215915D290065A609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8248115915D290065A609 /* main.m */; };
+		B8B8248615915D290065A609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8248515915D290065A609 /* AppDelegate.m */; };
+		B8B8248915915D290065A609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8248815915D290065A609 /* ViewController.m */; };
+		B8B8248C15915D290065A609 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B8248A15915D290065A609 /* ViewController.xib */; };
+		B8B8249515915FD00065A609 /* PopContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8249315915FD00065A609 /* PopContentViewController.m */; };
+		B8B8249615915FD00065A609 /* PopContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B8249415915FD00065A609 /* PopContentViewController.xib */; };
+		B8B82498159169400065A609 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = B8B82497159169400065A609 /* readme */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8B8247115915D290065A609 /* iPad_PopoverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPad_PopoverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B8247515915D290065A609 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8B8247715915D290065A609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8B8247915915D290065A609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8B8247D15915D290065A609 /* iPad_PopoverView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPad_PopoverView-Info.plist"; sourceTree = "<group>"; };
+		B8B8247F15915D290065A609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8B8248115915D290065A609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8B8248315915D290065A609 /* iPad_PopoverView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPad_PopoverView-Prefix.pch"; sourceTree = "<group>"; };
+		B8B8248415915D290065A609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8B8248515915D290065A609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8B8248715915D290065A609 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8B8248815915D290065A609 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8B8248B15915D290065A609 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B8B8249215915FD00065A609 /* PopContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopContentViewController.h; sourceTree = "<group>"; };
+		B8B8249315915FD00065A609 /* PopContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopContentViewController.m; sourceTree = "<group>"; };
+		B8B8249415915FD00065A609 /* PopContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopContentViewController.xib; sourceTree = "<group>"; };
+		B8B82497159169400065A609 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B8246E15915D290065A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B8247615915D290065A609 /* UIKit.framework in Frameworks */,
+				B8B8247815915D290065A609 /* Foundation.framework in Frameworks */,
+				B8B8247A15915D290065A609 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B8246615915D290065A609 = {
+			isa = PBXGroup;
+			children = (
+				B8B8247B15915D290065A609 /* iPad_PopoverView */,
+				B8B8247415915D290065A609 /* Frameworks */,
+				B8B8247215915D290065A609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B8247215915D290065A609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B8247115915D290065A609 /* iPad_PopoverView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B8247415915D290065A609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B8247515915D290065A609 /* UIKit.framework */,
+				B8B8247715915D290065A609 /* Foundation.framework */,
+				B8B8247915915D290065A609 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B8247B15915D290065A609 /* iPad_PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				B8B82497159169400065A609 /* readme */,
+				B8B8248415915D290065A609 /* AppDelegate.h */,
+				B8B8248515915D290065A609 /* AppDelegate.m */,
+				B8B8248715915D290065A609 /* ViewController.h */,
+				B8B8248815915D290065A609 /* ViewController.m */,
+				B8B8248A15915D290065A609 /* ViewController.xib */,
+				B8B8249215915FD00065A609 /* PopContentViewController.h */,
+				B8B8249315915FD00065A609 /* PopContentViewController.m */,
+				B8B8249415915FD00065A609 /* PopContentViewController.xib */,
+				B8B8247C15915D290065A609 /* Supporting Files */,
+			);
+			path = iPad_PopoverView;
+			sourceTree = "<group>";
+		};
+		B8B8247C15915D290065A609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B8247D15915D290065A609 /* iPad_PopoverView-Info.plist */,
+				B8B8247E15915D290065A609 /* InfoPlist.strings */,
+				B8B8248115915D290065A609 /* main.m */,
+				B8B8248315915D290065A609 /* iPad_PopoverView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B8247015915D290065A609 /* iPad_PopoverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B8248F15915D290065A609 /* Build configuration list for PBXNativeTarget "iPad_PopoverView" */;
+			buildPhases = (
+				B8B8246D15915D290065A609 /* Sources */,
+				B8B8246E15915D290065A609 /* Frameworks */,
+				B8B8246F15915D290065A609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPad_PopoverView;
+			productName = iPad_PopoverView;
+			productReference = B8B8247115915D290065A609 /* iPad_PopoverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B8246815915D290065A609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B8B8246B15915D290065A609 /* Build configuration list for PBXProject "iPad_PopoverView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8B8246615915D290065A609;
+			productRefGroup = B8B8247215915D290065A609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B8247015915D290065A609 /* iPad_PopoverView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B8246F15915D290065A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B8248015915D290065A609 /* InfoPlist.strings in Resources */,
+				B8B8248C15915D290065A609 /* ViewController.xib in Resources */,
+				B8B8249615915FD00065A609 /* PopContentViewController.xib in Resources */,
+				B8B82498159169400065A609 /* readme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B8246D15915D290065A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B8248215915D290065A609 /* main.m in Sources */,
+				B8B8248615915D290065A609 /* AppDelegate.m in Sources */,
+				B8B8248915915D290065A609 /* ViewController.m in Sources */,
+				B8B8249515915FD00065A609 /* PopContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8B8247E15915D290065A609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B8247F15915D290065A609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8B8248A15915D290065A609 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B8248B15915D290065A609 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8B8248D15915D290065A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B8B8248E15915D290065A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B8249015915D290065A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad_PopoverView/iPad_PopoverView-Prefix.pch";
+				INFOPLIST_FILE = "iPad_PopoverView/iPad_PopoverView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8B8249115915D290065A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad_PopoverView/iPad_PopoverView-Prefix.pch";
+				INFOPLIST_FILE = "iPad_PopoverView/iPad_PopoverView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B8246B15915D290065A609 /* Build configuration list for PBXProject "iPad_PopoverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B8248D15915D290065A609 /* Debug */,
+				B8B8248E15915D290065A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B8248F15915D290065A609 /* Build configuration list for PBXNativeTarget "iPad_PopoverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B8249015915D290065A609 /* Debug */,
+				B8B8249115915D290065A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B8246815915D290065A609 /* Project object */;
+}

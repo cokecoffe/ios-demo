@@ -22,6 +22,8 @@ test
 	防止键盘遮挡UITextField
 6.LazyTableImages:
 	Apple官方的列表中图片异步加载
+7.iPad_popoverView
+	适用于iPad的弹出框例子
 	
 Objective-C语言方面
 ==================================================================
