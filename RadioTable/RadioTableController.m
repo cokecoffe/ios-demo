@@ -14,25 +14,61 @@
 
 @implementation RadioTableController
 @synthesize TitleLabel;
-
+@synthesize indicator;
 @synthesize contentTable;
 @synthesize isNeedIndex;
 @synthesize delegate,dataSource;
 @synthesize indexArray,contentArray;
 @synthesize size;
 
-- (void)viewDidLoad
+-(void)startIndicator
 {
-    [super viewDidLoad];
+    self.indicator.center = [self.view center];
+    [self.indicator startAnimating];
+}
+
+-(void)stopIndicator
+{
+    [self.indicator stopAnimating];
+}
+
+-(void)requestData
+{
+    //状态指示器开始
+    [self performSelectorOnMainThread:@selector(startIndicator) withObject:nil waitUntilDone:NO];
     
+    //请求数据
     NSDictionary *dic = [self.dataSource provideData];//向数据源索要数据
+    NSLog(@"%@",dic);
     
     self.TitleLabel.text = [dic objectForKey:@"title"]; //标题设置
     self.indexArray = [dic objectForKey:@"index"];//索引设置
     self.contentArray = [dic objectForKey:@"content"];//内容设置
+    
+    [[self.view.subviews objectAtIndex:0]reloadData];
+    //取消状态指示
+    [self performSelectorOnMainThread:@selector(stopIndicator) withObject:nil waitUntilDone:NO];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
     self.contentSizeForViewInPopover = self.size;//弹出框大小设置
     self.TitleLabel.frame = CGRectMake(0, 0, self.size.width, 40.0);//标题宽度适应弹出框宽度，高度暂定40.0
     
+    
+    //增加一个数据请求的指示框
+    UIActivityIndicatorView *newindicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];      
+    //    [self setIndicator:newindicator];
+    self.indicator = newindicator;
+    [newindicator release];
+    
+    [self.indicator setHidesWhenStopped:YES];
+    [[self.view.subviews objectAtIndex:0] addSubview:self.indicator];  
+    
+    
+    [self performSelectorInBackground:@selector(requestData) withObject:nil];    
 }
 
 -(void)configeWithDelegate:(id<SelectTableDelegate>)t_delegate 

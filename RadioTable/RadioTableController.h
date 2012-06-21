@@ -44,8 +44,10 @@
     NSMutableArray *contentArray;//内容数组
     
     CGSize size;
+    UIActivityIndicatorView *indicator;
 }
 
+@property(retain,nonatomic) UIActivityIndicatorView *indicator;
 @property (retain, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (retain, nonatomic) IBOutlet UITableView *contentTable;
 @property(retain,nonatomic) id<SelectTableDelegate>delegate;//此委托为需要单选列表视图控制器
