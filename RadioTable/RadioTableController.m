@@ -21,6 +21,7 @@
 @synthesize indexArray,contentArray;
 @synthesize size;
 
+
 -(void)startIndicator
 {
     self.indicator.center = [self.view center];
@@ -50,6 +51,22 @@
     [self performSelectorOnMainThread:@selector(stopIndicator) withObject:nil waitUntilDone:NO];
 }
 
+
+-(void)viewDidAppear:(BOOL)animated
+{   
+    [self performSelectorInBackground:@selector(requestData) withObject:nil]; 
+}
+
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    if (self.contentArray || self.indexArray) 
+    {
+        self.contentArray = nil;
+        self.indexArray = nil;
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -57,19 +74,16 @@
     self.contentSizeForViewInPopover = self.size;//弹出框大小设置
     self.TitleLabel.frame = CGRectMake(0, 0, self.size.width, 40.0);//标题宽度适应弹出框宽度，高度暂定40.0
     
-    
     //增加一个数据请求的指示框
     UIActivityIndicatorView *newindicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];      
-    //    [self setIndicator:newindicator];
     self.indicator = newindicator;
     [newindicator release];
     
     [self.indicator setHidesWhenStopped:YES];
     [[self.view.subviews objectAtIndex:0] addSubview:self.indicator];  
     
-    
-    [self performSelectorInBackground:@selector(requestData) withObject:nil];    
 }
+
 
 -(void)configeWithDelegate:(id<SelectTableDelegate>)t_delegate 
                 DataSource:(id<provideTableDataDelegate>)t_dataSource 
@@ -82,10 +96,12 @@
     self.isNeedIndex = t_isIndex;
 }
 
+
 - (void)viewDidUnload
 {
     [self setContentTable:nil];
     [self setTitleLabel:nil];
+    [self setIndicator:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -97,6 +113,32 @@
 }
 
 #pragma mark - Table view data source
+
+/*设置分区的标题*/
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (isNeedIndex)//带索引分区的 
+    {
+        return [self.indexArray objectAtIndex:section];
+    }
+    else
+    {
+        return nil;
+    }
+}
+
+/*索引*/
+-(NSArray*)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    if (isNeedIndex)//带索引分区的 
+    {
+        return self.indexArray;
+    }
+    else
+    {
+        return nil;
+    }
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -159,19 +201,21 @@
         NSString *t_key = [[[self.contentArray objectAtIndex:indexPath.section]allKeys]objectAtIndex:indexPath.row];
         
         NSDictionary *dic = [NSDictionary dictionaryWithObject:t_object forKey:t_key];
-        [delegate selectItem:dic];
+        [delegate selectItem:dic Sender:self];
     }
     else//无索引的
     {
-        [delegate selectItem:[self.contentArray objectAtIndex:indexPath.row]];
+        [delegate selectItem:[self.contentArray objectAtIndex:indexPath.row]Sender:self];
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];//取消选择
 }
 
-- (void)dealloc {
+- (void)dealloc
+{
     [contentTable release];
     [TitleLabel release];
+    [indicator release];
     [super dealloc];
 }
 @end

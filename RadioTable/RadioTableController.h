@@ -8,45 +8,48 @@
 
 #import <UIKit/UIKit.h>
 
+/*****************************************************/
+
 /*
- 数据源需要实现的协议
+ *数据源需要实现的协议
  */
 @protocol provideTableDataDelegate <NSObject>
 
 -(NSDictionary*)provideData;
 
 @end
-//==========================================
-
+//----------------------------------------------------
 
 /*
- 需要单选列表的对象需要实现的协议
+ *需要单选列表的对象需要实现的协议
  */
 @protocol SelectTableDelegate <NSObject>
 
-//选择列表向委托传输数据
--(void)selectItem:(NSDictionary*)dic;
+-(void)selectItem:(NSDictionary *)dic Sender:(id)sender;//选择列表向委托传输数据
 
 @optional
-//用于联动选择,选择列表向委托对象索要已经选择过的信息
--(id *)SelectedObject;
+
+-(id *)SelectedObjectName:(NSString*)objectName;//用于联动选择,选择列表向委托对象索要已经选择过的信息
+
 @end
-//==========================================
+/*********************end****************************/
+
+
 
 
 @interface RadioTableController : UIViewController
 {
     id<SelectTableDelegate>delegate;//此委托为需要单选列表视图控制器
     id<provideTableDataDelegate>dataSource;//此委托为提供列表数据的控制器
-   
+    
     BOOL isNeedIndex;//是否需要索引
     NSMutableArray *indexArray;//索引数组
     NSMutableArray *contentArray;//内容数组
     
     CGSize size;
     UIActivityIndicatorView *indicator;
+    
 }
-
 @property(retain,nonatomic) UIActivityIndicatorView *indicator;
 @property (retain, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (retain, nonatomic) IBOutlet UITableView *contentTable;
@@ -61,5 +64,6 @@
                 DataSource:(id<provideTableDataDelegate>)t_dataS 
                       SIZE:(CGSize)t_size
                   HasIndex:(BOOL)t_isIndex;
+
 
 @end

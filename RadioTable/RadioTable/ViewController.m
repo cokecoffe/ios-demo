@@ -76,17 +76,17 @@
     NSArray *conntarr = [NSArray arrayWithObjects:dic1,dic2,dic3,nil];
     
     NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:title,@"title",indexarr,@"index",conntarr,@"content",nil];
+    sleep(2);
     return dic;
 }
 
 #pragma mark SelectDelegate
 
--(void)selectItem:(NSDictionary *)dic
+
+-(void)selectItem:(NSDictionary *)dic Sender:(id)sender;//选择列表向委托传输数据
 {
     NSLog(@"%@",dic);
     self.selectBT.titleLabel.text = [[dic allValues]objectAtIndex:0];
 }
-
-
 
 @end
