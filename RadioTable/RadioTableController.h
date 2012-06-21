@@ -55,4 +55,9 @@
 @property(assign,nonatomic) BOOL isNeedIndex;
 @property(assign,nonatomic) CGSize size;
 
+-(void)configeWithDelegate:(id<SelectTableDelegate>)t_delegate 
+                DataSource:(id<provideTableDataDelegate>)t_dataS 
+                      SIZE:(CGSize)t_size
+                  HasIndex:(BOOL)t_isIndex;
+
 @end

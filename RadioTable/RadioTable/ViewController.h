@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "RadioTableController.h"
-#import "provideTableDataDelegate.h"
-#import "SelectTableDelegate.h"
 
 
 @interface ViewController : UIViewController<UIPopoverControllerDelegate,SelectTableDelegate,provideTableDataDelegate>

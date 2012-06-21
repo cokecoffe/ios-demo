@@ -21,10 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.myRadioTable.isNeedIndex = NO;//不需要索引
-    self.myRadioTable.delegate = self;
-    self.myRadioTable.dataSource = self;    
-    self.myRadioTable.size = CGSizeMake(60.0, 200.0);//弹出框大小设置
+    [self.myRadioTable configeWithDelegate:self DataSource:self SIZE:CGSizeMake(60.0, 400.0) HasIndex:NO];
    
 }
 

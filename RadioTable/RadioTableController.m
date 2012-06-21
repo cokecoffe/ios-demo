@@ -35,6 +35,17 @@
     
 }
 
+-(void)configeWithDelegate:(id<SelectTableDelegate>)t_delegate 
+                DataSource:(id<provideTableDataDelegate>)t_dataSource 
+                      SIZE:(CGSize)t_size
+                  HasIndex:(BOOL)t_isIndex
+{
+    self.delegate = t_delegate;
+    self.dataSource = t_dataSource;
+    self.size = t_size;
+    self.isNeedIndex = t_isIndex;
+}
+
 - (void)viewDidUnload
 {
     [self setContentTable:nil];
