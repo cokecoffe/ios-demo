@@ -21,9 +21,16 @@ test
 	5.1 CheckBox 单选框的实现
 6.LazyTableImages:
 	Apple官方的列表中图片异步加载
+<<<<<<< HEAD
 7.TPKeyboardAvoiding
 	防止键盘遮挡UITextField
 	
+=======
+7.iPad_popoverView
+	适用于iPad的弹出框例子
+8.RadioTable
+	单选列表的实现，支持异步请求数据，支持联动选择
+>>>>>>> 825ea587dfb1e782c6dc3a4b0d98e53fd2b771fa
 Objective-C语言方面
 ==================================================================
 

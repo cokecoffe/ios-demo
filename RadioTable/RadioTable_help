@@ -1,0 +1,22 @@
+
+//Title:单选列表的通用实现
+//Programer:wkk
+//Data:2012-6-21
+//Update:
+
+//Summary:此类支持分区索引列表与无索引列表
+
+
+
+//How to use:
+    把Radio文件夹拷贝到工程下
+    定义RadioTableController *myRadioTable;
+    
+    配置：isNeedIndex 列表是否需要索引
+         delegate//回传数据所用的委托
+         dataSource//数据源，可设置为不同的对象
+         size//弹出列表的大小
+         
+         
+    在实现delagete中实现selectItem,用来索要选中的条目
+    在dataSource中实现provideData,为列表提供所需的title,indexarray,contentarry三个数据。
