@@ -7,32 +7,27 @@
 //
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "CGUtils.h"
+
 
 typedef enum {
-    CheckButtonStyleDefault = 0,
-    CheckButtonStyleBox = 1,
-    CheckButtonStyleRadio = 2
+    CheckButtonStyleDefault = 0,//复选
+    CheckButtonStyleBox = 1,//复选
+    CheckButtonStyleRadio = 2//单选
 } CheckButtonStyle;
-#import <Foundation/Foundation.h>
 
 @interface CheckButton : UIControl {
-    BOOL checked,enable;
-	NSString *checkname,*uncheckname;//勾选／反选时的图片文件名
-	CGRect frame;
-//	int gap;
+  
+    UILabel * label ;
+    UIImageView * icon ;
+    BOOL checked ;
+    id  delegate ;
 }
-@property (assign,nonatomic)id value,delegate;
-@property (retain,nonatomic)UILabel* label;
-@property (retain,nonatomic)UIImageView* icon;
-@property (assign)CheckButtonStyle style;
-@property (assign,getter = checked,setter = setChecked:)BOOL checked;
-@property (assign,getter = enable,setter = setEnable:)BOOL enable;
-@property (assign)int gap;
+@property ( retain , nonatomic ) id delegate;
+@property ( retain , nonatomic )UILabel* label;
+@property ( retain , nonatomic )UIImageView* icon;
 
--(CheckButtonStyle)style;
--(void)setStyle:(CheckButtonStyle)st;
--(void)resizeFrameToRect:(CGRect)rect;
--(void)layoutSubviews;
 
+-( id )initWithFrame:( CGRect ) frame Delegate:(id)_delegate;
+-( BOOL )isChecked;
+-( void )setChecked:( BOOL )status;
 @end

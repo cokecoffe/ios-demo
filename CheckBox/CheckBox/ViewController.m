@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CheckButton.h"
 
 @interface ViewController ()
 
@@ -14,10 +15,24 @@
 
 @implementation ViewController
 
+-(void)checkButtonClicked:(id)sender
+{
+    NSLog(@"%@",((CheckButton*)sender).label.text);
+    NSLog(@"%d",((CheckButton*)sender).isChecked);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    CheckButton *check = [[CheckButton alloc]initWithFrame:CGRectMake(20, 60, 260, 30) Delegate:self];
+                                                                      
+    check.label.text = @"氙气大灯";
+
+    [self.view addSubview:check];
+    
+    [check release];
 }
 
 - (void)viewDidUnload

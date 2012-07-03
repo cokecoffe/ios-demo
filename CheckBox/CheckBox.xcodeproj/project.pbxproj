@@ -15,6 +15,9 @@
 		2B7F6A5815A32B3E00AC8B49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F6A5715A32B3E00AC8B49 /* AppDelegate.m */; };
 		2B7F6A5B15A32B3E00AC8B49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F6A5A15A32B3E00AC8B49 /* ViewController.m */; };
 		2B7F6A5E15A32B3E00AC8B49 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F6A5C15A32B3E00AC8B49 /* ViewController.xib */; };
+		2B7F6A6E15A32C5E00AC8B49 /* CheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F6A6615A32C5E00AC8B49 /* CheckButton.m */; };
+		2B7F6A6F15A32C5E00AC8B49 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F6A6715A32C5E00AC8B49 /* checked.png */; };
+		2B7F6A7315A32C5E00AC8B49 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F6A6C15A32C5E00AC8B49 /* unchecked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		2B7F6A4715A32B3E00AC8B49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B7F6A4915A32B3E00AC8B49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B7F6A4B15A32B3E00AC8B49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B7F6A4F15A32B3E00AC8B49 /* CheckBox-Info.plist */ = {isa = PBXFileReference; path = "CheckBox-Info.plist"; sourceTree = "<group>"; };
+		2B7F6A4F15A32B3E00AC8B49 /* CheckBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckBox-Info.plist"; sourceTree = "<group>"; };
 		2B7F6A5115A32B3E00AC8B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B7F6A5315A32B3E00AC8B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B7F6A5515A32B3E00AC8B49 /* CheckBox-Prefix.pch */ = {isa = PBXFileReference; path = "CheckBox-Prefix.pch"; sourceTree = "<group>"; };
-		2B7F6A5615A32B3E00AC8B49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B7F6A5515A32B3E00AC8B49 /* CheckBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckBox-Prefix.pch"; sourceTree = "<group>"; };
+		2B7F6A5615A32B3E00AC8B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B7F6A5715A32B3E00AC8B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B7F6A5915A32B3E00AC8B49 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2B7F6A5915A32B3E00AC8B49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B7F6A5A15A32B3E00AC8B49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B7F6A5D15A32B3E00AC8B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2B7F6A6515A32C5E00AC8B49 /* CheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckButton.h; sourceTree = "<group>"; };
+		2B7F6A6615A32C5E00AC8B49 /* CheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckButton.m; sourceTree = "<group>"; };
+		2B7F6A6715A32C5E00AC8B49 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		2B7F6A6C15A32C5E00AC8B49 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 		2B7F6A3815A32B3E00AC8B49 = {
 			isa = PBXGroup;
 			children = (
+				2B7F6A6415A32C5E00AC8B49 /* RadioButton */,
 				2B7F6A4D15A32B3E00AC8B49 /* CheckBox */,
 				2B7F6A4615A32B3E00AC8B49 /* Frameworks */,
 				2B7F6A4415A32B3E00AC8B49 /* Products */,
@@ -96,6 +104,17 @@
 				2B7F6A5515A32B3E00AC8B49 /* CheckBox-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B7F6A6415A32C5E00AC8B49 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F6A6515A32C5E00AC8B49 /* CheckButton.h */,
+				2B7F6A6615A32C5E00AC8B49 /* CheckButton.m */,
+				2B7F6A6715A32C5E00AC8B49 /* checked.png */,
+				2B7F6A6C15A32C5E00AC8B49 /* unchecked.png */,
+			);
+			path = RadioButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,8 @@
 			files = (
 				2B7F6A5215A32B3E00AC8B49 /* InfoPlist.strings in Resources */,
 				2B7F6A5E15A32B3E00AC8B49 /* ViewController.xib in Resources */,
+				2B7F6A6F15A32C5E00AC8B49 /* checked.png in Resources */,
+				2B7F6A7315A32C5E00AC8B49 /* unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +184,7 @@
 				2B7F6A5415A32B3E00AC8B49 /* main.m in Sources */,
 				2B7F6A5815A32B3E00AC8B49 /* AppDelegate.m in Sources */,
 				2B7F6A5B15A32B3E00AC8B49 /* ViewController.m in Sources */,
+				2B7F6A6E15A32C5E00AC8B49 /* CheckButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

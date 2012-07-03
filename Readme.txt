@@ -18,10 +18,11 @@ test
 	状态指示器
 5.RadioButtonWithUIKit:
 	单选框的实现
-7.TPKeyboardAvoiding
-	防止键盘遮挡UITextField
+	5.1 CheckBox 单选框的实现
 6.LazyTableImages:
 	Apple官方的列表中图片异步加载
+7.TPKeyboardAvoiding
+	防止键盘遮挡UITextField
 	
 Objective-C语言方面
 ==================================================================
