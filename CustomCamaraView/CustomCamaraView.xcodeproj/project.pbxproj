@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B81B7C6B15AD77DB0047BF76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81B7C6A15AD77DB0047BF76 /* UIKit.framework */; };
+		B81B7C6D15AD77DB0047BF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81B7C6C15AD77DB0047BF76 /* Foundation.framework */; };
+		B81B7C6F15AD77DB0047BF76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81B7C6E15AD77DB0047BF76 /* CoreGraphics.framework */; };
+		B81B7C7515AD77DB0047BF76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C7315AD77DB0047BF76 /* InfoPlist.strings */; };
+		B81B7C7715AD77DB0047BF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B7C7615AD77DB0047BF76 /* main.m */; };
+		B81B7C7B15AD77DB0047BF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B7C7A15AD77DB0047BF76 /* AppDelegate.m */; };
+		B81B7C7E15AD77DB0047BF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B7C7D15AD77DB0047BF76 /* ViewController.m */; };
+		B81B7C8115AD77DB0047BF76 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C7F15AD77DB0047BF76 /* ViewController.xib */; };
+		B81B7C8915AD783C0047BF76 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B7C8815AD783C0047BF76 /* OverlayView.m */; };
+		B81B7C8C15AD79690047BF76 /* blackwhale.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C8A15AD79690047BF76 /* blackwhale.png */; };
+		B81B7C8D15AD79690047BF76 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C8B15AD79690047BF76 /* crosshair.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B81B7C6615AD77DB0047BF76 /* CustomCamaraView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCamaraView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81B7C6A15AD77DB0047BF76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B81B7C6C15AD77DB0047BF76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B81B7C6E15AD77DB0047BF76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B81B7C7215AD77DB0047BF76 /* CustomCamaraView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCamaraView-Info.plist"; sourceTree = "<group>"; };
+		B81B7C7415AD77DB0047BF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B81B7C7615AD77DB0047BF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B81B7C7815AD77DB0047BF76 /* CustomCamaraView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCamaraView-Prefix.pch"; sourceTree = "<group>"; };
+		B81B7C7915AD77DB0047BF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B81B7C7A15AD77DB0047BF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B81B7C7C15AD77DB0047BF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B81B7C7D15AD77DB0047BF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B81B7C8015AD77DB0047BF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B81B7C8715AD783C0047BF76 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		B81B7C8815AD783C0047BF76 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		B81B7C8A15AD79690047BF76 /* blackwhale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackwhale.png; sourceTree = "<group>"; };
+		B81B7C8B15AD79690047BF76 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B81B7C6315AD77DB0047BF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81B7C6B15AD77DB0047BF76 /* UIKit.framework in Frameworks */,
+				B81B7C6D15AD77DB0047BF76 /* Foundation.framework in Frameworks */,
+				B81B7C6F15AD77DB0047BF76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B81B7C5B15AD77DB0047BF76 = {
+			isa = PBXGroup;
+			children = (
+				B81B7C8A15AD79690047BF76 /* blackwhale.png */,
+				B81B7C8B15AD79690047BF76 /* crosshair.png */,
+				B81B7C7015AD77DB0047BF76 /* CustomCamaraView */,
+				B81B7C6915AD77DB0047BF76 /* Frameworks */,
+				B81B7C6715AD77DB0047BF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B81B7C6715AD77DB0047BF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B81B7C6615AD77DB0047BF76 /* CustomCamaraView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B81B7C6915AD77DB0047BF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B81B7C6A15AD77DB0047BF76 /* UIKit.framework */,
+				B81B7C6C15AD77DB0047BF76 /* Foundation.framework */,
+				B81B7C6E15AD77DB0047BF76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B81B7C7015AD77DB0047BF76 /* CustomCamaraView */ = {
+			isa = PBXGroup;
+			children = (
+				B81B7C7915AD77DB0047BF76 /* AppDelegate.h */,
+				B81B7C7A15AD77DB0047BF76 /* AppDelegate.m */,
+				B81B7C7C15AD77DB0047BF76 /* ViewController.h */,
+				B81B7C7D15AD77DB0047BF76 /* ViewController.m */,
+				B81B7C7F15AD77DB0047BF76 /* ViewController.xib */,
+				B81B7C8715AD783C0047BF76 /* OverlayView.h */,
+				B81B7C8815AD783C0047BF76 /* OverlayView.m */,
+				B81B7C7115AD77DB0047BF76 /* Supporting Files */,
+			);
+			path = CustomCamaraView;
+			sourceTree = "<group>";
+		};
+		B81B7C7115AD77DB0047BF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B81B7C7215AD77DB0047BF76 /* CustomCamaraView-Info.plist */,
+				B81B7C7315AD77DB0047BF76 /* InfoPlist.strings */,
+				B81B7C7615AD77DB0047BF76 /* main.m */,
+				B81B7C7815AD77DB0047BF76 /* CustomCamaraView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B81B7C6515AD77DB0047BF76 /* CustomCamaraView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81B7C8415AD77DB0047BF76 /* Build configuration list for PBXNativeTarget "CustomCamaraView" */;
+			buildPhases = (
+				B81B7C6215AD77DB0047BF76 /* Sources */,
+				B81B7C6315AD77DB0047BF76 /* Frameworks */,
+				B81B7C6415AD77DB0047BF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCamaraView;
+			productName = CustomCamaraView;
+			productReference = B81B7C6615AD77DB0047BF76 /* CustomCamaraView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B81B7C5D15AD77DB0047BF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B81B7C6015AD77DB0047BF76 /* Build configuration list for PBXProject "CustomCamaraView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B81B7C5B15AD77DB0047BF76;
+			productRefGroup = B81B7C6715AD77DB0047BF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B81B7C6515AD77DB0047BF76 /* CustomCamaraView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B81B7C6415AD77DB0047BF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81B7C7515AD77DB0047BF76 /* InfoPlist.strings in Resources */,
+				B81B7C8115AD77DB0047BF76 /* ViewController.xib in Resources */,
+				B81B7C8C15AD79690047BF76 /* blackwhale.png in Resources */,
+				B81B7C8D15AD79690047BF76 /* crosshair.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B81B7C6215AD77DB0047BF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81B7C7715AD77DB0047BF76 /* main.m in Sources */,
+				B81B7C7B15AD77DB0047BF76 /* AppDelegate.m in Sources */,
+				B81B7C7E15AD77DB0047BF76 /* ViewController.m in Sources */,
+				B81B7C8915AD783C0047BF76 /* OverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B81B7C7315AD77DB0047BF76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81B7C7415AD77DB0047BF76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B81B7C7F15AD77DB0047BF76 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81B7C8015AD77DB0047BF76 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B81B7C8215AD77DB0047BF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B81B7C8315AD77DB0047BF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B81B7C8515AD77DB0047BF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCamaraView/CustomCamaraView-Prefix.pch";
+				INFOPLIST_FILE = "CustomCamaraView/CustomCamaraView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B81B7C8615AD77DB0047BF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCamaraView/CustomCamaraView-Prefix.pch";
+				INFOPLIST_FILE = "CustomCamaraView/CustomCamaraView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B81B7C6015AD77DB0047BF76 /* Build configuration list for PBXProject "CustomCamaraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81B7C8215AD77DB0047BF76 /* Debug */,
+				B81B7C8315AD77DB0047BF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81B7C8415AD77DB0047BF76 /* Build configuration list for PBXNativeTarget "CustomCamaraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81B7C8515AD77DB0047BF76 /* Debug */,
+				B81B7C8615AD77DB0047BF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B81B7C5D15AD77DB0047BF76 /* Project object */;
+}

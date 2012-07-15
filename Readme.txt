@@ -48,5 +48,11 @@ Web方面
 	访问WebService的一个例子
 	使用了MBProgressHUD ASIHTTPRequest JSON三个库
 
+外设
+=================
+1.CustomCamera
+	定制相机视图
+
+
 
 
