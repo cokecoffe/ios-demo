@@ -28,8 +28,7 @@
                             initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)];
     
     //create a new image picker instance
-    UIImagePickerController *picker =
-    [[UIImagePickerController alloc] init];
+    picker =[[UIImagePickerController alloc] init];
     //set source to video!
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     //hide all controls
@@ -60,10 +59,20 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    [picker release];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+        return NO;
+    }
+  
+    CGAffineTransform transform = picker.cameraOverlayView.transform;
+    transform = CGAffineTransformRotate(transform, 1);
+    [picker.cameraOverlayView setTransform:transform];
+  
+
     return YES;
 }
 

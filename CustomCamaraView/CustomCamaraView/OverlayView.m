@@ -22,7 +22,7 @@
         UIImage *searcher = [UIImage imageNamed:@"crosshair.png"];
         UIImageView *searcherView = [[UIImageView alloc]
                                      initWithImage:searcher];
-        searcherView.frame = CGRectMake(30, 100, 260, 200);
+        searcherView.frame = CGRectMake(0.0, 0.0, 260, 200);
         [self addSubview:searcherView];
         [searcherView release];
         
