@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OverlayView.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<CamaraDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
+{
+    UIImagePickerController *m_picker;
+}
 @end
