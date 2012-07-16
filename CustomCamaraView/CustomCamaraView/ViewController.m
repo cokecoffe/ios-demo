@@ -74,11 +74,17 @@
     
     
     //create a new image picker instance
+<<<<<<< HEAD
     m_picker =[[UIImagePickerController alloc] init];
 
     //set source to Camera!
     m_picker.sourceType = UIImagePickerControllerSourceTypeCamera;
 
+=======
+    picker =[[UIImagePickerController alloc] init];
+    //set source to video!
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+>>>>>>> b4587b669f941c77600260b8fe3fd0122a737228
     //hide all controls
     m_picker.showsCameraControls = NO;
     m_picker.navigationBarHidden = YES;
@@ -111,6 +117,7 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+<<<<<<< HEAD
     m_picker = nil;
 }
 
@@ -118,10 +125,22 @@
 {
     [m_picker release];
     [super dealloc];
+=======
+    [picker release];
+>>>>>>> b4587b669f941c77600260b8fe3fd0122a737228
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+        return NO;
+    }
+  
+    CGAffineTransform transform = picker.cameraOverlayView.transform;
+    transform = CGAffineTransformRotate(transform, 1);
+    [picker.cameraOverlayView setTransform:transform];
+  
+
     return YES;
 }
 
