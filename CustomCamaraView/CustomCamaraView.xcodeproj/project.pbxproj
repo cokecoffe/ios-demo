@@ -18,6 +18,20 @@
 		B81B7C8915AD783C0047BF76 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B7C8815AD783C0047BF76 /* OverlayView.m */; };
 		B81B7C8C15AD79690047BF76 /* blackwhale.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C8A15AD79690047BF76 /* blackwhale.png */; };
 		B81B7C8D15AD79690047BF76 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C8B15AD79690047BF76 /* crosshair.png */; };
+		B81B7C9715AE71F90047BF76 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C9615AE71F90047BF76 /* OverlayView.xib */; };
+		B81B7C9B15AE7A540047BF76 /* 拍照背景-右@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C9915AE7A540047BF76 /* 拍照背景-右@2x.png */; };
+		B81B7C9C15AE7A540047BF76 /* 拍照背景-左@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7C9A15AE7A540047BF76 /* 拍照背景-左@2x.png */; };
+		B81B7CA215AE80520047BF76 /* 拍行驶证框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA115AE80520047BF76 /* 拍行驶证框@2x.png */; };
+		B81B7CA415AEB7A00047BF76 /* 18行驶证度@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA315AEB7A00047BF76 /* 18行驶证度@2x.png */; };
+		B81B7CA615AEC30E0047BF76 /* logo-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA515AEC30D0047BF76 /* logo-@2x.png */; };
+		B81B7CAB15AEC42E0047BF76 /* 返回-凸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA715AEC42E0047BF76 /* 返回-凸@2x.png */; };
+		B81B7CAC15AEC42E0047BF76 /* 返回-凹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA815AEC42E0047BF76 /* 返回-凹@2x.png */; };
+		B81B7CAD15AEC42E0047BF76 /* 重拍-凸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CA915AEC42E0047BF76 /* 重拍-凸@2x.png */; };
+		B81B7CAE15AEC42E0047BF76 /* 重拍-凹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CAA15AEC42E0047BF76 /* 重拍-凹@2x.png */; };
+		B81B7CB115AEC4390047BF76 /* 拍照按钮-凸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CAF15AEC4390047BF76 /* 拍照按钮-凸@2x.png */; };
+		B81B7CB215AEC4390047BF76 /* 拍照按钮-凹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CB015AEC4390047BF76 /* 拍照按钮-凹@2x.png */; };
+		B81B7CB515AEC5270047BF76 /* 保存-短凸@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CB315AEC5270047BF76 /* 保存-短凸@2x.png */; };
+		B81B7CB615AEC5270047BF76 /* 保存-短凹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81B7CB415AEC5270047BF76 /* 保存-短凹@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +52,20 @@
 		B81B7C8815AD783C0047BF76 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		B81B7C8A15AD79690047BF76 /* blackwhale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackwhale.png; sourceTree = "<group>"; };
 		B81B7C8B15AD79690047BF76 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		B81B7C9615AE71F90047BF76 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		B81B7C9915AE7A540047BF76 /* 拍照背景-右@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照背景-右@2x.png"; sourceTree = "<group>"; };
+		B81B7C9A15AE7A540047BF76 /* 拍照背景-左@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照背景-左@2x.png"; sourceTree = "<group>"; };
+		B81B7CA115AE80520047BF76 /* 拍行驶证框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍行驶证框@2x.png"; sourceTree = "<group>"; };
+		B81B7CA315AEB7A00047BF76 /* 18行驶证度@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18行驶证度@2x.png"; sourceTree = "<group>"; };
+		B81B7CA515AEC30D0047BF76 /* logo-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-@2x.png"; sourceTree = "<group>"; };
+		B81B7CA715AEC42E0047BF76 /* 返回-凸@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-凸@2x.png"; sourceTree = "<group>"; };
+		B81B7CA815AEC42E0047BF76 /* 返回-凹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-凹@2x.png"; sourceTree = "<group>"; };
+		B81B7CA915AEC42E0047BF76 /* 重拍-凸@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重拍-凸@2x.png"; sourceTree = "<group>"; };
+		B81B7CAA15AEC42E0047BF76 /* 重拍-凹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重拍-凹@2x.png"; sourceTree = "<group>"; };
+		B81B7CAF15AEC4390047BF76 /* 拍照按钮-凸@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照按钮-凸@2x.png"; sourceTree = "<group>"; };
+		B81B7CB015AEC4390047BF76 /* 拍照按钮-凹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照按钮-凹@2x.png"; sourceTree = "<group>"; };
+		B81B7CB315AEC5270047BF76 /* 保存-短凸@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保存-短凸@2x.png"; sourceTree = "<group>"; };
+		B81B7CB415AEC5270047BF76 /* 保存-短凹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保存-短凹@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +87,19 @@
 			children = (
 				B81B7C8A15AD79690047BF76 /* blackwhale.png */,
 				B81B7C8B15AD79690047BF76 /* crosshair.png */,
+				B81B7C9915AE7A540047BF76 /* 拍照背景-右@2x.png */,
+				B81B7C9A15AE7A540047BF76 /* 拍照背景-左@2x.png */,
+				B81B7CA115AE80520047BF76 /* 拍行驶证框@2x.png */,
+				B81B7CA315AEB7A00047BF76 /* 18行驶证度@2x.png */,
+				B81B7CA515AEC30D0047BF76 /* logo-@2x.png */,
+				B81B7CA715AEC42E0047BF76 /* 返回-凸@2x.png */,
+				B81B7CA815AEC42E0047BF76 /* 返回-凹@2x.png */,
+				B81B7CA915AEC42E0047BF76 /* 重拍-凸@2x.png */,
+				B81B7CAA15AEC42E0047BF76 /* 重拍-凹@2x.png */,
+				B81B7CB315AEC5270047BF76 /* 保存-短凸@2x.png */,
+				B81B7CB415AEC5270047BF76 /* 保存-短凹@2x.png */,
+				B81B7CAF15AEC4390047BF76 /* 拍照按钮-凸@2x.png */,
+				B81B7CB015AEC4390047BF76 /* 拍照按钮-凹@2x.png */,
 				B81B7C7015AD77DB0047BF76 /* CustomCamaraView */,
 				B81B7C6915AD77DB0047BF76 /* Frameworks */,
 				B81B7C6715AD77DB0047BF76 /* Products */,
@@ -93,6 +134,7 @@
 				B81B7C7F15AD77DB0047BF76 /* ViewController.xib */,
 				B81B7C8715AD783C0047BF76 /* OverlayView.h */,
 				B81B7C8815AD783C0047BF76 /* OverlayView.m */,
+				B81B7C9615AE71F90047BF76 /* OverlayView.xib */,
 				B81B7C7115AD77DB0047BF76 /* Supporting Files */,
 			);
 			path = CustomCamaraView;
@@ -163,6 +205,20 @@
 				B81B7C8115AD77DB0047BF76 /* ViewController.xib in Resources */,
 				B81B7C8C15AD79690047BF76 /* blackwhale.png in Resources */,
 				B81B7C8D15AD79690047BF76 /* crosshair.png in Resources */,
+				B81B7C9715AE71F90047BF76 /* OverlayView.xib in Resources */,
+				B81B7C9B15AE7A540047BF76 /* 拍照背景-右@2x.png in Resources */,
+				B81B7C9C15AE7A540047BF76 /* 拍照背景-左@2x.png in Resources */,
+				B81B7CA215AE80520047BF76 /* 拍行驶证框@2x.png in Resources */,
+				B81B7CA415AEB7A00047BF76 /* 18行驶证度@2x.png in Resources */,
+				B81B7CA615AEC30E0047BF76 /* logo-@2x.png in Resources */,
+				B81B7CAB15AEC42E0047BF76 /* 返回-凸@2x.png in Resources */,
+				B81B7CAC15AEC42E0047BF76 /* 返回-凹@2x.png in Resources */,
+				B81B7CAD15AEC42E0047BF76 /* 重拍-凸@2x.png in Resources */,
+				B81B7CAE15AEC42E0047BF76 /* 重拍-凹@2x.png in Resources */,
+				B81B7CB115AEC4390047BF76 /* 拍照按钮-凸@2x.png in Resources */,
+				B81B7CB215AEC4390047BF76 /* 拍照按钮-凹@2x.png in Resources */,
+				B81B7CB515AEC5270047BF76 /* 保存-短凸@2x.png in Resources */,
+				B81B7CB615AEC5270047BF76 /* 保存-短凹@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +344,7 @@
 				B81B7C8615AD77DB0047BF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
