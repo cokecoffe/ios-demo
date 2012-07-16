@@ -13,6 +13,7 @@
     UIView *RealView;
 }
 @property (retain, nonatomic) UIView *RealView;
+@property (retain, nonatomic) IBOutlet UIImageView *liveImageView;
 @property (retain, nonatomic) IBOutlet UIView *liveView;
 @property (retain, nonatomic) IBOutlet UIImageView *Preview;
 @end

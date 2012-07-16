@@ -15,6 +15,7 @@
 
 @implementation WKKViewController
 @synthesize RealView;
+@synthesize liveImageView;
 @synthesize liveView;
 @synthesize Preview;
 
@@ -27,6 +28,7 @@
     [CameraImageHelper startRunning];
     //self.RealView = [CameraImageHelper previewWithBounds:CGRectMake(0.0, 0.0, 329, 219)];
     [CameraImageHelper embedPreviewInView:self.liveView];
+//    [self.liveView setTransform:CGAffineTransformMakeScale(0.8, 0.8 )];
     [self.view addSubview:self.RealView];
 }
 
@@ -36,6 +38,7 @@
 
     [self setRealView:nil];
     [self setLiveView:nil];
+    [self setLiveImageView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -59,12 +62,19 @@
     [Preview release];
     [RealView release];
     [liveView release];
+    [liveImageView release];
     [super dealloc];
 }
 
-- (IBAction)snapPressed:(id)sender {
+-(void)getImage
+{
     self.Preview.image = [CameraImageHelper image];
     NSLog(@"%f,%f",self.Preview.image.size.height,self.Preview.image.size.width);
+}
+
+- (IBAction)snapPressed:(id)sender {
+    [CameraImageHelper CaptureStillImage];
+    [self performSelector:@selector(getImage) withObject:nil afterDelay:0.5];
 }
 
 @end
