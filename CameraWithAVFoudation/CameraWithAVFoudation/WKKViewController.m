@@ -28,6 +28,12 @@
     //self.RealView = [CameraImageHelper previewWithBounds:CGRectMake(0.0, 0.0, 329, 219)];
     [CameraImageHelper embedPreviewInView:self.liveView];
     [self.view addSubview:self.RealView];
+    
+    
+    
+    UIButton *bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    bt.frame = CGRectMake(0.0, 0.0, 20.0, 20.0);
+    [self.liveView addSubview:bt];
 }
 
 - (void)viewDidUnload
