@@ -14,12 +14,13 @@
 		2B56100C15B2BD3200CD73D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56100B15B2BD3200CD73D6 /* main.m */; };
 		2B56101015B2BD3300CD73D6 /* WKKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */; };
 		2B56101315B2BD3300CD73D6 /* WKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56101215B2BD3300CD73D6 /* WKKViewController.m */; };
-		2B56101615B2BD3300CD73D6 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B56101415B2BD3300CD73D6 /* WKKViewController.xib */; };
 		2B92C8D715B2C15800F17F46 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B92C8D515B2BFBB00F17F46 /* CameraImageHelper.m */; };
 		2B92C8D915B2C38F00F17F46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8D815B2C38F00F17F46 /* AVFoundation.framework */; };
 		2B92C8DB15B2C39700F17F46 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DA15B2C39700F17F46 /* CoreVideo.framework */; };
 		2B92C8DD15B2C39F00F17F46 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DC15B2C39F00F17F46 /* CoreMedia.framework */; };
 		2B92C8DF15B2C3BA00F17F46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DE15B2C3BA00F17F46 /* QuartzCore.framework */; };
+		2BF71F4515B459260080FC27 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF71F4415B459260080FC27 /* WKKViewController.xib */; };
+		2BF71F4715B468F40080FC27 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF71F4615B468F40080FC27 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +36,14 @@
 		2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKKAppDelegate.m; sourceTree = "<group>"; };
 		2B56101115B2BD3300CD73D6 /* WKKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKKViewController.h; sourceTree = "<group>"; };
 		2B56101215B2BD3300CD73D6 /* WKKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKKViewController.m; sourceTree = "<group>"; };
-		2B56101515B2BD3300CD73D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WKKViewController.xib; sourceTree = "<group>"; };
 		2B92C8D415B2BFBB00F17F46 /* CameraImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
 		2B92C8D515B2BFBB00F17F46 /* CameraImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
 		2B92C8D815B2C38F00F17F46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2B92C8DA15B2C39700F17F46 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		2B92C8DC15B2C39F00F17F46 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		2B92C8DE15B2C3BA00F17F46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2BF71F4415B459260080FC27 /* WKKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKKViewController.xib; sourceTree = "<group>"; };
+		2BF71F4615B468F40080FC27 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF71F4715B468F40080FC27 /* ImageIO.framework in Frameworks */,
 				2B92C8DF15B2C3BA00F17F46 /* QuartzCore.framework in Frameworks */,
 				2B92C8DD15B2C39F00F17F46 /* CoreMedia.framework in Frameworks */,
 				2B92C8DB15B2C39700F17F46 /* CoreVideo.framework in Frameworks */,
@@ -65,6 +68,7 @@
 		2B560FF015B2BD3200CD73D6 = {
 			isa = PBXGroup;
 			children = (
+				2BF71F4615B468F40080FC27 /* ImageIO.framework */,
 				2B56100515B2BD3200CD73D6 /* CameraWithAVFoudation */,
 				2B560FFE15B2BD3200CD73D6 /* Frameworks */,
 				2B560FFC15B2BD3200CD73D6 /* Products */,
@@ -102,7 +106,7 @@
 				2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */,
 				2B56101115B2BD3300CD73D6 /* WKKViewController.h */,
 				2B56101215B2BD3300CD73D6 /* WKKViewController.m */,
-				2B56101415B2BD3300CD73D6 /* WKKViewController.xib */,
+				2BF71F4415B459260080FC27 /* WKKViewController.xib */,
 				2B56100615B2BD3200CD73D6 /* Supporting Files */,
 			);
 			path = CameraWithAVFoudation;
@@ -171,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B56100A15B2BD3200CD73D6 /* InfoPlist.strings in Resources */,
-				2B56101615B2BD3300CD73D6 /* WKKViewController.xib in Resources */,
+				2BF71F4515B459260080FC27 /* WKKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,14 +202,6 @@
 				2B56100915B2BD3200CD73D6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2B56101415B2BD3300CD73D6 /* WKKViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B56101515B2BD3300CD73D6 /* en */,
-			);
-			name = WKKViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

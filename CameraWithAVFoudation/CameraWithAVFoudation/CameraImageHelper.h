@@ -12,11 +12,13 @@
 @interface CameraImageHelper : NSObject <AVCaptureVideoDataOutputSampleBufferDelegate>
 {
 	AVCaptureSession *session;
+    AVCaptureStillImageOutput *captureOutput;
 	UIImage *image;
     AVCaptureVideoPreviewLayer *preview;
     UIImageOrientation g_orientation;
 }
 @property (retain) AVCaptureSession *session;
+@property (retain) AVCaptureOutput *captureOutput;
 @property (retain) UIImage *image;
 @property (assign) UIImageOrientation g_orientation;
 @property (assign) AVCaptureVideoPreviewLayer *preview;
@@ -25,7 +27,7 @@
 + (void) stopRunning;
 + (UIImage *) image;
 
-+ (UIView *) previewWithBounds: (CGRect) bounds;
 + (void)embedPreviewInView: (UIView *) aView;
++(void)CaptureStillImage;
 + (void)changePreviewOrientation:(UIInterfaceOrientation)interfaceOrientation;
 @end

@@ -9,45 +9,20 @@
 #import <CoreVideo/CoreVideo.h>
 #import <CoreMedia/CoreMedia.h>
 #import "CameraImageHelper.h"
+#import <ImageIO/ImageIO.h>
 
 @implementation CameraImageHelper
-@synthesize session,image,g_orientation;
+@synthesize session,captureOutput,image,g_orientation;
 @synthesize preview;
 
 static CameraImageHelper *sharedInstance = nil;
 
-//实时采集
-- (void)captureOutput:(AVCaptureOutput *)captureOutput 
-didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer 
-       fromConnection:(AVCaptureConnection *)connection
-{
-	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    
-    CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer); 
-    CVPixelBufferLockBaseAddress(imageBuffer,0); 
-    uint8_t *baseAddress = (uint8_t *)CVPixelBufferGetBaseAddress(imageBuffer); 
-    size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer); 
-    size_t width = CVPixelBufferGetWidth(imageBuffer); 
-    size_t height = CVPixelBufferGetHeight(imageBuffer); 
-    
-    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB(); 
-    CGContextRef context = CGBitmapContextCreate(baseAddress, width, height, 8, bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst); 
-    CGImageRef newImage = CGBitmapContextCreateImage(context); 
-	CVPixelBufferUnlockBaseAddress(imageBuffer,0);
-	
-    self.image = [UIImage imageWithCGImage:newImage scale:1.0 orientation:g_orientation];
-	
-    CGContextRelease(context); 
-    CGColorSpaceRelease(colorSpace);
-	CGImageRelease(newImage);
-    
-	[pool drain];
-}
 
 - (void) initialize
 {
     //1.创建会话层
     self.session = [[[AVCaptureSession alloc] init] autorelease];
+    [self.session setSessionPreset:AVCaptureSessionPresetPhoto];
     
     
     //2.创建、配置输入设备
@@ -63,38 +38,19 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     
     
     //3.创建、配置输出    
-	dispatch_queue_t queue = dispatch_queue_create("MyQueue", NULL);
-	AVCaptureVideoDataOutput *captureOutput = [[[AVCaptureVideoDataOutput alloc] init] autorelease];
-	captureOutput.alwaysDiscardsLateVideoFrames = YES; 
-	[captureOutput setSampleBufferDelegate:self queue:queue];
-	// dispatch_release(queue); // Will not work when uncommented -- apparently reference count is altered by setSampleBufferDelegate:queue:
-    
-	
-	NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithUnsignedInt:kCVPixelFormatType_32BGRA] 
-                                                         forKey:(NSString *)kCVPixelBufferPixelFormatTypeKey];
-	[captureOutput setVideoSettings:settings];
+    captureOutput = [[[AVCaptureStillImageOutput alloc] init] autorelease];
+    NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecJPEG,AVVideoCodecKey,nil];
+    [captureOutput setOutputSettings:outputSettings];
 
+    [outputSettings release];
 	[self.session addOutput:captureOutput];
+
 }
 
 - (id) init
 {
 	if (self = [super init]) [self initialize];
 	return self;
-}
-
-- (UIView *) previewWithBounds: (CGRect) bounds
-{
-	UIView *view = [[[UIView alloc] initWithFrame:bounds] autorelease];
-	
-	preview = [AVCaptureVideoPreviewLayer layerWithSession: self.session];
-	preview.frame = bounds;
-	preview.videoGravity = AVLayerVideoGravityResizeAspectFill;
-    preview.orientation = UIInterfaceOrientationLandscapeRight;
-    
-	[view.layer addSublayer: preview];
-	
-	return view;
 }
 
 -(void) embedPreviewInView: (UIView *) aView {
@@ -118,6 +74,39 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
         preview.orientation = AVCaptureVideoOrientationLandscapeLeft;
     }
     [CATransaction commit];
+}
+
+-(void)Captureimage
+{
+    //get connection
+    AVCaptureConnection *videoConnection = nil;
+    for (AVCaptureConnection *connection in captureOutput.connections) {
+        for (AVCaptureInputPort *port in [connection inputPorts]) {
+            if ([[port mediaType] isEqual:AVMediaTypeVideo] ) {
+                videoConnection = connection;
+                break;
+            }
+        }
+        if (videoConnection) { break; }
+    }
+    
+    //get UIImage
+    [captureOutput captureStillImageAsynchronouslyFromConnection:videoConnection completionHandler:
+     ^(CMSampleBufferRef imageSampleBuffer, NSError *error) {
+         CFDictionaryRef exifAttachments =
+         CMGetAttachment(imageSampleBuffer, kCGImagePropertyExifDictionary, NULL);
+         if (exifAttachments) {
+             // Do something with the attachments.
+         }
+         // Continue as appropriate.
+         NSData *imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageSampleBuffer];
+         UIImage *t_image = [[UIImage alloc] initWithData:imageData] ;   
+#if 1 
+         image = [[UIImage alloc]initWithCGImage:t_image.CGImage scale:1.0 orientation:g_orientation];
+#else
+         image = [t_image resizedImage:CGSizeMake(image.size.width, image.size.height) interpolationQuality:kCGInterpolationDefault];
+#endif     
+     }];
 }
 
 - (void) dealloc
@@ -150,9 +139,9 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 	return [[self sharedInstance] image];
 }
 
-+ (UIView *) previewWithBounds: (CGRect) bounds
++(void)CaptureStillImage
 {
-	return [[self sharedInstance] previewWithBounds: (CGRect) bounds];
+    [[self sharedInstance] Captureimage];
 }
 
 + (void)embedPreviewInView: (UIView *) aView
