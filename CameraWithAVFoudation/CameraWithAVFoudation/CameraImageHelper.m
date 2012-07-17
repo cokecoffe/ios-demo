@@ -103,6 +103,7 @@ static CameraImageHelper *sharedInstance = nil;
          UIImage *t_image = [[UIImage alloc] initWithData:imageData] ;   
 #if 1 
          image = [[UIImage alloc]initWithCGImage:t_image.CGImage scale:1.0 orientation:g_orientation];
+         [t_image release];
 #else
          image = [t_image resizedImage:CGSizeMake(image.size.width, image.size.height) interpolationQuality:kCGInterpolationDefault];
 #endif     
