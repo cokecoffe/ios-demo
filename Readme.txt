@@ -51,6 +51,8 @@ Web方面
 2.CameraWithAVFoudation
 	使用AVFoundation库实现的相机
 
-
-
+Other
+=================
+KVO_TestDemo
+	kvo基本使用
 
