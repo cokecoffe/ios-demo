@@ -15,7 +15,6 @@
 
 @implementation WKKViewController
 @synthesize RealView;
-@synthesize liveImageView;
 @synthesize liveView;
 @synthesize Preview;
 
@@ -44,7 +43,6 @@
 
     [self setRealView:nil];
     [self setLiveView:nil];
-    [self setLiveImageView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -68,7 +66,6 @@
     [Preview release];
     [RealView release];
     [liveView release];
-    [liveImageView release];
     [super dealloc];
 }
 
