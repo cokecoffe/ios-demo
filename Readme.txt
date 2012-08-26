@@ -29,13 +29,10 @@ test
 	单选列表的实现，支持异步请求数据，支持联动选择
 10.CoreAnimationBegin
 	CoreAnimation的简单入门
-<<<<<<< HEAD
 11.Pop_TableViewDemo
 	二级联动选择列表
-=======
-11.Quartz2D
+12.Quartz2D
 	
->>>>>>> Cuartz2D
 
 Objective-C语言方面
 ==================================================================
