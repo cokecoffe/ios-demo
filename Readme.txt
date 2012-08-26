@@ -53,6 +53,9 @@ Web方面
 4.WebServiceDemo:
 	访问WebService的一个例子
 	使用了MBProgressHUD ASIHTTPRequest JSON三个库
+5.XMPP_Demo：
+	一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。
+	http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1
 
 外设
 =================
