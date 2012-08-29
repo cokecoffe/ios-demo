@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8F897C815DCA18D0058EF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F897C715DCA18D0058EF3E /* UIKit.framework */; };
+		B8F897CA15DCA18D0058EF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F897C915DCA18D0058EF3E /* Foundation.framework */; };
+		B8F897CC15DCA18D0058EF3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F897CB15DCA18D0058EF3E /* CoreGraphics.framework */; };
+		B8F897D215DCA18D0058EF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8F897D015DCA18D0058EF3E /* InfoPlist.strings */; };
+		B8F897D415DCA18D0058EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F897D315DCA18D0058EF3E /* main.m */; };
+		B8F897D815DCA18D0058EF3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F897D715DCA18D0058EF3E /* AppDelegate.m */; };
+		B8F897E715DCA6070058EF3E /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8F897E615DCA6070058EF3E /* File.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8F897C315DCA18D0058EF3E /* excel-plist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "excel-plist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F897C715DCA18D0058EF3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8F897C915DCA18D0058EF3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8F897CB15DCA18D0058EF3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8F897CF15DCA18D0058EF3E /* excel-plist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "excel-plist-Info.plist"; sourceTree = "<group>"; };
+		B8F897D115DCA18D0058EF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8F897D315DCA18D0058EF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8F897D515DCA18D0058EF3E /* excel-plist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "excel-plist-Prefix.pch"; sourceTree = "<group>"; };
+		B8F897D615DCA18D0058EF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8F897D715DCA18D0058EF3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8F897E615DCA6070058EF3E /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8F897C015DCA18D0058EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F897C815DCA18D0058EF3E /* UIKit.framework in Frameworks */,
+				B8F897CA15DCA18D0058EF3E /* Foundation.framework in Frameworks */,
+				B8F897CC15DCA18D0058EF3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8F897B815DCA18D0058EF3E = {
+			isa = PBXGroup;
+			children = (
+				B8F897E615DCA6070058EF3E /* File.txt */,
+				B8F897CD15DCA18D0058EF3E /* excel-plist */,
+				B8F897C615DCA18D0058EF3E /* Frameworks */,
+				B8F897C415DCA18D0058EF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8F897C415DCA18D0058EF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F897C315DCA18D0058EF3E /* excel-plist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8F897C615DCA18D0058EF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F897C715DCA18D0058EF3E /* UIKit.framework */,
+				B8F897C915DCA18D0058EF3E /* Foundation.framework */,
+				B8F897CB15DCA18D0058EF3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8F897CD15DCA18D0058EF3E /* excel-plist */ = {
+			isa = PBXGroup;
+			children = (
+				B8F897D615DCA18D0058EF3E /* AppDelegate.h */,
+				B8F897D715DCA18D0058EF3E /* AppDelegate.m */,
+				B8F897CE15DCA18D0058EF3E /* Supporting Files */,
+			);
+			path = "excel-plist";
+			sourceTree = "<group>";
+		};
+		B8F897CE15DCA18D0058EF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8F897CF15DCA18D0058EF3E /* excel-plist-Info.plist */,
+				B8F897D015DCA18D0058EF3E /* InfoPlist.strings */,
+				B8F897D315DCA18D0058EF3E /* main.m */,
+				B8F897D515DCA18D0058EF3E /* excel-plist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8F897C215DCA18D0058EF3E /* excel-plist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F897DB15DCA18D0058EF3E /* Build configuration list for PBXNativeTarget "excel-plist" */;
+			buildPhases = (
+				B8F897BF15DCA18D0058EF3E /* Sources */,
+				B8F897C015DCA18D0058EF3E /* Frameworks */,
+				B8F897C115DCA18D0058EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "excel-plist";
+			productName = "excel-plist";
+			productReference = B8F897C315DCA18D0058EF3E /* excel-plist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8F897BA15DCA18D0058EF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "keke Wang";
+			};
+			buildConfigurationList = B8F897BD15DCA18D0058EF3E /* Build configuration list for PBXProject "excel-plist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8F897B815DCA18D0058EF3E;
+			productRefGroup = B8F897C415DCA18D0058EF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8F897C215DCA18D0058EF3E /* excel-plist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8F897C115DCA18D0058EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F897D215DCA18D0058EF3E /* InfoPlist.strings in Resources */,
+				B8F897E715DCA6070058EF3E /* File.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8F897BF15DCA18D0058EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F897D415DCA18D0058EF3E /* main.m in Sources */,
+				B8F897D815DCA18D0058EF3E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8F897D015DCA18D0058EF3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8F897D115DCA18D0058EF3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8F897D915DCA18D0058EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8F897DA15DCA18D0058EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8F897DC15DCA18D0058EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "excel-plist/excel-plist-Prefix.pch";
+				INFOPLIST_FILE = "excel-plist/excel-plist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8F897DD15DCA18D0058EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "excel-plist/excel-plist-Prefix.pch";
+				INFOPLIST_FILE = "excel-plist/excel-plist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8F897BD15DCA18D0058EF3E /* Build configuration list for PBXProject "excel-plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F897D915DCA18D0058EF3E /* Debug */,
+				B8F897DA15DCA18D0058EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F897DB15DCA18D0058EF3E /* Build configuration list for PBXNativeTarget "excel-plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F897DC15DCA18D0058EF3E /* Debug */,
+				B8F897DD15DCA18D0058EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8F897BA15DCA18D0058EF3E /* Project object */;
+}

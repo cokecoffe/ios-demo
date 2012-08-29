@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8D5C59315B8FFE600D3E811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D5C59215B8FFE600D3E811 /* UIKit.framework */; };
+		B8D5C59515B8FFE600D3E811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D5C59415B8FFE600D3E811 /* Foundation.framework */; };
+		B8D5C59715B8FFE600D3E811 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D5C59615B8FFE600D3E811 /* CoreGraphics.framework */; };
+		B8D5C59D15B8FFE600D3E811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C59B15B8FFE600D3E811 /* InfoPlist.strings */; };
+		B8D5C59F15B8FFE600D3E811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C59E15B8FFE600D3E811 /* main.m */; };
+		B8D5C5A315B8FFE600D3E811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C5A215B8FFE600D3E811 /* AppDelegate.m */; };
+		B8D5C5A615B8FFE600D3E811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C5A515B8FFE600D3E811 /* ViewController.m */; };
+		B8D5C5A915B8FFE600D3E811 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C5A715B8FFE600D3E811 /* ViewController.xib */; };
+		B8D5C5B115B9002600D3E811 /* myview.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C5B015B9002600D3E811 /* myview.m */; };
+		B8D5C5B315B9078E00D3E811 /* detectouter_10.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C5B215B9078E00D3E811 /* detectouter_10.png */; };
+		B8D5C5B915B9375800D3E811 /* 线框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C5B815B9375800D3E811 /* 线框@2x.png */; };
+		B8D5C5C015B93C4000D3E811 /* pointLocation.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C5BF15B93C4000D3E811 /* pointLocation.plist */; };
+		B8D5C5C215B954F700D3E811 /* CarBodyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D5C5C115B954F700D3E811 /* CarBodyView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8D5C58E15B8FFE600D3E811 /* mouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D5C59215B8FFE600D3E811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8D5C59415B8FFE600D3E811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8D5C59615B8FFE600D3E811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8D5C59A15B8FFE600D3E811 /* mouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mouse-Info.plist"; sourceTree = "<group>"; };
+		B8D5C59C15B8FFE600D3E811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8D5C59E15B8FFE600D3E811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8D5C5A015B8FFE600D3E811 /* mouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mouse-Prefix.pch"; sourceTree = "<group>"; };
+		B8D5C5A115B8FFE600D3E811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8D5C5A215B8FFE600D3E811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8D5C5A415B8FFE600D3E811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8D5C5A515B8FFE600D3E811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8D5C5A815B8FFE600D3E811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B8D5C5AF15B9002600D3E811 /* myview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myview.h; sourceTree = "<group>"; };
+		B8D5C5B015B9002600D3E811 /* myview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myview.m; sourceTree = "<group>"; };
+		B8D5C5B215B9078E00D3E811 /* detectouter_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detectouter_10.png; sourceTree = "<group>"; };
+		B8D5C5B815B9375800D3E811 /* 线框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线框@2x.png"; sourceTree = "<group>"; };
+		B8D5C5BF15B93C4000D3E811 /* pointLocation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pointLocation.plist; sourceTree = "<group>"; };
+		B8D5C5C115B954F700D3E811 /* CarBodyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarBodyView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8D5C58B15B8FFE600D3E811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D5C59315B8FFE600D3E811 /* UIKit.framework in Frameworks */,
+				B8D5C59515B8FFE600D3E811 /* Foundation.framework in Frameworks */,
+				B8D5C59715B8FFE600D3E811 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8D5C58315B8FFE600D3E811 = {
+			isa = PBXGroup;
+			children = (
+				B8D5C59815B8FFE600D3E811 /* mouse */,
+				B8D5C59115B8FFE600D3E811 /* Frameworks */,
+				B8D5C58F15B8FFE600D3E811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8D5C58F15B8FFE600D3E811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C58E15B8FFE600D3E811 /* mouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8D5C59115B8FFE600D3E811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C59215B8FFE600D3E811 /* UIKit.framework */,
+				B8D5C59415B8FFE600D3E811 /* Foundation.framework */,
+				B8D5C59615B8FFE600D3E811 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8D5C59815B8FFE600D3E811 /* mouse */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C5A115B8FFE600D3E811 /* AppDelegate.h */,
+				B8D5C5A215B8FFE600D3E811 /* AppDelegate.m */,
+				B8D5C5A415B8FFE600D3E811 /* ViewController.h */,
+				B8D5C5A515B8FFE600D3E811 /* ViewController.m */,
+				B8D5C5A715B8FFE600D3E811 /* ViewController.xib */,
+				B8D5C5AF15B9002600D3E811 /* myview.h */,
+				B8D5C5B015B9002600D3E811 /* myview.m */,
+				B8D5C5BF15B93C4000D3E811 /* pointLocation.plist */,
+				B8D5C5B215B9078E00D3E811 /* detectouter_10.png */,
+				B8D5C5B815B9375800D3E811 /* 线框@2x.png */,
+				B8D5C5C115B954F700D3E811 /* CarBodyView.xib */,
+				B8D5C59915B8FFE600D3E811 /* Supporting Files */,
+			);
+			path = mouse;
+			sourceTree = "<group>";
+		};
+		B8D5C59915B8FFE600D3E811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C59A15B8FFE600D3E811 /* mouse-Info.plist */,
+				B8D5C59B15B8FFE600D3E811 /* InfoPlist.strings */,
+				B8D5C59E15B8FFE600D3E811 /* main.m */,
+				B8D5C5A015B8FFE600D3E811 /* mouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8D5C58D15B8FFE600D3E811 /* mouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D5C5AC15B8FFE600D3E811 /* Build configuration list for PBXNativeTarget "mouse" */;
+			buildPhases = (
+				B8D5C58A15B8FFE600D3E811 /* Sources */,
+				B8D5C58B15B8FFE600D3E811 /* Frameworks */,
+				B8D5C58C15B8FFE600D3E811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mouse;
+			productName = mouse;
+			productReference = B8D5C58E15B8FFE600D3E811 /* mouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8D5C58515B8FFE600D3E811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B8D5C58815B8FFE600D3E811 /* Build configuration list for PBXProject "mouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8D5C58315B8FFE600D3E811;
+			productRefGroup = B8D5C58F15B8FFE600D3E811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8D5C58D15B8FFE600D3E811 /* mouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8D5C58C15B8FFE600D3E811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D5C59D15B8FFE600D3E811 /* InfoPlist.strings in Resources */,
+				B8D5C5A915B8FFE600D3E811 /* ViewController.xib in Resources */,
+				B8D5C5B315B9078E00D3E811 /* detectouter_10.png in Resources */,
+				B8D5C5B915B9375800D3E811 /* 线框@2x.png in Resources */,
+				B8D5C5C015B93C4000D3E811 /* pointLocation.plist in Resources */,
+				B8D5C5C215B954F700D3E811 /* CarBodyView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8D5C58A15B8FFE600D3E811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D5C59F15B8FFE600D3E811 /* main.m in Sources */,
+				B8D5C5A315B8FFE600D3E811 /* AppDelegate.m in Sources */,
+				B8D5C5A615B8FFE600D3E811 /* ViewController.m in Sources */,
+				B8D5C5B115B9002600D3E811 /* myview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8D5C59B15B8FFE600D3E811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D5C59C15B8FFE600D3E811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8D5C5A715B8FFE600D3E811 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D5C5A815B8FFE600D3E811 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8D5C5AA15B8FFE600D3E811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B8D5C5AB15B8FFE600D3E811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8D5C5AD15B8FFE600D3E811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mouse/mouse-Prefix.pch";
+				INFOPLIST_FILE = "mouse/mouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8D5C5AE15B8FFE600D3E811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mouse/mouse-Prefix.pch";
+				INFOPLIST_FILE = "mouse/mouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8D5C58815B8FFE600D3E811 /* Build configuration list for PBXProject "mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D5C5AA15B8FFE600D3E811 /* Debug */,
+				B8D5C5AB15B8FFE600D3E811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D5C5AC15B8FFE600D3E811 /* Build configuration list for PBXNativeTarget "mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D5C5AD15B8FFE600D3E811 /* Debug */,
+				B8D5C5AE15B8FFE600D3E811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8D5C58515B8FFE600D3E811 /* Project object */;
+}

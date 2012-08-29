@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B872966D15EDE6D5007F34CB /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B872966B15EDE6D5007F34CB /* AutoScrollLabel.m */; };
+		B872967015EDE814007F34CB /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B872966B15EDE6D5007F34CB /* AutoScrollLabel.m */; };
+		D792BDD81417FEF80024A67C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDD71417FEF80024A67C /* UIKit.framework */; };
+		D792BDDA1417FEF80024A67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDD91417FEF80024A67C /* Foundation.framework */; };
+		D792BDDC1417FEF80024A67C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDDB1417FEF80024A67C /* CoreGraphics.framework */; };
+		D792BDE21417FEF80024A67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D792BDE01417FEF80024A67C /* InfoPlist.strings */; };
+		D792BDE51417FEF80024A67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D792BDE41417FEF80024A67C /* main.m */; };
+		D792BDE81417FEF80024A67C /* PaomaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D792BDE71417FEF80024A67C /* PaomaAppDelegate.m */; };
+		D792BDEB1417FEF80024A67C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D792BDE91417FEF80024A67C /* MainWindow.xib */; };
+		D792BDEE1417FEF80024A67C /* PaomaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D792BDED1417FEF80024A67C /* PaomaViewController.m */; };
+		D792BDF11417FEF80024A67C /* PaomaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D792BDEF1417FEF80024A67C /* PaomaViewController.xib */; };
+		D792BDF81417FEF80024A67C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDD71417FEF80024A67C /* UIKit.framework */; };
+		D792BDF91417FEF80024A67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDD91417FEF80024A67C /* Foundation.framework */; };
+		D792BDFA1417FEF80024A67C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792BDDB1417FEF80024A67C /* CoreGraphics.framework */; };
+		D792BE021417FEF80024A67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D792BE001417FEF80024A67C /* InfoPlist.strings */; };
+		D792BE051417FEF80024A67C /* PaomaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D792BE041417FEF80024A67C /* PaomaTests.h */; };
+		D792BE071417FEF80024A67C /* PaomaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D792BE061417FEF80024A67C /* PaomaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D792BDFB1417FEF80024A67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D792BDCA1417FEF80024A67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792BDD21417FEF80024A67C;
+			remoteInfo = Paoma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B872966B15EDE6D5007F34CB /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
+		B872966C15EDE6D5007F34CB /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
+		D792BDD31417FEF80024A67C /* AutoScrollLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoScrollLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D792BDD71417FEF80024A67C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D792BDD91417FEF80024A67C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D792BDDB1417FEF80024A67C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D792BDDF1417FEF80024A67C /* AutoScrollLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoScrollLabel-Info.plist"; sourceTree = "<group>"; };
+		D792BDE11417FEF80024A67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D792BDE31417FEF80024A67C /* AutoScrollLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoScrollLabel-Prefix.pch"; sourceTree = "<group>"; };
+		D792BDE41417FEF80024A67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D792BDE61417FEF80024A67C /* PaomaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaomaAppDelegate.h; sourceTree = "<group>"; };
+		D792BDE71417FEF80024A67C /* PaomaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaomaAppDelegate.m; sourceTree = "<group>"; };
+		D792BDEA1417FEF80024A67C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D792BDEC1417FEF80024A67C /* PaomaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaomaViewController.h; sourceTree = "<group>"; };
+		D792BDED1417FEF80024A67C /* PaomaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaomaViewController.m; sourceTree = "<group>"; };
+		D792BDF01417FEF80024A67C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PaomaViewController.xib; sourceTree = "<group>"; };
+		D792BDF71417FEF80024A67C /* AutoScrollLabelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollLabelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D792BDFF1417FEF80024A67C /* AutoScrollLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoScrollLabelTests-Info.plist"; sourceTree = "<group>"; };
+		D792BE011417FEF80024A67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D792BE031417FEF80024A67C /* AutoScrollLabelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoScrollLabelTests-Prefix.pch"; sourceTree = "<group>"; };
+		D792BE041417FEF80024A67C /* PaomaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaomaTests.h; sourceTree = "<group>"; };
+		D792BE061417FEF80024A67C /* PaomaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaomaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D792BDD01417FEF80024A67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BDD81417FEF80024A67C /* UIKit.framework in Frameworks */,
+				D792BDDA1417FEF80024A67C /* Foundation.framework in Frameworks */,
+				D792BDDC1417FEF80024A67C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792BDF31417FEF80024A67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BDF81417FEF80024A67C /* UIKit.framework in Frameworks */,
+				D792BDF91417FEF80024A67C /* Foundation.framework in Frameworks */,
+				D792BDFA1417FEF80024A67C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D792BDC81417FEF80024A67C = {
+			isa = PBXGroup;
+			children = (
+				D792BDDD1417FEF80024A67C /* Paoma */,
+				D792BDFD1417FEF80024A67C /* PaomaTests */,
+				D792BDD61417FEF80024A67C /* Frameworks */,
+				D792BDD41417FEF80024A67C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D792BDD41417FEF80024A67C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D792BDD31417FEF80024A67C /* AutoScrollLabel.app */,
+				D792BDF71417FEF80024A67C /* AutoScrollLabelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D792BDD61417FEF80024A67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D792BDD71417FEF80024A67C /* UIKit.framework */,
+				D792BDD91417FEF80024A67C /* Foundation.framework */,
+				D792BDDB1417FEF80024A67C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D792BDDD1417FEF80024A67C /* Paoma */ = {
+			isa = PBXGroup;
+			children = (
+				D792BDE61417FEF80024A67C /* PaomaAppDelegate.h */,
+				D792BDE71417FEF80024A67C /* PaomaAppDelegate.m */,
+				D792BDE91417FEF80024A67C /* MainWindow.xib */,
+				D792BDEC1417FEF80024A67C /* PaomaViewController.h */,
+				D792BDED1417FEF80024A67C /* PaomaViewController.m */,
+				D792BDEF1417FEF80024A67C /* PaomaViewController.xib */,
+				D792BDDE1417FEF80024A67C /* Supporting Files */,
+				B872966B15EDE6D5007F34CB /* AutoScrollLabel.m */,
+				B872966C15EDE6D5007F34CB /* AutoScrollLabel.h */,
+			);
+			path = Paoma;
+			sourceTree = "<group>";
+		};
+		D792BDDE1417FEF80024A67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D792BDDF1417FEF80024A67C /* AutoScrollLabel-Info.plist */,
+				D792BDE01417FEF80024A67C /* InfoPlist.strings */,
+				D792BDE31417FEF80024A67C /* AutoScrollLabel-Prefix.pch */,
+				D792BDE41417FEF80024A67C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D792BDFD1417FEF80024A67C /* PaomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D792BE041417FEF80024A67C /* PaomaTests.h */,
+				D792BE061417FEF80024A67C /* PaomaTests.m */,
+				D792BDFE1417FEF80024A67C /* Supporting Files */,
+			);
+			path = PaomaTests;
+			sourceTree = "<group>";
+		};
+		D792BDFE1417FEF80024A67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D792BDFF1417FEF80024A67C /* AutoScrollLabelTests-Info.plist */,
+				D792BE001417FEF80024A67C /* InfoPlist.strings */,
+				D792BE031417FEF80024A67C /* AutoScrollLabelTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D792BDD21417FEF80024A67C /* AutoScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792BE0A1417FEF80024A67C /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */;
+			buildPhases = (
+				D792BDCF1417FEF80024A67C /* Sources */,
+				D792BDD01417FEF80024A67C /* Frameworks */,
+				D792BDD11417FEF80024A67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoScrollLabel;
+			productName = Paoma;
+			productReference = D792BDD31417FEF80024A67C /* AutoScrollLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D792BDF61417FEF80024A67C /* AutoScrollLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792BE0D1417FEF80024A67C /* Build configuration list for PBXNativeTarget "AutoScrollLabelTests" */;
+			buildPhases = (
+				D792BDF21417FEF80024A67C /* Sources */,
+				D792BDF31417FEF80024A67C /* Frameworks */,
+				D792BDF41417FEF80024A67C /* Resources */,
+				D792BDF51417FEF80024A67C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D792BDFC1417FEF80024A67C /* PBXTargetDependency */,
+			);
+			name = AutoScrollLabelTests;
+			productName = PaomaTests;
+			productReference = D792BDF71417FEF80024A67C /* AutoScrollLabelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D792BDCA1417FEF80024A67C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tt;
+			};
+			buildConfigurationList = D792BDCD1417FEF80024A67C /* Build configuration list for PBXProject "AutoScrollLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D792BDC81417FEF80024A67C;
+			productRefGroup = D792BDD41417FEF80024A67C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D792BDD21417FEF80024A67C /* AutoScrollLabel */,
+				D792BDF61417FEF80024A67C /* AutoScrollLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D792BDD11417FEF80024A67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BDE21417FEF80024A67C /* InfoPlist.strings in Resources */,
+				D792BDEB1417FEF80024A67C /* MainWindow.xib in Resources */,
+				D792BDF11417FEF80024A67C /* PaomaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792BDF41417FEF80024A67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BE021417FEF80024A67C /* InfoPlist.strings in Resources */,
+				D792BE051417FEF80024A67C /* PaomaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D792BDF51417FEF80024A67C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D792BDCF1417FEF80024A67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BDE51417FEF80024A67C /* main.m in Sources */,
+				D792BDE81417FEF80024A67C /* PaomaAppDelegate.m in Sources */,
+				D792BDEE1417FEF80024A67C /* PaomaViewController.m in Sources */,
+				B872967015EDE814007F34CB /* AutoScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792BDF21417FEF80024A67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792BE071417FEF80024A67C /* PaomaTests.m in Sources */,
+				B872966D15EDE6D5007F34CB /* AutoScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D792BDFC1417FEF80024A67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D792BDD21417FEF80024A67C /* AutoScrollLabel */;
+			targetProxy = D792BDFB1417FEF80024A67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D792BDE01417FEF80024A67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D792BDE11417FEF80024A67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D792BDE91417FEF80024A67C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D792BDEA1417FEF80024A67C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D792BDEF1417FEF80024A67C /* PaomaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D792BDF01417FEF80024A67C /* en */,
+			);
+			name = PaomaViewController.xib;
+			sourceTree = "<group>";
+		};
+		D792BE001417FEF80024A67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D792BE011417FEF80024A67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D792BE081417FEF80024A67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D792BE091417FEF80024A67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D792BE0B1417FEF80024A67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paoma/AutoScrollLabel-Prefix.pch";
+				INFOPLIST_FILE = "Paoma/AutoScrollLabel-Info.plist";
+				PRODUCT_NAME = AutoScrollLabel;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D792BE0C1417FEF80024A67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paoma/AutoScrollLabel-Prefix.pch";
+				INFOPLIST_FILE = "Paoma/AutoScrollLabel-Info.plist";
+				PRODUCT_NAME = AutoScrollLabel;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D792BE0E1417FEF80024A67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Paoma.app/Paoma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaomaTests/AutoScrollLabelTests-Prefix.pch";
+				INFOPLIST_FILE = "PaomaTests/AutoScrollLabelTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = AutoScrollLabelTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D792BE0F1417FEF80024A67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Paoma.app/Paoma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaomaTests/AutoScrollLabelTests-Prefix.pch";
+				INFOPLIST_FILE = "PaomaTests/AutoScrollLabelTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = AutoScrollLabelTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D792BDCD1417FEF80024A67C /* Build configuration list for PBXProject "AutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792BE081417FEF80024A67C /* Debug */,
+				D792BE091417FEF80024A67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792BE0A1417FEF80024A67C /* Build configuration list for PBXNativeTarget "AutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792BE0B1417FEF80024A67C /* Debug */,
+				D792BE0C1417FEF80024A67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792BE0D1417FEF80024A67C /* Build configuration list for PBXNativeTarget "AutoScrollLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792BE0E1417FEF80024A67C /* Debug */,
+				D792BE0F1417FEF80024A67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D792BDCA1417FEF80024A67C /* Project object */;
+}

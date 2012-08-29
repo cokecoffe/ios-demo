@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8AA283415D9FDCB00034F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AA283315D9FDCB00034F9B /* UIKit.framework */; };
+		B8AA283615D9FDCB00034F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AA283515D9FDCB00034F9B /* Foundation.framework */; };
+		B8AA283815D9FDCB00034F9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AA283715D9FDCB00034F9B /* CoreGraphics.framework */; };
+		B8AA283E15D9FDCB00034F9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8AA283C15D9FDCB00034F9B /* InfoPlist.strings */; };
+		B8AA284015D9FDCB00034F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA283F15D9FDCB00034F9B /* main.m */; };
+		B8AA284415D9FDCB00034F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA284315D9FDCB00034F9B /* AppDelegate.m */; };
+		B8AA284715D9FDCB00034F9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA284615D9FDCB00034F9B /* ViewController.m */; };
+		B8AA284A15D9FDCB00034F9B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AA284815D9FDCB00034F9B /* ViewController.xib */; };
+		B8AA285215D9FE0A00034F9B /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA285015D9FE0A00034F9B /* A.png */; };
+		B8AA285315D9FE0A00034F9B /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA285115D9FE0A00034F9B /* B.png */; };
+		B8AA285515D9FFA100034F9B /* C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA285415D9FFA100034F9B /* C@2x.png */; };
+		B8AA285715D9FFEA00034F9B /* D@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8AA285615D9FFEA00034F9B /* D@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8AA282F15D9FDCB00034F9B /* MergeUIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeUIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AA283315D9FDCB00034F9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8AA283515D9FDCB00034F9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8AA283715D9FDCB00034F9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8AA283B15D9FDCB00034F9B /* MergeUIImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeUIImage-Info.plist"; sourceTree = "<group>"; };
+		B8AA283D15D9FDCB00034F9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8AA283F15D9FDCB00034F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8AA284115D9FDCB00034F9B /* MergeUIImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergeUIImage-Prefix.pch"; sourceTree = "<group>"; };
+		B8AA284215D9FDCB00034F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8AA284315D9FDCB00034F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8AA284515D9FDCB00034F9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8AA284615D9FDCB00034F9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8AA284915D9FDCB00034F9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B8AA285015D9FE0A00034F9B /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		B8AA285115D9FE0A00034F9B /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		B8AA285415D9FFA100034F9B /* C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C@2x.png"; sourceTree = "<group>"; };
+		B8AA285615D9FFEA00034F9B /* D@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8AA282C15D9FDCB00034F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AA283415D9FDCB00034F9B /* UIKit.framework in Frameworks */,
+				B8AA283615D9FDCB00034F9B /* Foundation.framework in Frameworks */,
+				B8AA283815D9FDCB00034F9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8AA282415D9FDCB00034F9B = {
+			isa = PBXGroup;
+			children = (
+				B8AA285015D9FE0A00034F9B /* A.png */,
+				B8AA285115D9FE0A00034F9B /* B.png */,
+				B8AA285615D9FFEA00034F9B /* D@2x.png */,
+				B8AA285415D9FFA100034F9B /* C@2x.png */,
+				B8AA283915D9FDCB00034F9B /* MergeUIImage */,
+				B8AA283215D9FDCB00034F9B /* Frameworks */,
+				B8AA283015D9FDCB00034F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8AA283015D9FDCB00034F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA282F15D9FDCB00034F9B /* MergeUIImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8AA283215D9FDCB00034F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA283315D9FDCB00034F9B /* UIKit.framework */,
+				B8AA283515D9FDCB00034F9B /* Foundation.framework */,
+				B8AA283715D9FDCB00034F9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8AA283915D9FDCB00034F9B /* MergeUIImage */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA284215D9FDCB00034F9B /* AppDelegate.h */,
+				B8AA284315D9FDCB00034F9B /* AppDelegate.m */,
+				B8AA284515D9FDCB00034F9B /* ViewController.h */,
+				B8AA284615D9FDCB00034F9B /* ViewController.m */,
+				B8AA284815D9FDCB00034F9B /* ViewController.xib */,
+				B8AA283A15D9FDCB00034F9B /* Supporting Files */,
+			);
+			path = MergeUIImage;
+			sourceTree = "<group>";
+		};
+		B8AA283A15D9FDCB00034F9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA283B15D9FDCB00034F9B /* MergeUIImage-Info.plist */,
+				B8AA283C15D9FDCB00034F9B /* InfoPlist.strings */,
+				B8AA283F15D9FDCB00034F9B /* main.m */,
+				B8AA284115D9FDCB00034F9B /* MergeUIImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8AA282E15D9FDCB00034F9B /* MergeUIImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AA284D15D9FDCB00034F9B /* Build configuration list for PBXNativeTarget "MergeUIImage" */;
+			buildPhases = (
+				B8AA282B15D9FDCB00034F9B /* Sources */,
+				B8AA282C15D9FDCB00034F9B /* Frameworks */,
+				B8AA282D15D9FDCB00034F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeUIImage;
+			productName = MergeUIImage;
+			productReference = B8AA282F15D9FDCB00034F9B /* MergeUIImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8AA282615D9FDCB00034F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "keke Wang";
+			};
+			buildConfigurationList = B8AA282915D9FDCB00034F9B /* Build configuration list for PBXProject "MergeUIImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8AA282415D9FDCB00034F9B;
+			productRefGroup = B8AA283015D9FDCB00034F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8AA282E15D9FDCB00034F9B /* MergeUIImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8AA282D15D9FDCB00034F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AA283E15D9FDCB00034F9B /* InfoPlist.strings in Resources */,
+				B8AA284A15D9FDCB00034F9B /* ViewController.xib in Resources */,
+				B8AA285215D9FE0A00034F9B /* A.png in Resources */,
+				B8AA285315D9FE0A00034F9B /* B.png in Resources */,
+				B8AA285515D9FFA100034F9B /* C@2x.png in Resources */,
+				B8AA285715D9FFEA00034F9B /* D@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8AA282B15D9FDCB00034F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AA284015D9FDCB00034F9B /* main.m in Sources */,
+				B8AA284415D9FDCB00034F9B /* AppDelegate.m in Sources */,
+				B8AA284715D9FDCB00034F9B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8AA283C15D9FDCB00034F9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8AA283D15D9FDCB00034F9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8AA284815D9FDCB00034F9B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8AA284915D9FDCB00034F9B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8AA284B15D9FDCB00034F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8AA284C15D9FDCB00034F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8AA284E15D9FDCB00034F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeUIImage/MergeUIImage-Prefix.pch";
+				INFOPLIST_FILE = "MergeUIImage/MergeUIImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8AA284F15D9FDCB00034F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeUIImage/MergeUIImage-Prefix.pch";
+				INFOPLIST_FILE = "MergeUIImage/MergeUIImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8AA282915D9FDCB00034F9B /* Build configuration list for PBXProject "MergeUIImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AA284B15D9FDCB00034F9B /* Debug */,
+				B8AA284C15D9FDCB00034F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AA284D15D9FDCB00034F9B /* Build configuration list for PBXNativeTarget "MergeUIImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AA284E15D9FDCB00034F9B /* Debug */,
+				B8AA284F15D9FDCB00034F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8AA282615D9FDCB00034F9B /* Project object */;
+}
