@@ -1,0 +1,26 @@
+# the build
+Build
+build
+# DerivedData
+Docs/API
+
+# temp nibs and swap files
+*~.nib
+*.swp
+*.orig
+
+# OS X folder attributes
+.DS_Store
+
+# user-specific XCode stuff
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+*.xcuserdatad
+
+Examples/RKDiscussionBoardExample/discussion_board_backend/public/system/attachments/*
+
+# Thin
+log
+tmp
