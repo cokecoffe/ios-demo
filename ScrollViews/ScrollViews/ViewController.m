@@ -22,7 +22,7 @@
 @synthesize scrollView;
 @synthesize imgView;
 
-#pragma mark ScrollView Delegate
+#pragma mark - ScrollView Delegate
 - (UIView*)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     // Return the view that you want to zoom
     return self.imgView;
@@ -33,8 +33,9 @@
     [self centerScrollViewContents];
 }
 
-#pragma mark -
+#pragma mark - Actions
 
+//居中图片
 //如果图片宽超过屏幕 x = 0,否则在中间
 //如果图片高超过屏幕 y = 0,否则在中间
 - (void)centerScrollViewContents
@@ -57,7 +58,7 @@
     self.imgView.frame = contentsFrame;
 }
 
-//单指双击 放大(+) 以点击的点为中心放大
+//单指双击 放大(+) 以可见范围的中心为中心点 放大
 - (void)scrollViewDoubleTapped:(UITapGestureRecognizer*)recognizer {
     // 1
     CGPoint pointInView = [recognizer locationInView:self.imgView];
@@ -74,7 +75,7 @@
     CGFloat x = pointInView.x - (w / 2.0f);
     CGFloat y = pointInView.y - (h / 2.0f);
     
-    CGRect rectToZoomTo = CGRectMake(x, y, w, h);
+    CGRect rectToZoomTo = CGRectMake(x, y, w, h);//缩放后的 内容视图 可见范围
     
     // 4
     [self.scrollView zoomToRect:rectToZoomTo animated:YES];

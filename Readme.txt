@@ -38,6 +38,8 @@ test
 12.AutoScrollLabel
 	Label跑马灯效果
 >>>>>>> AutoScrollUILabel
+13.UIScrollViews
+	滚动视图的使用
 
 Objective-C语言方面
 ==================================================================
