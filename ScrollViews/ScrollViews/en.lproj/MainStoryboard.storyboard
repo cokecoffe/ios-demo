@@ -38,15 +38,15 @@
                                             <segue destination="s9Z-oj-HuR" kind="push" id="GRa-EV-1qm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WxQ-2Y-umo" style="IBUITableViewCellStyleDefault" id="ii4-qK-aID">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WxQ-2Y-umo" style="IBUITableViewCellStyleDefault" id="ii4-qK-aID">
                                         <rect key="frame" x="0.0" y="44" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Custom View Scroll" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WxQ-2Y-umo">
-                                                    <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -55,16 +55,19 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="flx-eJ-dgl" kind="push" id="0Pr-Ai-hMR"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yff-4q-kuS" style="IBUITableViewCellStyleDefault" id="ZKJ-Xn-aFc">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yff-4q-kuS" style="IBUITableViewCellStyleDefault" id="ZKJ-Xn-aFc">
                                         <rect key="frame" x="0.0" y="88" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Paged" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yff-4q-kuS">
-                                                    <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -73,6 +76,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="XL7-LK-ukC" kind="push" id="YIb-TR-NkS"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ZgE-rF-zrd" style="IBUITableViewCellStyleDefault" id="WNz-tl-frv">
                                         <rect key="frame" x="0.0" y="132" width="320" height="44"/>
@@ -103,7 +109,66 @@
                     <navigationItem key="navigationItem" id="yg9-IA-fwH"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="581" y="106"/>
+            <point key="canvasLocation" x="523" y="106"/>
+        </scene>
+        <!--Page Scroll View Controller-->
+        <scene sceneID="HUY-9g-ZJx">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qn8-p6-5g5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="XL7-LK-ukC" customClass="PageScrollViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2jw-4B-oKS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="7mH-gI-9gv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="XL7-LK-ukC" id="vml-xP-OEU"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="Q4L-vX-8uT">
+                                <rect key="frame" x="141" y="378" width="38" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RWd-FY-1W5"/>
+                    <connections>
+                        <outlet property="pageControl" destination="Q4L-vX-8uT" id="C5r-GX-O1G"/>
+                        <outlet property="scrollView" destination="7mH-gI-9gv" id="WhS-vH-iqq"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1062" y="1277"/>
+        </scene>
+        <!--Custom Scroll View Controller-->
+        <scene sceneID="qVK-X5-WGb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dY9-ch-cIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="flx-eJ-dgl" customClass="CustomScrollViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xYJ-1d-lHn">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="PEl-5w-vKA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="flx-eJ-dgl" id="Ukd-ap-oQ7"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JaF-nT-BdY"/>
+                    <connections>
+                        <outlet property="scrollView" destination="PEl-5w-vKA" id="m7W-1Y-9Rn"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1062" y="694"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GVK-vt-LE8">
@@ -130,7 +195,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="947" y="106"/>
+            <point key="canvasLocation" x="1062" y="106"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="56Y-YM-0cW">
@@ -151,14 +216,6 @@
             <point key="canvasLocation" x="55" y="106"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
