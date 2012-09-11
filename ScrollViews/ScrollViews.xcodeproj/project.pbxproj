@@ -23,6 +23,8 @@
 		2B9A18C815FCD5DD003F1212 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A18C215FCD5DD003F1212 /* slow.png */; };
 		2B9A18D315FE3DD9003F1212 /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A18D215FE3DD9003F1212 /* CustomScrollViewController.m */; };
 		2B9A18D715FE40E2003F1212 /* PageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A18D615FE40E2003F1212 /* PageScrollViewController.m */; };
+		2B9A18DA15FF89DF003F1212 /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A18D915FF89DF003F1212 /* PeekPagedScrollViewController.m */; };
+		2B9A18DD15FF8FE8003F1212 /* ScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A18DC15FF8FE8003F1212 /* ScrollViewContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,10 @@
 		2B9A18D215FE3DD9003F1212 /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 		2B9A18D515FE40E2003F1212 /* PageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollViewController.h; sourceTree = "<group>"; };
 		2B9A18D615FE40E2003F1212 /* PageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollViewController.m; sourceTree = "<group>"; };
+		2B9A18D815FF89DF003F1212 /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
+		2B9A18D915FF89DF003F1212 /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
+		2B9A18DB15FF8FE8003F1212 /* ScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewContainer.h; sourceTree = "<group>"; };
+		2B9A18DC15FF8FE8003F1212 /* ScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,10 @@
 				2B9A18AE15FCD29A003F1212 /* AppDelegate.h */,
 				2B9A18AF15FCD29A003F1212 /* AppDelegate.m */,
 				2B9A18B115FCD29A003F1212 /* MainStoryboard.storyboard */,
+				2B9A18DB15FF8FE8003F1212 /* ScrollViewContainer.h */,
+				2B9A18DC15FF8FE8003F1212 /* ScrollViewContainer.m */,
+				2B9A18D815FF89DF003F1212 /* PeekPagedScrollViewController.h */,
+				2B9A18D915FF89DF003F1212 /* PeekPagedScrollViewController.m */,
 				2B9A18D515FE40E2003F1212 /* PageScrollViewController.h */,
 				2B9A18D615FE40E2003F1212 /* PageScrollViewController.m */,
 				2B9A18D115FE3DD9003F1212 /* CustomScrollViewController.h */,
@@ -208,6 +218,8 @@
 				2B9A18B615FCD29A003F1212 /* ViewController.m in Sources */,
 				2B9A18D315FE3DD9003F1212 /* CustomScrollViewController.m in Sources */,
 				2B9A18D715FE40E2003F1212 /* PageScrollViewController.m in Sources */,
+				2B9A18DA15FF89DF003F1212 /* PeekPagedScrollViewController.m in Sources */,
+				2B9A18DD15FF8FE8003F1212 /* ScrollViewContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
