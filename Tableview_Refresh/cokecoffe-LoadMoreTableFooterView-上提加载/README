@@ -1,0 +1,13 @@
+== DESCRIPTION:
+
+Inspired by EGOTableViewPullRefresh[https://github.com/enormego/EGOTableViewPullRefresh], a similar control 
+to the pull down to refresh control created by atebits in Tweetie 2, I implement this simple control to 
+load more rows into the table.
+
+== Usage:
+
+Check the demo. Thanks for enormego. Most of the codes are directly copied from their demo.
+
+== LICENSE:
+
+Copyright (c) 2010 Dingding Ye and Intridea, Inc. ( http://intridea.com ), released under the MIT License.
