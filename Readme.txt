@@ -31,16 +31,13 @@ test
 	CoreAnimation的简单入门
 11.Pop_TableViewDemo
 	二级联动选择列表
-<<<<<<< HEAD
 12.Quartz2D
 	
-=======
-12.AutoScrollLabel
+13.AutoScrollLabel
 	Label跑马灯效果
->>>>>>> AutoScrollUILabel
-13.UIScrollViews
+14.UIScrollViews
 	滚动视图的使用
-14.CorePlotDemo
+15.CorePlotDemo
 	绘制图表的Demo，包括饼图，柱状图，折线图
 
 Objective-C语言方面
