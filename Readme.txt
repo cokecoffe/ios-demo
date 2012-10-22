@@ -40,6 +40,8 @@ test
 >>>>>>> AutoScrollUILabel
 13.UIScrollViews
 	滚动视图的使用
+14.CorePlotDemo
+	绘制图表的Demo，包括饼图，柱状图，折线图
 
 Objective-C语言方面
 ==================================================================
