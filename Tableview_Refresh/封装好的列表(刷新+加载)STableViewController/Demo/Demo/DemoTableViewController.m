@@ -44,7 +44,7 @@
   
   // add sample items
   items = [[NSMutableArray alloc] init];
-  for (int i = 0; i < 10; i++)
+  for (int i = 0; i < 5; i++)
     [items addObject:[self createRandomValue]];
 }
 
