@@ -77,3 +77,5 @@ excel-plist
 	excel转plist
 CaseTool
 	大小写转换
+CrashLog
+	崩溃日志记录

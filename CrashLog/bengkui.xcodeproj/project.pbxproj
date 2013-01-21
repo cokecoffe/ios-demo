@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBFBDD5715F065D3000B9B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBDD5615F065D3000B9B23 /* UIKit.framework */; };
+		EBFBDD5915F065D3000B9B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBDD5815F065D3000B9B23 /* Foundation.framework */; };
+		EBFBDD5B15F065D3000B9B23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBDD5A15F065D3000B9B23 /* CoreGraphics.framework */; };
+		EBFBDD6115F065D3000B9B23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBFBDD5F15F065D3000B9B23 /* InfoPlist.strings */; };
+		EBFBDD6315F065D3000B9B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBDD6215F065D3000B9B23 /* main.m */; };
+		EBFBDD6715F065D3000B9B23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBDD6615F065D3000B9B23 /* AppDelegate.m */; };
+		EBFBDD6A15F065D3000B9B23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBDD6915F065D3000B9B23 /* ViewController.m */; };
+		EBFBDD6D15F065D3000B9B23 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFBDD6B15F065D3000B9B23 /* ViewController.xib */; };
+		EBFBDD7515F06679000B9B23 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBDD7415F06679000B9B23 /* UncaughtExceptionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBFBDD5215F065D3000B9B23 /* bengkui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bengkui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFBDD5615F065D3000B9B23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBFBDD5815F065D3000B9B23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBFBDD5A15F065D3000B9B23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBFBDD5E15F065D3000B9B23 /* bengkui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bengkui-Info.plist"; sourceTree = "<group>"; };
+		EBFBDD6015F065D3000B9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBFBDD6215F065D3000B9B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFBDD6415F065D3000B9B23 /* bengkui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bengkui-Prefix.pch"; sourceTree = "<group>"; };
+		EBFBDD6515F065D3000B9B23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBFBDD6615F065D3000B9B23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBFBDD6815F065D3000B9B23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBFBDD6915F065D3000B9B23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBFBDD6C15F065D3000B9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EBFBDD7315F06679000B9B23 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		EBFBDD7415F06679000B9B23 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBFBDD4F15F065D3000B9B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFBDD5715F065D3000B9B23 /* UIKit.framework in Frameworks */,
+				EBFBDD5915F065D3000B9B23 /* Foundation.framework in Frameworks */,
+				EBFBDD5B15F065D3000B9B23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBFBDD4715F065D3000B9B23 = {
+			isa = PBXGroup;
+			children = (
+				EBFBDD5C15F065D3000B9B23 /* bengkui */,
+				EBFBDD5515F065D3000B9B23 /* Frameworks */,
+				EBFBDD5315F065D3000B9B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFBDD5315F065D3000B9B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBDD5215F065D3000B9B23 /* bengkui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFBDD5515F065D3000B9B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBDD5615F065D3000B9B23 /* UIKit.framework */,
+				EBFBDD5815F065D3000B9B23 /* Foundation.framework */,
+				EBFBDD5A15F065D3000B9B23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBFBDD5C15F065D3000B9B23 /* bengkui */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBDD6515F065D3000B9B23 /* AppDelegate.h */,
+				EBFBDD6615F065D3000B9B23 /* AppDelegate.m */,
+				EBFBDD6815F065D3000B9B23 /* ViewController.h */,
+				EBFBDD6915F065D3000B9B23 /* ViewController.m */,
+				EBFBDD6B15F065D3000B9B23 /* ViewController.xib */,
+				EBFBDD7315F06679000B9B23 /* UncaughtExceptionHandler.h */,
+				EBFBDD7415F06679000B9B23 /* UncaughtExceptionHandler.m */,
+				EBFBDD5D15F065D3000B9B23 /* Supporting Files */,
+			);
+			path = bengkui;
+			sourceTree = "<group>";
+		};
+		EBFBDD5D15F065D3000B9B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBDD5E15F065D3000B9B23 /* bengkui-Info.plist */,
+				EBFBDD5F15F065D3000B9B23 /* InfoPlist.strings */,
+				EBFBDD6215F065D3000B9B23 /* main.m */,
+				EBFBDD6415F065D3000B9B23 /* bengkui-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBFBDD5115F065D3000B9B23 /* bengkui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFBDD7015F065D3000B9B23 /* Build configuration list for PBXNativeTarget "bengkui" */;
+			buildPhases = (
+				EBFBDD4E15F065D3000B9B23 /* Sources */,
+				EBFBDD4F15F065D3000B9B23 /* Frameworks */,
+				EBFBDD5015F065D3000B9B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bengkui;
+			productName = bengkui;
+			productReference = EBFBDD5215F065D3000B9B23 /* bengkui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBFBDD4915F065D3000B9B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rainbird;
+			};
+			buildConfigurationList = EBFBDD4C15F065D3000B9B23 /* Build configuration list for PBXProject "bengkui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBFBDD4715F065D3000B9B23;
+			productRefGroup = EBFBDD5315F065D3000B9B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBFBDD5115F065D3000B9B23 /* bengkui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBFBDD5015F065D3000B9B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFBDD6115F065D3000B9B23 /* InfoPlist.strings in Resources */,
+				EBFBDD6D15F065D3000B9B23 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBFBDD4E15F065D3000B9B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFBDD6315F065D3000B9B23 /* main.m in Sources */,
+				EBFBDD6715F065D3000B9B23 /* AppDelegate.m in Sources */,
+				EBFBDD6A15F065D3000B9B23 /* ViewController.m in Sources */,
+				EBFBDD7515F06679000B9B23 /* UncaughtExceptionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBFBDD5F15F065D3000B9B23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFBDD6015F065D3000B9B23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBFBDD6B15F065D3000B9B23 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFBDD6C15F065D3000B9B23 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBFBDD6E15F065D3000B9B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBFBDD6F15F065D3000B9B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBFBDD7115F065D3000B9B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bengkui/bengkui-Prefix.pch";
+				INFOPLIST_FILE = "bengkui/bengkui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBFBDD7215F065D3000B9B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bengkui/bengkui-Prefix.pch";
+				INFOPLIST_FILE = "bengkui/bengkui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBFBDD4C15F065D3000B9B23 /* Build configuration list for PBXProject "bengkui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFBDD6E15F065D3000B9B23 /* Debug */,
+				EBFBDD6F15F065D3000B9B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFBDD7015F065D3000B9B23 /* Build configuration list for PBXNativeTarget "bengkui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFBDD7115F065D3000B9B23 /* Debug */,
+				EBFBDD7215F065D3000B9B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBFBDD4915F065D3000B9B23 /* Project object */;
+}
