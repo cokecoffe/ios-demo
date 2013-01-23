@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC234CF4154F0F0100E019B1 /* RNSwipeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EC234CF3154F0E8900E019B1 /* RNSwipeBar.m */; };
+		EC234CF5154F0F2B00E019B1 /* RNBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC234CEC154F0D0300E019B1 /* RNBarView.m */; };
+		EC234CF6154F0F3000E019B1 /* RNBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC234CED154F0D0300E019B1 /* RNBarView.xib */; };
+		EC234CF7154F0F3B00E019B1 /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC234CE9154F0D0300E019B1 /* button_bg.png */; };
+		EC234CF8154F0F3B00E019B1 /* button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC234CEA154F0D0300E019B1 /* button_bg@2x.png */; };
+		EC4879261599029500986BFD /* activities.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4879251599029500986BFD /* activities.jpg */; };
+		ECAC94F9154F0C290067B16B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC94F8154F0C290067B16B /* UIKit.framework */; };
+		ECAC94FB154F0C290067B16B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC94FA154F0C290067B16B /* Foundation.framework */; };
+		ECAC94FD154F0C2A0067B16B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC94FC154F0C290067B16B /* CoreGraphics.framework */; };
+		ECAC9503154F0C2A0067B16B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECAC9501154F0C2A0067B16B /* InfoPlist.strings */; };
+		ECAC9505154F0C2A0067B16B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC9504154F0C2A0067B16B /* main.m */; };
+		ECAC9509154F0C2A0067B16B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC9508154F0C2A0067B16B /* AppDelegate.m */; };
+		ECAC950C154F0C2A0067B16B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC950B154F0C2A0067B16B /* ViewController.m */; };
+		ECAC950F154F0C2A0067B16B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECAC950D154F0C2A0067B16B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC234CE9154F0D0300E019B1 /* button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg.png; sourceTree = "<group>"; };
+		EC234CEA154F0D0300E019B1 /* button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_bg@2x.png"; sourceTree = "<group>"; };
+		EC234CEB154F0D0300E019B1 /* RNBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBarView.h; sourceTree = "<group>"; };
+		EC234CEC154F0D0300E019B1 /* RNBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBarView.m; sourceTree = "<group>"; };
+		EC234CED154F0D0300E019B1 /* RNBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RNBarView.xib; sourceTree = "<group>"; };
+		EC234CF2154F0E8900E019B1 /* RNSwipeBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSwipeBar.h; sourceTree = "<group>"; };
+		EC234CF3154F0E8900E019B1 /* RNSwipeBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSwipeBar.m; sourceTree = "<group>"; };
+		EC4879251599029500986BFD /* activities.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = activities.jpg; sourceTree = "<group>"; };
+		ECAC94F4154F0C290067B16B /* RNSwipeBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNSwipeBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAC94F8154F0C290067B16B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECAC94FA154F0C290067B16B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECAC94FC154F0C290067B16B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECAC9500154F0C2A0067B16B /* RNSwipeBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNSwipeBar-Info.plist"; sourceTree = "<group>"; };
+		ECAC9502154F0C2A0067B16B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECAC9504154F0C2A0067B16B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAC9506154F0C2A0067B16B /* RNSwipeBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNSwipeBar-Prefix.pch"; sourceTree = "<group>"; };
+		ECAC9507154F0C2A0067B16B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAC9508154F0C2A0067B16B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAC950A154F0C2A0067B16B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RNSwipeBar/ViewController.h; sourceTree = "<group>"; };
+		ECAC950B154F0C2A0067B16B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RNSwipeBar/ViewController.m; sourceTree = "<group>"; };
+		ECAC950E154F0C2A0067B16B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAC94F1154F0C290067B16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAC94F9154F0C290067B16B /* UIKit.framework in Frameworks */,
+				ECAC94FB154F0C290067B16B /* Foundation.framework in Frameworks */,
+				ECAC94FD154F0C2A0067B16B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC234CF0154F0D3400E019B1 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				EC4879251599029500986BFD /* activities.jpg */,
+				EC234CE9154F0D0300E019B1 /* button_bg.png */,
+				EC234CEA154F0D0300E019B1 /* button_bg@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		EC234CF1154F0D3D00E019B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC234CEB154F0D0300E019B1 /* RNBarView.h */,
+				EC234CEC154F0D0300E019B1 /* RNBarView.m */,
+				EC234CED154F0D0300E019B1 /* RNBarView.xib */,
+				ECAC950A154F0C2A0067B16B /* ViewController.h */,
+				ECAC950B154F0C2A0067B16B /* ViewController.m */,
+				ECAC950D154F0C2A0067B16B /* ViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ECAC94E9154F0C290067B16B = {
+			isa = PBXGroup;
+			children = (
+				EC234CF2154F0E8900E019B1 /* RNSwipeBar.h */,
+				EC234CF3154F0E8900E019B1 /* RNSwipeBar.m */,
+				ECAC94F7154F0C290067B16B /* Frameworks */,
+				EC234CF0154F0D3400E019B1 /* Graphics */,
+				ECAC94FE154F0C2A0067B16B /* System */,
+				EC234CF1154F0D3D00E019B1 /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAC94F5154F0C290067B16B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC94F4154F0C290067B16B /* RNSwipeBar.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ECAC94F7154F0C290067B16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC94F8154F0C290067B16B /* UIKit.framework */,
+				ECAC94FA154F0C290067B16B /* Foundation.framework */,
+				ECAC94FC154F0C290067B16B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAC94FE154F0C2A0067B16B /* System */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC9507154F0C2A0067B16B /* AppDelegate.h */,
+				ECAC9508154F0C2A0067B16B /* AppDelegate.m */,
+				ECAC9500154F0C2A0067B16B /* RNSwipeBar-Info.plist */,
+				ECAC9501154F0C2A0067B16B /* InfoPlist.strings */,
+				ECAC9504154F0C2A0067B16B /* main.m */,
+				ECAC94F5154F0C290067B16B /* Products */,
+				ECAC9506154F0C2A0067B16B /* RNSwipeBar-Prefix.pch */,
+			);
+			name = System;
+			path = RNSwipeBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAC94F3154F0C290067B16B /* RNSwipeBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAC9512154F0C2A0067B16B /* Build configuration list for PBXNativeTarget "RNSwipeBar" */;
+			buildPhases = (
+				ECAC94F0154F0C290067B16B /* Sources */,
+				ECAC94F1154F0C290067B16B /* Frameworks */,
+				ECAC94F2154F0C290067B16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNSwipeBar;
+			productName = RNSwipeBar;
+			productReference = ECAC94F4154F0C290067B16B /* RNSwipeBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAC94EB154F0C290067B16B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Ryan Nystrom";
+			};
+			buildConfigurationList = ECAC94EE154F0C290067B16B /* Build configuration list for PBXProject "RNSwipeBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECAC94E9154F0C290067B16B;
+			productRefGroup = ECAC94F5154F0C290067B16B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAC94F3154F0C290067B16B /* RNSwipeBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAC94F2154F0C290067B16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC234CF7154F0F3B00E019B1 /* button_bg.png in Resources */,
+				EC234CF8154F0F3B00E019B1 /* button_bg@2x.png in Resources */,
+				EC234CF6154F0F3000E019B1 /* RNBarView.xib in Resources */,
+				ECAC9503154F0C2A0067B16B /* InfoPlist.strings in Resources */,
+				ECAC950F154F0C2A0067B16B /* ViewController.xib in Resources */,
+				EC4879261599029500986BFD /* activities.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAC94F0154F0C290067B16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC234CF5154F0F2B00E019B1 /* RNBarView.m in Sources */,
+				EC234CF4154F0F0100E019B1 /* RNSwipeBar.m in Sources */,
+				ECAC9505154F0C2A0067B16B /* main.m in Sources */,
+				ECAC9509154F0C2A0067B16B /* AppDelegate.m in Sources */,
+				ECAC950C154F0C2A0067B16B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECAC9501154F0C2A0067B16B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAC9502154F0C2A0067B16B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECAC950D154F0C2A0067B16B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAC950E154F0C2A0067B16B /* en */,
+			);
+			name = ViewController.xib;
+			path = RNSwipeBar;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAC9510154F0C2A0067B16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECAC9511154F0C2A0067B16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAC9513154F0C2A0067B16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNSwipeBar/RNSwipeBar-Prefix.pch";
+				INFOPLIST_FILE = "RNSwipeBar/RNSwipeBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECAC9514154F0C2A0067B16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNSwipeBar/RNSwipeBar-Prefix.pch";
+				INFOPLIST_FILE = "RNSwipeBar/RNSwipeBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAC94EE154F0C290067B16B /* Build configuration list for PBXProject "RNSwipeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAC9510154F0C2A0067B16B /* Debug */,
+				ECAC9511154F0C2A0067B16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAC9512154F0C2A0067B16B /* Build configuration list for PBXNativeTarget "RNSwipeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAC9513154F0C2A0067B16B /* Debug */,
+				ECAC9514154F0C2A0067B16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAC94EB154F0C290067B16B /* Project object */;
+}
