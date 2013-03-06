@@ -1,4 +1,3 @@
-
 ##数据库相关：
 ######1.SQLite的基本使用：
 一个联系人的Demo，可以存储用户名，地址，电话号码，并提供了查询功能。
@@ -73,6 +72,8 @@ excel转plist
 大小写转换
 ######5.CrashLog
 崩溃日志记录
+######6.appLifeCycle
+app生命周期的应用
 
 [deepcopy]: http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html
 
