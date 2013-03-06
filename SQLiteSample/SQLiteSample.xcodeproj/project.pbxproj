@@ -93,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				A8C2D46B12CAD583009EBC74 /* External Frameworks and Libraries */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -255,6 +255,7 @@
 				GCC_PREFIX_HEADER = SQLiteSample_Prefix.pch;
 				INFOPLIST_FILE = "SQLiteSample-Info.plist";
 				PRODUCT_NAME = SQLiteSample;
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -267,6 +268,7 @@
 				GCC_PREFIX_HEADER = SQLiteSample_Prefix.pch;
 				INFOPLIST_FILE = "SQLiteSample-Info.plist";
 				PRODUCT_NAME = SQLiteSample;
+				SDKROOT = iphoneos6.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
