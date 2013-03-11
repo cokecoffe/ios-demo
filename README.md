@@ -74,6 +74,8 @@ excel转plist
 崩溃日志记录
 ######6.appLifeCycle
 app生命周期的应用
+######7.Dispatch_queue
+分发队列的练习，包括并行、串行队列。分组队列等。from <<ios5 cook book>>
 
 [deepcopy]: http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html
 
