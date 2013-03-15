@@ -11,7 +11,7 @@
 //  1.点击按钮，箭头会移动到按钮上方
 //  2.点击箭头，自旋转180度
 //  3.点击zoom按钮，弹出一个列表视图
-//
+//  4.自定义了一个旋转等待界面，淡入并旋转淡出。
 
 #import "UXViewController.h"
 #import "UIView+Animation.h"

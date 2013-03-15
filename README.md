@@ -43,8 +43,8 @@ Label跑马灯效果
 滚轮的基本使用
 ######18.dynamicSearchView
 一个搜索筛选的例子，可以动态添加或者删除筛选条件，需要筛选的控制器需要实现协议。
-######19.UIView_Animation
-UIView基本动画使用
+######19.UIView_Animation、UIView_Animation2
+UIView基本动画使用\UIView动画的 一些技巧
 
 
 ##Web方面
