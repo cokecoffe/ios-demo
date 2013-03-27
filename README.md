@@ -54,10 +54,14 @@ UIView基本动画使用\UIView动画的 一些技巧
 测试网络链接，获取IP，同步异步下载，身份验证，XML、JSON解析 总结
 ######3.SOAP:
 使用SOAP协议向服务器请求，返回XML，并解析
-######4.WebServiceDemo:
+######4.:WebServiceLocalTimeSoap
+使用WSDL2ObjC转换为oc后soap方式访问webservice。
+######5.WebServiceDemo:
 访问WebService的一个例子,使用了MBProgressHUD ASIHTTPRequest JSON三个库
-######5.XMPP_Demo：
+######6.XMPP_Demo：
 一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]	
+
+
 ##外设
 ######1.CustomCamera
 定制相机视图
