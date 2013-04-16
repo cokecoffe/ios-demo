@@ -47,33 +47,32 @@ iPhone OS 3.2 or later
 	
 	用来展示元素的自定义表格项
 
-**ElementsDataSourceProtocol.h
-ElementsSortedByNameDataSource.h
-ElementsSortedByNameDataSource.m
-ElementsSortedByNumberDataSource.h
-ElementsSortedByNumberDataSource.m
-ElementsSortedBySymbolDataSource.h
-ElementsSortedBySymbolDataSource.m
-ElementsSortedByStateDataSource.h
-ElementsSortedByStateDataSource.m
-**
+**ElementsDataSourceProtocol.h**
+**ElementsSortedByNameDataSource.h**
+**ElementsSortedByNameDataSource.m**
+**ElementsSortedByNumberDataSource.h**
+**ElementsSortedByNumberDataSource.m**
+**ElementsSortedBySymbolDataSource.h**
+**ElementsSortedBySymbolDataSource.m**
+**ElementsSortedByStateDataSource.h**
+**ElementsSortedByStateDataSource.m**
 
 	数据源类为ElementsTableViewController、导航按钮、导航控制器、tableview提供数据供显示。
 	这些数据源类都遵循了UITableViewDataSource协议，并被tableview设置成了数据源对象。
 	这些数据源类也遵循了ElementsDataSource协议，为导航、tab bar等提供显示的数据。
 
-**AtomicElementViewController.h
-AtomicElementViewController.m**
+**AtomicElementViewController.h**
+**AtomicElementViewController.m**
 	
 	当用户点击表格中的某个元素，AtomicElementViewController将被推入导航栈。这个控制器负责显示单独的某个元素。它还负责确定是否有另一个视图提供翻转显示。
 
-**AtomicElementView.h  
-AtomicElementView.m**
+**AtomicElementView.h**
+**AtomicElementView.m**
 
 	在AtomicElementViewController中显示。
 	
-**AtomicElementFlippedView.h
-AtomicElementFlippedView.m**
+**AtomicElementFlippedView.h**
+**AtomicElementFlippedView.m**
 	
 	在AtomicElementViewController中的旋转视图。   
 	     
