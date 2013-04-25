@@ -1,0 +1,7 @@
+build
+*.userdatad/
+xcuserdata/
+
+.DS_Store
+.idea
+*.swp
