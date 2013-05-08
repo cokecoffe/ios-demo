@@ -67,6 +67,9 @@ UIView基本动画使用\UIView动画的 一些技巧
 定制相机视图
 ######2.CameraWithAVFoudation
 使用AVFoundation库实现的相机
+######3.GPSDemo
+GPS定位解析地址,兼容IOS456
+
 
 ##Other
 ######1.KVO_TestDemo
