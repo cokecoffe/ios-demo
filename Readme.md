@@ -45,7 +45,8 @@ Label跑马灯效果
 一个搜索筛选的例子，可以动态添加或者删除筛选条件，需要筛选的控制器需要实现协议。
 ######19.UIView_Animation、UIView_Animation2
 UIView基本动画使用\UIView动画的 一些技巧
-
+######20.tableviewHeadView
+滑动表格可以隐藏或消失表格上面的一个视图，比如搜索框。
 
 ##Web方面
 ######1.HTTP:
