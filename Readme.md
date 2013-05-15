@@ -59,8 +59,9 @@ UIView基本动画使用\UIView动画的 一些技巧
 ######5.WebServiceDemo:
 访问WebService的一个例子,使用了MBProgressHUD ASIHTTPRequest JSON三个库
 ######6.XMPP_Demo：
-一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]	
-
+一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]
+######7.WSDL2ObjC_example
+webservice访问的例子，使用wsdl2objec解析wsdl
 
 ##外设
 ######1.CustomCamera
