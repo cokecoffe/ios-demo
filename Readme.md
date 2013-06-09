@@ -45,7 +45,8 @@ Label跑马灯效果
 一个搜索筛选的例子，可以动态添加或者删除筛选条件，需要筛选的控制器需要实现协议。
 ######19.UIView_Animation、UIView_Animation2
 UIView基本动画使用\UIView动画的 一些技巧
-
+######20.tableviewHeadView
+滑动表格可以隐藏或消失表格上面的一个视图，比如搜索框。
 
 ##Web方面
 ######1.HTTP:
@@ -59,14 +60,18 @@ UIView基本动画使用\UIView动画的 一些技巧
 ######5.WebServiceDemo:
 访问WebService的一个例子,使用了MBProgressHUD ASIHTTPRequest JSON三个库
 ######6.XMPP_Demo：
-一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]	
-
+一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]
+######7.WSDL2ObjC_example
+webservice访问的例子，使用wsdl2objec解析wsdl
 
 ##外设
 ######1.CustomCamera
 定制相机视图
 ######2.CameraWithAVFoudation
 使用AVFoundation库实现的相机
+######3.GPSDemo
+GPS定位解析地址,兼容IOS456
+
 
 ##Other
 ######1.KVO_TestDemo
