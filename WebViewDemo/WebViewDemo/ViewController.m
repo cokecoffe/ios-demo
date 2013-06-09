@@ -65,7 +65,9 @@
     
     self.webView.delegate=self;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"html"];
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath: path]]];
+//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath: path]]];
+    //http://www.youku.com/
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.youku.com/"]]];
 }
 
 - (void)viewDidUnload
