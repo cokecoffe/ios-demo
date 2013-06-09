@@ -1,7 +1,7 @@
 /*
      File: AppDelegate.h
  Abstract: The application delegate class used for installing our navigation controller.
-  Version: 2.10
+  Version: 2.11
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,20 +41,15 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2011 Apple Inc. All Rights Reserved.
+ Copyright (C) 2013 Apple Inc. All Rights Reserved.
  
  */
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : NSObject <UIApplicationDelegate>
-{
-    UIWindow *window;
-	UINavigationController *navigationController;
-}
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, strong) UIWindow *window;
 
 @end
 

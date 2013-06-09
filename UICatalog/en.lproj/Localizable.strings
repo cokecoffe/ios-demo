@@ -8,7 +8,7 @@
 "SearchBarExplain" = "Use of UISearchBar";
 "TextViewTitle" = "TextView";
 "TextViewExplain" = "Use of UITextField";
-"SegmentTitle" = "Segment";
+"SegmentTitle" = "Segments";
 "SegmentExplain" = "Various uses of UISegmentedControl";
 "ToolbarTitle" = "Toolbar";
 "ToolbarExplain" = "Uses of UIToolbar";
@@ -34,6 +34,7 @@
 
 "LeftView" = "Left View:";
 
+"AttrTextButton" = "Custom Text";
 "ArrowButton" = "Right pointing arrow";
 "MoreInfoButton" = "More info";
 "AddContactButton" = "Add contact";
@@ -51,3 +52,14 @@
 "TintSwitch" = "Tinted";
 "ImageSwitch" = "Image";
 
+"UIAlertViewTitle" = "UIAlertView";
+"UIAlertViewMessage" = "Enter a password:";
+"UIAlertViewMessageGeneric" = "<Alert message>";
+
+"UIActionSheetTitle" = "UIActionSheet <title>";
+
+"CancelButtonTitle" = "Cancel";
+"OKButtonTitle" = "OK";
+
+"ButtonTitle1" = "Button1";
+"ButtonTitle2" = "Button2";

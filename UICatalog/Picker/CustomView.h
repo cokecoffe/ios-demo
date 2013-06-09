@@ -1,7 +1,7 @@
 /*
      File: CustomView.h
  Abstract: The custom view holding the image and title for the custom picker.
-  Version: 2.10
+  Version: 2.11
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,20 +41,15 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2011 Apple Inc. All Rights Reserved.
+ Copyright (C) 2013 Apple Inc. All Rights Reserved.
  
  */
 
 #import <UIKit/UIKit.h>
 
 @interface CustomView : UIView
-{
-	NSString *title;
-	UIImage *image;
-}
 
-@property (nonatomic, retain) NSString *title;
-@property (nonatomic, retain) UIImage *image;
+- (id)initWithTitle:(NSString *)title image:(UIImage *)image;
 
 + (CGFloat)viewWidth;
 + (CGFloat)viewHeight;

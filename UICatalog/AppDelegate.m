@@ -1,7 +1,7 @@
 /*
      File: AppDelegate.m 
  Abstract: The application delegate class used for installing our navigation controller. 
-  Version: 2.10 
+  Version: 2.11 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2011 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2013 Apple Inc. All Rights Reserved. 
   
  */
 
@@ -66,9 +66,11 @@
 //		<true/>
 //
 
-@implementation AppDelegate
+@interface AppDelegate ()
+@property (nonatomic, strong) IBOutlet UINavigationController *navigationController;
+@end
 
-@synthesize window, navigationController;
+@implementation AppDelegate
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
 {
@@ -84,16 +86,11 @@
 	// if you see "red", you are looking at the bare window, otherwise use black
 	// window.backgroundColor = [UIColor redColor];
 	
-	// add the navigation controller's view to the window
-	[window addSubview: navigationController.view];
-	[window makeKeyAndVisible];
-}
+	// add the navigation controller's view to the window as the root view controller
+	_window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
 
-- (void)dealloc
-{
-	[navigationController release];
-    [window release];    
-    [super dealloc];
+	[self.window makeKeyAndVisible];
 }
 
 @end

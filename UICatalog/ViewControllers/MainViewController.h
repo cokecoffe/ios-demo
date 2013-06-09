@@ -1,6 +1,7 @@
 /*
-     File: Constants.h
- Abstract: Common constants across source files (screen coordinate consts, etc.)
+     File: MainViewController.h
+ Abstract: The application's main view controller (front page).
+ 
   Version: 2.11
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -45,14 +46,8 @@
  
  */
 
-// these are the various screen placement constants used across most the UIViewControllers
- 
-// padding for margins
+#import <UIKit/UIKit.h>
 
-// for general screen
-#define kLeftMargin				20.0
-#define kTopMargin				20.0
-#define kRightMargin			20.0
-#define kTweenMargin			6.0
+@interface MainViewController : UITableViewController
 
-#define kTextFieldHeight		30.0
+@end

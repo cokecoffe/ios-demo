@@ -1,6 +1,6 @@
 /*
-     File: CustomView.m 
- Abstract: The custom view holding the image and title for the custom picker. 
+     File: ImagesViewController.m 
+ Abstract: The view controller for hosting the UIImageView containing multiple images. 
   Version: 2.11 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
@@ -45,67 +45,77 @@
   
  */
 
-#import "CustomView.h"
+#import "ImagesViewController.h"
+#import "Constants.h"
 
-@interface CustomView ()
-@property (nonatomic, strong) UILabel *titleLabel;
-@end
+#define kMinDuration 0.0
+#define kMaxDuration 10.0
 
-@implementation CustomView
+@interface ImagesViewController ()
 
-const CGFloat kViewWidth = 200;
-const CGFloat kViewHeight = 44;
-const CGFloat kLabelHeight = 20;
-const CGFloat kMarginSize = 10;
-
-+ (CGFloat)viewWidth
-{
-    return kViewWidth;
-}
-
-+ (CGFloat)viewHeight 
-{
-    return kViewHeight;
-}
-
-- (id)initWithTitle:(NSString *)title image:(UIImage *)image
-{
-    self = [super initWithFrame:CGRectMake(0.0, 0.0, kViewWidth, kViewHeight)];
-	if (self)
-	{
-		CGFloat yCoord = (self.bounds.size.height - kLabelHeight) / 2;
-        
-        _titleLabel = [[UILabel alloc] initWithFrame:
-                                    CGRectMake( kMarginSize + image.size.width + kMarginSize,
-                                                yCoord,
-                                                CGRectGetWidth(self.frame) - kMarginSize + image.size.width + kMarginSize,
-                                                kLabelHeight)];
-        self.titleLabel.text = title;
-        self.titleLabel.backgroundColor = [UIColor clearColor];
-        [self addSubview:self.titleLabel];
-        
-        yCoord = (self.bounds.size.height - image.size.height) / 2;
-        UIImageView *imageView = [[UIImageView alloc] initWithFrame:
-                                    CGRectMake(kMarginSize,
-                                               yCoord,
-                                               image.size.width,
-                                               image.size.height)];
-        imageView.image = image;
-        [self addSubview:imageView];
-	}
-	return self;
-}
-
-// Enable accessibility for this view.
-- (BOOL)isAccessibilityElement
-{
-	return YES;
-}
-
-// Return a string that describes this view.
-- (NSString *)accessibilityLabel
-{
-	return self.titleLabel.text;
-}
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
+@property (nonatomic, strong) IBOutlet UISlider *slider;
 
 @end
+
+
+#pragma mark -
+
+@implementation ImagesViewController
+
+- (void)viewDidLoad
+{	
+	[super viewDidLoad];
+	
+	self.title = NSLocalizedString(@"ImagesTitle", @"");
+	
+	// set up our UIImage with a group or array of images to animate (or in our case a slideshow)
+	self.imageView.animationImages = @[
+										[UIImage imageNamed:@"scene1.jpg"],
+										[UIImage imageNamed:@"scene2.jpg"],
+										[UIImage imageNamed:@"scene3.jpg"],
+										[UIImage imageNamed:@"scene4.jpg"],
+										[UIImage imageNamed:@"scene5.jpg"]
+									  ];
+	self.imageView.animationDuration = 5.0;
+	[self.imageView stopAnimating];
+	
+	// Set the appropriate accessibility labels.
+	[self.imageView setIsAccessibilityElement:YES];
+	[self.imageView setAccessibilityLabel:self.title];
+	[self.slider setAccessibilityLabel:NSLocalizedString(@"DurationSlider", @"")];
+}
+
+// slown down or speed up the slide show as the slider is moved
+- (IBAction)sliderAction:(id)sender
+{
+	UISlider *durationSlider = sender;
+	self.imageView.animationDuration = [durationSlider value];
+	if (!self.imageView.isAnimating)
+		[self.imageView startAnimating];
+}
+
+
+#pragma mark - UIViewController delegate methods
+
+// called after this controller's view was dismissed, covered or otherwise hidden
+- (void)viewWillDisappear:(BOOL)animated
+{	
+	[super viewWillDisappear:animated];
+    
+    [self.imageView stopAnimating];
+}
+
+// called after this controller's view will appear
+- (void)viewWillAppear:(BOOL)animated
+{	
+	[super viewWillAppear:animated];
+    
+    [self.imageView startAnimating];
+	
+	// for aesthetic reasons (the background is black), make the nav bar black for this particular page
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+}
+
+@end
+
