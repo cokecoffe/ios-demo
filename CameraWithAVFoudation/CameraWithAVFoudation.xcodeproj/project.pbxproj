@@ -14,13 +14,13 @@
 		2B56100C15B2BD3200CD73D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56100B15B2BD3200CD73D6 /* main.m */; };
 		2B56101015B2BD3300CD73D6 /* WKKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */; };
 		2B56101315B2BD3300CD73D6 /* WKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56101215B2BD3300CD73D6 /* WKKViewController.m */; };
-		2B92C8D715B2C15800F17F46 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B92C8D515B2BFBB00F17F46 /* CameraImageHelper.m */; };
 		2B92C8D915B2C38F00F17F46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8D815B2C38F00F17F46 /* AVFoundation.framework */; };
 		2B92C8DB15B2C39700F17F46 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DA15B2C39700F17F46 /* CoreVideo.framework */; };
 		2B92C8DD15B2C39F00F17F46 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DC15B2C39F00F17F46 /* CoreMedia.framework */; };
 		2B92C8DF15B2C3BA00F17F46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B92C8DE15B2C3BA00F17F46 /* QuartzCore.framework */; };
 		2BF71F4515B459260080FC27 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF71F4415B459260080FC27 /* WKKViewController.xib */; };
 		2BF71F4715B468F40080FC27 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF71F4615B468F40080FC27 /* ImageIO.framework */; };
+		2BF7C96F17BBBC1D0059398E /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7C96E17BBBC1D0059398E /* CameraImageHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,14 +36,14 @@
 		2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKKAppDelegate.m; sourceTree = "<group>"; };
 		2B56101115B2BD3300CD73D6 /* WKKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKKViewController.h; sourceTree = "<group>"; };
 		2B56101215B2BD3300CD73D6 /* WKKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKKViewController.m; sourceTree = "<group>"; };
-		2B92C8D415B2BFBB00F17F46 /* CameraImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
-		2B92C8D515B2BFBB00F17F46 /* CameraImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
 		2B92C8D815B2C38F00F17F46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2B92C8DA15B2C39700F17F46 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		2B92C8DC15B2C39F00F17F46 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		2B92C8DE15B2C3BA00F17F46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2BF71F4415B459260080FC27 /* WKKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKKViewController.xib; sourceTree = "<group>"; };
 		2BF71F4615B468F40080FC27 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2BF7C96D17BBBC1D0059398E /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		2BF7C96E17BBBC1D0059398E /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,6 @@
 		2B560FF015B2BD3200CD73D6 = {
 			isa = PBXGroup;
 			children = (
-				2BF71F4615B468F40080FC27 /* ImageIO.framework */,
 				2B56100515B2BD3200CD73D6 /* CameraWithAVFoudation */,
 				2B560FFE15B2BD3200CD73D6 /* Frameworks */,
 				2B560FFC15B2BD3200CD73D6 /* Products */,
@@ -86,6 +85,7 @@
 		2B560FFE15B2BD3200CD73D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BF71F4615B468F40080FC27 /* ImageIO.framework */,
 				2B92C8DE15B2C3BA00F17F46 /* QuartzCore.framework */,
 				2B92C8DC15B2C39F00F17F46 /* CoreMedia.framework */,
 				2B92C8DA15B2C39700F17F46 /* CoreVideo.framework */,
@@ -100,10 +100,10 @@
 		2B56100515B2BD3200CD73D6 /* CameraWithAVFoudation */ = {
 			isa = PBXGroup;
 			children = (
-				2B92C8D415B2BFBB00F17F46 /* CameraImageHelper.h */,
-				2B92C8D515B2BFBB00F17F46 /* CameraImageHelper.m */,
 				2B56100E15B2BD3200CD73D6 /* WKKAppDelegate.h */,
 				2B56100F15B2BD3300CD73D6 /* WKKAppDelegate.m */,
+				2BF7C96D17BBBC1D0059398E /* CameraImageHelper.h */,
+				2BF7C96E17BBBC1D0059398E /* CameraImageHelper.m */,
 				2B56101115B2BD3300CD73D6 /* WKKViewController.h */,
 				2B56101215B2BD3300CD73D6 /* WKKViewController.m */,
 				2BF71F4415B459260080FC27 /* WKKViewController.xib */,
@@ -186,10 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B92C8D715B2C15800F17F46 /* CameraImageHelper.m in Sources */,
 				2B56100C15B2BD3200CD73D6 /* main.m in Sources */,
 				2B56101015B2BD3300CD73D6 /* WKKAppDelegate.m in Sources */,
 				2B56101315B2BD3300CD73D6 /* WKKViewController.m in Sources */,
+				2BF7C96F17BBBC1D0059398E /* CameraImageHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +212,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yang lee (66F32DZVUE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yang lee (66F32DZVUE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,6 +228,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "6361D7E3-DB20-4CF5-8978-A41AF7BAC595";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6361D7E3-DB20-4CF5-8978-A41AF7BAC595";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -237,6 +240,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yang lee (66F32DZVUE)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -246,6 +250,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6361D7E3-DB20-4CF5-8978-A41AF7BAC595";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -255,10 +260,12 @@
 		2B56101A15B2BD3300CD73D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraWithAVFoudation/CameraWithAVFoudation-Prefix.pch";
 				INFOPLIST_FILE = "CameraWithAVFoudation/CameraWithAVFoudation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,10 +273,12 @@
 		2B56101B15B2BD3300CD73D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraWithAVFoudation/CameraWithAVFoudation-Prefix.pch";
 				INFOPLIST_FILE = "CameraWithAVFoudation/CameraWithAVFoudation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

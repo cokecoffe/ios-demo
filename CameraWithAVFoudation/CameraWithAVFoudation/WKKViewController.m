@@ -10,7 +10,7 @@
 #import "CameraImageHelper.h"
 
 @interface WKKViewController ()
-
+@property(retain,nonatomic) CameraImageHelper *CameraHelper;
 @end
 
 @implementation WKKViewController
@@ -23,18 +23,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
   
+    _CameraHelper = [[CameraImageHelper alloc]init];
+    
     // 开始实时取景
-    [CameraImageHelper startRunning];
-    //self.RealView = [CameraImageHelper previewWithBounds:CGRectMake(0.0, 0.0, 329, 219)];
-    [CameraImageHelper embedPreviewInView:self.liveView];
-//    [self.liveView setTransform:CGAffineTransformMakeScale(0.8, 0.8 )];
+    [_CameraHelper startRunning];
+    [_CameraHelper embedPreviewInView:self.liveView];
+
+    [_CameraHelper changePreviewOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
+    
     [self.view addSubview:self.RealView];
-    
-    
-    
-    UIButton *bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    bt.frame = CGRectMake(0.0, 0.0, 20.0, 20.0);
-    [self.liveView addSubview:bt];
 }
 
 - (void)viewDidUnload
@@ -47,19 +44,9 @@
     // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
-   // return UIInterfaceOrientationIsLandscape(interfaceOrientation);
-    
-    if (UIInterfaceOrientationIsLandscape(interfaceOrientation)==YES)
-    {
-        [CameraImageHelper changePreviewOrientation:(UIInterfaceOrientation)interfaceOrientation];
-        return YES;
-    }
-    else 
-    {
-        return NO;
-    }
+    [_CameraHelper changePreviewOrientation:(UIInterfaceOrientation)toInterfaceOrientation];
 }
 
 - (void)dealloc {
@@ -71,12 +58,12 @@
 
 -(void)getImage
 {
-    self.Preview.image = [CameraImageHelper image];
+    self.Preview.image = [_CameraHelper image];
     NSLog(@"%f,%f",self.Preview.image.size.height,self.Preview.image.size.width);
 }
 
 - (IBAction)snapPressed:(id)sender {
-    [CameraImageHelper CaptureStillImage];
+    [_CameraHelper CaptureStillImage];
     [self performSelector:@selector(getImage) withObject:nil afterDelay:0.5];
 }
 
