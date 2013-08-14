@@ -1,7 +1,7 @@
 /*
      File: CustomView.m 
  Abstract: The custom view holding the image and title for the custom picker. 
-  Version: 2.10 
+  Version: 2.11 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -41,21 +41,22 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2011 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2013 Apple Inc. All Rights Reserved. 
   
  */
 
 #import "CustomView.h"
 
-#define MAIN_FONT_SIZE 18
-#define MIN_MAIN_FONT_SIZE 16
+@interface CustomView ()
+@property (nonatomic, strong) UILabel *titleLabel;
+@end
 
 @implementation CustomView
 
-@synthesize title, image;
-
 const CGFloat kViewWidth = 200;
 const CGFloat kViewHeight = 44;
+const CGFloat kLabelHeight = 20;
+const CGFloat kMarginSize = 10;
 
 + (CGFloat)viewWidth
 {
@@ -67,33 +68,32 @@ const CGFloat kViewHeight = 44;
     return kViewHeight;
 }
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithTitle:(NSString *)title image:(UIImage *)image
 {
-	// use predetermined frame size
-	self = [super initWithFrame:CGRectMake(0.0, 0.0, kViewWidth, kViewHeight)];
+    self = [super initWithFrame:CGRectMake(0.0, 0.0, kViewWidth, kViewHeight)];
 	if (self)
 	{
-		self.backgroundColor = [UIColor clearColor];	// make the background transparent
+		CGFloat yCoord = (self.bounds.size.height - kLabelHeight) / 2;
+        
+        _titleLabel = [[UILabel alloc] initWithFrame:
+                                    CGRectMake( kMarginSize + image.size.width + kMarginSize,
+                                                yCoord,
+                                                CGRectGetWidth(self.frame) - kMarginSize + image.size.width + kMarginSize,
+                                                kLabelHeight)];
+        self.titleLabel.text = title;
+        self.titleLabel.backgroundColor = [UIColor clearColor];
+        [self addSubview:self.titleLabel];
+        
+        yCoord = (self.bounds.size.height - image.size.height) / 2;
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:
+                                    CGRectMake(kMarginSize,
+                                               yCoord,
+                                               image.size.width,
+                                               image.size.height)];
+        imageView.image = image;
+        [self addSubview:imageView];
 	}
 	return self;
-}
-
-- (void)drawRect:(CGRect)rect
-{
-	// draw the image and title using their draw methods
-	CGFloat yCoord = (self.bounds.size.height - self.image.size.height) / 2;
-	CGPoint point = CGPointMake(10.0, yCoord);
-	[self.image drawAtPoint:point];
-	
-	yCoord = (self.bounds.size.height - MAIN_FONT_SIZE) / 2;
-	point = CGPointMake(10.0 + self.image.size.width + 10.0, yCoord);
-	[self.title drawAtPoint:point
-					forWidth:self.bounds.size.width
-					withFont:[UIFont systemFontOfSize:MAIN_FONT_SIZE]
-					minFontSize:MIN_MAIN_FONT_SIZE
-					actualFontSize:NULL
-					lineBreakMode:UILineBreakModeTailTruncation
-					baselineAdjustment:UIBaselineAdjustmentAlignBaselines];
 }
 
 // Enable accessibility for this view.
@@ -105,15 +105,7 @@ const CGFloat kViewHeight = 44;
 // Return a string that describes this view.
 - (NSString *)accessibilityLabel
 {
-	return self.title;
-}
-
-- (void)dealloc
-{
-	[title release];
-	[image release];
-	
-	[super dealloc];
+	return self.titleLabel.text;
 }
 
 @end

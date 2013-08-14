@@ -1,7 +1,7 @@
 /*
      File: CustomPickerDataSource.m 
  Abstract: The data source for the Custom Picker that displays text and images. 
-  Version: 2.10 
+  Version: 2.11 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE 
  POSSIBILITY OF SUCH DAMAGE. 
   
- Copyright (C) 2011 Apple Inc. All Rights Reserved. 
+ Copyright (C) 2013 Apple Inc. All Rights Reserved. 
   
  */
 
@@ -61,45 +61,29 @@
 		// create the data source for this custom picker
 		NSMutableArray *viewArray = [[NSMutableArray alloc] init];
 
-		CustomView *earlyMorningView = [[CustomView alloc] initWithFrame:CGRectZero];
-		earlyMorningView.title = @"Early Morning";
-		earlyMorningView.image = [UIImage imageNamed:@"12-6AM.png"];
+        CustomView *earlyMorningView = [[CustomView alloc] initWithTitle:@"Early Morning"
+                                                                   image:[UIImage imageNamed:@"12-6AM.png"]];
 		[viewArray addObject:earlyMorningView];
-		[earlyMorningView release];
 
-		CustomView *lateMorningView = [[CustomView alloc] initWithFrame:CGRectZero];
-		lateMorningView.title = @"Late Morning";
-		lateMorningView.image = [UIImage imageNamed:@"6-12AM.png"];
+		CustomView *lateMorningView = [[CustomView alloc] initWithTitle:@"Late Morning"
+                                                                   image:[UIImage imageNamed:@"6-12AM.png"]];
 		[viewArray addObject:lateMorningView];
-		[lateMorningView release];
 
-		CustomView *afternoonView = [[CustomView alloc] initWithFrame:CGRectZero];
-		afternoonView.title = @"Afternoon";
-		afternoonView.image = [UIImage imageNamed:@"12-6PM.png"];
+		CustomView *afternoonView = [[CustomView alloc] initWithTitle:@"Afternoon"
+                                                                  image:[UIImage imageNamed:@"12-6PM.png"]];
 		[viewArray addObject:afternoonView];
-		[afternoonView release];
 
-		CustomView *eveningView = [[CustomView alloc] initWithFrame:CGRectZero];
-		eveningView.title = @"Evening";
-		eveningView.image = [UIImage imageNamed:@"6-12PM.png"];
+		CustomView *eveningView = [[CustomView alloc] initWithTitle:@"Evening"
+                                                              image:[UIImage imageNamed:@"6-12PM.png"]];
 		[viewArray addObject:eveningView];
-		[eveningView release];
 
 		self.customPickerArray = viewArray;
-		[viewArray release];
 	}
 	return self;
 }
 
-- (void)dealloc
-{
-	[customPickerArray release];
-	[super dealloc];
-}
 
-
-#pragma mark -
-#pragma mark UIPickerViewDataSource
+#pragma mark - UIPickerViewDataSource
 
 - (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
 {
@@ -122,8 +106,7 @@
 }
 
 
-#pragma mark -
-#pragma mark UIPickerViewDelegate
+#pragma mark - UIPickerViewDelegate
 
 // tell the picker which view to use for a given component and row, we have an array of views to show
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row

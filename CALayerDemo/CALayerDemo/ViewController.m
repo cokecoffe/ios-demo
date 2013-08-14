@@ -19,7 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    //更改背景为橘黄色、圆角、并有20像素的边缘
     self.view.layer.backgroundColor = [UIColor orangeColor].CGColor;
     self.view.layer.cornerRadius = 20.0;
     self.view.layer.frame = CGRectInset(self.view.layer.frame, 20, 20);
@@ -33,7 +34,7 @@
     sublayer.frame = CGRectMake(30, 30, 128, 192);
     sublayer.borderColor = [UIColor blackColor].CGColor;
     sublayer.borderWidth = 2.0;
-    sublayer.cornerRadius = 10.0;
+//    sublayer.cornerRadius = 10.0;
     [self.view.layer addSublayer:sublayer];
     
     
@@ -45,20 +46,20 @@
     [sublayer addSublayer:imageLayer];
     
     
-    CALayer *customDrawn = [CALayer layer];
-    customDrawn.delegate = self;
-    customDrawn.backgroundColor = [UIColor greenColor].CGColor;
-    customDrawn.frame = CGRectMake(30, 250, 128, 40);
-    customDrawn.shadowOffset = CGSizeMake(0, 3);
-    customDrawn.shadowRadius = 5.0;
-    customDrawn.shadowColor = [UIColor blackColor].CGColor;
-    customDrawn.shadowOpacity = 0.8;
-    customDrawn.cornerRadius = 10.0;
-    customDrawn.borderColor = [UIColor blackColor].CGColor;
-    customDrawn.borderWidth = 2.0;
-    customDrawn.masksToBounds = YES;
-    [self.view.layer addSublayer:customDrawn];
-    [customDrawn setNeedsDisplay];
+//    CALayer *customDrawn = [CALayer layer];
+//    customDrawn.delegate = self;
+//    customDrawn.backgroundColor = [UIColor greenColor].CGColor;
+//    customDrawn.frame = CGRectMake(30, 250, 128, 40);
+//    customDrawn.shadowOffset = CGSizeMake(0, 3);
+//    customDrawn.shadowRadius = 5.0;
+//    customDrawn.shadowColor = [UIColor blackColor].CGColor;
+//    customDrawn.shadowOpacity = 0.8;
+//    customDrawn.cornerRadius = 10.0;
+//    customDrawn.borderColor = [UIColor blackColor].CGColor;
+//    customDrawn.borderWidth = 2.0;
+//    customDrawn.masksToBounds = YES;
+//    [self.view.layer addSublayer:customDrawn];
+//    [customDrawn setNeedsDisplay];
 }
 
 void MyDrawColoredPattern (void *info, CGContextRef context) {

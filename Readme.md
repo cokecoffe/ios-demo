@@ -43,6 +43,10 @@ Label跑马灯效果
 滚轮的基本使用
 ######18.dynamicSearchView
 一个搜索筛选的例子，可以动态添加或者删除筛选条件，需要筛选的控制器需要实现协议。
+######19.UIView_Animation、UIView_Animation2
+UIView基本动画使用\UIView动画的 一些技巧
+######20.tableviewHeadView
+滑动表格可以隐藏或消失表格上面的一个视图，比如搜索框。
 
 ##Web方面
 ######1.HTTP:
@@ -51,15 +55,23 @@ Label跑马灯效果
 测试网络链接，获取IP，同步异步下载，身份验证，XML、JSON解析 总结
 ######3.SOAP:
 使用SOAP协议向服务器请求，返回XML，并解析
-######4.WebServiceDemo:
+######4.:WebServiceLocalTimeSoap
+使用WSDL2ObjC转换为oc后soap方式访问webservice。
+######5.WebServiceDemo:
 访问WebService的一个例子,使用了MBProgressHUD ASIHTTPRequest JSON三个库
-######5.XMPP_Demo：
-一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]	
+######6.XMPP_Demo：
+一个使用XMPP的简单的例子，能显示好友列表，发送接受消息。[我的博客][xmpp]
+######7.WSDL2ObjC_example
+webservice访问的例子，使用wsdl2objec解析wsdl
+
 ##外设
 ######1.CustomCamera
 定制相机视图
 ######2.CameraWithAVFoudation
 使用AVFoundation库实现的相机
+######3.GPSDemo
+GPS定位解析地址,兼容IOS456
+
 
 ##Other
 ######1.KVO_TestDemo
@@ -76,6 +88,9 @@ excel转plist
 app生命周期的应用
 ######7.Dispatch_queue
 分发队列的练习，包括并行、串行队列。分组队列等。from <<ios5 cook book>>
+######8.TheElements
+苹果的元素周期表的demo，很好的展示了mvc的使用
+
 
 [deepcopy]: http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html
 
@@ -84,5 +99,4 @@ app生命周期的应用
 [uiviewAnimal]:http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html
 
 [xmpp]: http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1
-
 
