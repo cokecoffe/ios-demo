@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844DA83216DE073100932427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA83116DE073100932427 /* UIKit.framework */; };
+		844DA83416DE073100932427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA83316DE073100932427 /* Foundation.framework */; };
+		844DA83616DE073100932427 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA83516DE073100932427 /* CoreGraphics.framework */; };
+		844DA83C16DE073100932427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844DA83A16DE073100932427 /* InfoPlist.strings */; };
+		844DA83E16DE073100932427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DA83D16DE073100932427 /* main.m */; };
+		844DA84216DE073100932427 /* CapturePauseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DA84116DE073100932427 /* CapturePauseAppDelegate.m */; };
+		844DA84416DE073100932427 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 844DA84316DE073100932427 /* Default.png */; };
+		844DA84616DE073100932427 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844DA84516DE073100932427 /* Default@2x.png */; };
+		844DA84816DE073100932427 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844DA84716DE073100932427 /* Default-568h@2x.png */; };
+		844DA84B16DE073100932427 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844DA84916DE073100932427 /* MainStoryboard.storyboard */; };
+		844DA84E16DE073100932427 /* CapturePauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DA84D16DE073100932427 /* CapturePauseViewController.m */; };
+		844DA85516DE077400932427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA85416DE077400932427 /* AVFoundation.framework */; };
+		844DA85716DE077D00932427 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA85616DE077D00932427 /* CoreMedia.framework */; };
+		844DA85916DE078300932427 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA85816DE078300932427 /* CoreVideo.framework */; };
+		844DA85E16DE08F800932427 /* CameraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DA85B16DE08F800932427 /* CameraEngine.m */; };
+		844DA85F16DE08F800932427 /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DA85D16DE08F800932427 /* VideoEncoder.m */; };
+		844DA86116DE1E7C00932427 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844DA86016DE1E7C00932427 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844DA82E16DE073100932427 /* CapturePause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapturePause.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844DA83116DE073100932427 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		844DA83316DE073100932427 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		844DA83516DE073100932427 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		844DA83916DE073100932427 /* CapturePause-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapturePause-Info.plist"; sourceTree = "<group>"; };
+		844DA83B16DE073100932427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		844DA83D16DE073100932427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844DA83F16DE073100932427 /* CapturePause-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapturePause-Prefix.pch"; sourceTree = "<group>"; };
+		844DA84016DE073100932427 /* CapturePauseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapturePauseAppDelegate.h; sourceTree = "<group>"; };
+		844DA84116DE073100932427 /* CapturePauseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapturePauseAppDelegate.m; sourceTree = "<group>"; };
+		844DA84316DE073100932427 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		844DA84516DE073100932427 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		844DA84716DE073100932427 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		844DA84A16DE073100932427 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		844DA84C16DE073100932427 /* CapturePauseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapturePauseViewController.h; sourceTree = "<group>"; };
+		844DA84D16DE073100932427 /* CapturePauseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapturePauseViewController.m; sourceTree = "<group>"; };
+		844DA85416DE077400932427 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		844DA85616DE077D00932427 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		844DA85816DE078300932427 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		844DA85A16DE08F800932427 /* CameraEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraEngine.h; sourceTree = "<group>"; };
+		844DA85B16DE08F800932427 /* CameraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraEngine.m; sourceTree = "<group>"; };
+		844DA85C16DE08F800932427 /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		844DA85D16DE08F800932427 /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		844DA86016DE1E7C00932427 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844DA82B16DE073100932427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DA86116DE1E7C00932427 /* AssetsLibrary.framework in Frameworks */,
+				844DA85916DE078300932427 /* CoreVideo.framework in Frameworks */,
+				844DA85716DE077D00932427 /* CoreMedia.framework in Frameworks */,
+				844DA85516DE077400932427 /* AVFoundation.framework in Frameworks */,
+				844DA83216DE073100932427 /* UIKit.framework in Frameworks */,
+				844DA83416DE073100932427 /* Foundation.framework in Frameworks */,
+				844DA83616DE073100932427 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844DA82516DE073100932427 = {
+			isa = PBXGroup;
+			children = (
+				844DA86016DE1E7C00932427 /* AssetsLibrary.framework */,
+				844DA85816DE078300932427 /* CoreVideo.framework */,
+				844DA85616DE077D00932427 /* CoreMedia.framework */,
+				844DA85416DE077400932427 /* AVFoundation.framework */,
+				844DA83716DE073100932427 /* CapturePause */,
+				844DA83016DE073100932427 /* Frameworks */,
+				844DA82F16DE073100932427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844DA82F16DE073100932427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844DA82E16DE073100932427 /* CapturePause.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844DA83016DE073100932427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844DA83116DE073100932427 /* UIKit.framework */,
+				844DA83316DE073100932427 /* Foundation.framework */,
+				844DA83516DE073100932427 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844DA83716DE073100932427 /* CapturePause */ = {
+			isa = PBXGroup;
+			children = (
+				844DA84016DE073100932427 /* CapturePauseAppDelegate.h */,
+				844DA84116DE073100932427 /* CapturePauseAppDelegate.m */,
+				844DA85A16DE08F800932427 /* CameraEngine.h */,
+				844DA85B16DE08F800932427 /* CameraEngine.m */,
+				844DA85C16DE08F800932427 /* VideoEncoder.h */,
+				844DA85D16DE08F800932427 /* VideoEncoder.m */,
+				844DA84916DE073100932427 /* MainStoryboard.storyboard */,
+				844DA84C16DE073100932427 /* CapturePauseViewController.h */,
+				844DA84D16DE073100932427 /* CapturePauseViewController.m */,
+				844DA83816DE073100932427 /* Supporting Files */,
+			);
+			path = CapturePause;
+			sourceTree = "<group>";
+		};
+		844DA83816DE073100932427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844DA83916DE073100932427 /* CapturePause-Info.plist */,
+				844DA83A16DE073100932427 /* InfoPlist.strings */,
+				844DA83D16DE073100932427 /* main.m */,
+				844DA83F16DE073100932427 /* CapturePause-Prefix.pch */,
+				844DA84316DE073100932427 /* Default.png */,
+				844DA84516DE073100932427 /* Default@2x.png */,
+				844DA84716DE073100932427 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844DA82D16DE073100932427 /* CapturePause */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844DA85116DE073100932427 /* Build configuration list for PBXNativeTarget "CapturePause" */;
+			buildPhases = (
+				844DA82A16DE073100932427 /* Sources */,
+				844DA82B16DE073100932427 /* Frameworks */,
+				844DA82C16DE073100932427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapturePause;
+			productName = CapturePause;
+			productReference = 844DA82E16DE073100932427 /* CapturePause.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844DA82616DE073100932427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CapturePause;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Geraint Davies";
+			};
+			buildConfigurationList = 844DA82916DE073100932427 /* Build configuration list for PBXProject "CapturePause" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 844DA82516DE073100932427;
+			productRefGroup = 844DA82F16DE073100932427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844DA82D16DE073100932427 /* CapturePause */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844DA82C16DE073100932427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DA83C16DE073100932427 /* InfoPlist.strings in Resources */,
+				844DA84416DE073100932427 /* Default.png in Resources */,
+				844DA84616DE073100932427 /* Default@2x.png in Resources */,
+				844DA84816DE073100932427 /* Default-568h@2x.png in Resources */,
+				844DA84B16DE073100932427 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844DA82A16DE073100932427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DA83E16DE073100932427 /* main.m in Sources */,
+				844DA84216DE073100932427 /* CapturePauseAppDelegate.m in Sources */,
+				844DA84E16DE073100932427 /* CapturePauseViewController.m in Sources */,
+				844DA85E16DE08F800932427 /* CameraEngine.m in Sources */,
+				844DA85F16DE08F800932427 /* VideoEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844DA83A16DE073100932427 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844DA83B16DE073100932427 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		844DA84916DE073100932427 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844DA84A16DE073100932427 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844DA84F16DE073100932427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		844DA85016DE073100932427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844DA85216DE073100932427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapturePause/CapturePause-Prefix.pch";
+				INFOPLIST_FILE = "CapturePause/CapturePause-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		844DA85316DE073100932427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapturePause/CapturePause-Prefix.pch";
+				INFOPLIST_FILE = "CapturePause/CapturePause-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844DA82916DE073100932427 /* Build configuration list for PBXProject "CapturePause" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844DA84F16DE073100932427 /* Debug */,
+				844DA85016DE073100932427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844DA85116DE073100932427 /* Build configuration list for PBXNativeTarget "CapturePause" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844DA85216DE073100932427 /* Debug */,
+				844DA85316DE073100932427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844DA82616DE073100932427 /* Project object */;
+}
