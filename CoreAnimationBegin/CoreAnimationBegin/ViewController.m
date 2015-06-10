@@ -11,63 +11,78 @@
 
 @interface ViewController ()
 
+@property (retain, nonatomic) IBOutlet UIImageView *photoIMG;
+
+@property (retain, nonatomic) IBOutlet UISwitch *fromValueSwitch;
+@property (retain, nonatomic) IBOutlet UISwitch *byValueSwitch;
+@property (retain, nonatomic) IBOutlet UISwitch *toValueSwitch;
+
 @end
 
 @implementation ViewController
-@synthesize boxView;
+
+#pragma mark - core animation action
+
+- (IBAction)basicAnimation:(id)sender {
+    
+    //Init position(160,180)
+    
+    //create animation
+    CABasicAnimation *animation = [CABasicAnimation animation];
+    animation.keyPath = @"position.y";
+    
+    if (_fromValueSwitch.on) {
+        animation.fromValue = @(180);
+    }
+    
+    if (_byValueSwitch.on) {
+        animation.byValue = @(50);
+    }
+    
+    if (_toValueSwitch.on) {
+        animation.toValue =  @(300);
+    }
+    
+    animation.duration = 1.0;
+    //set animation to layer
+    [self.photoIMG.layer addAnimation:animation forKey:@"basic"];
+    
+    //update the model layer
+    self.photoIMG.layer.position = CGPointMake(160, 300);
+}
+
+#pragma mark - life cycle
 
 -(void)loadView
 {
     [super loadView];
-    scaleFactor = 2;
-    angle = 180;
-    CGRect frameRect = CGRectMake(10, 10, 100, 100);
-    boxView = [[UIView alloc] initWithFrame:frameRect];
-    boxView.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:boxView];
 }
 
 -(void)dealloc{
-    [boxView release];
+    [_fromValueSwitch release];
+    [_byValueSwitch release];
+    [_toValueSwitch release];
     [super dealloc];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
+    [self setPhotoIMG:nil];
+    [self setFromValueSwitch:nil];
+    [self setByValueSwitch:nil];
+    [self setToValueSwitch:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    self.boxView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
-
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    UITouch *touch = [touches anyObject];
-    CGPoint location = [touch locationInView:self.view];
-    
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDelegate:self];
-    [UIView setAnimationDuration:2];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    CGAffineTransform scaleTrans = CGAffineTransformMakeScale(scaleFactor, scaleFactor);
-    CGAffineTransform rotateTrans = CGAffineTransformMakeRotation(angle * M_PI / 180);
-    self.boxView.transform = CGAffineTransformConcat(scaleTrans, rotateTrans);
-    angle = (angle == 180 ? 360 : 180);
-    scaleFactor = (scaleFactor == 2 ? 1 : 2);
-    self.boxView.center = location;
-    [UIView commitAnimations];
-    
 }
 
 @end

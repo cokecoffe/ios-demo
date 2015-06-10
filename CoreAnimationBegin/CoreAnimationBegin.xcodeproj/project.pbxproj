@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B682CEC1B27DE8A00304D81 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B682CEB1B27DE8A00304D81 /* photo.jpg */; };
+		2B682CEE1B27E3A700304D81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B682CED1B27E3A700304D81 /* Icon.png */; };
 		2BABD70415A969AB00EAA417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BABD70315A969AB00EAA417 /* UIKit.framework */; };
 		2BABD70615A969AB00EAA417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BABD70515A969AB00EAA417 /* Foundation.framework */; };
 		2BABD70815A969AB00EAA417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BABD70715A969AB00EAA417 /* CoreGraphics.framework */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B682CEB1B27DE8A00304D81 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		2B682CED1B27E3A700304D81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		2BABD6FF15A969AB00EAA417 /* CoreAnimationBegin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationBegin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BABD70315A969AB00EAA417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BABD70515A969AB00EAA417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +90,8 @@
 				2BABD71515A969AB00EAA417 /* ViewController.h */,
 				2BABD71615A969AB00EAA417 /* ViewController.m */,
 				2BABD71815A969AB00EAA417 /* ViewController.xib */,
+				2B682CEB1B27DE8A00304D81 /* photo.jpg */,
+				2B682CED1B27E3A700304D81 /* Icon.png */,
 				2BABD70A15A969AB00EAA417 /* Supporting Files */,
 			);
 			path = CoreAnimationBegin;
@@ -152,8 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B682CEE1B27E3A700304D81 /* Icon.png in Resources */,
 				2BABD70E15A969AB00EAA417 /* InfoPlist.strings in Resources */,
 				2BABD71A15A969AB00EAA417 /* ViewController.xib in Resources */,
+				2B682CEC1B27DE8A00304D81 /* photo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +284,7 @@
 				2BABD71F15A969AB00EAA417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

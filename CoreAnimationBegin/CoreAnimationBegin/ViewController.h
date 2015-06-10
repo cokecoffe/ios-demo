@@ -10,9 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    UIView *boxView;
-    float   scaleFactor;
-    float   angle;
+  
 }
-@property (nonatomic,retain) UIView *boxView;
+
 @end
