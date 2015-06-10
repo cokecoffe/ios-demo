@@ -121,6 +121,7 @@
     // Do any additional setup after loading the view from its nib.
     
     onlineBuddies = [[NSMutableArray alloc]init];//创建好友列表
+    [onlineBuddies addObject:@"hbsxd002@openfire.c56shequ.com"];
     
     AppDelegate *del = [self appDelegate];
     [del setChatDelegate:self];

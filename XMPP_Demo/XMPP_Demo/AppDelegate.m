@@ -48,7 +48,7 @@
 {
 	if (!isOpen)
 	{
-        NSLog(@"Unable to connect to server. Check xmppStream.hostName");
+        NSLog(@"Unable to connect to server. Check xmppStream.hostName\n%@",error.description);
 	}
 }
 
@@ -85,9 +85,9 @@
 //接受到好友状态更新
 - (void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence
 {
-  //  NSLog(@"presence = %@", presence);
+    //  NSLog(@"presence = %@", presence);
     NSString *presenceType = [presence type];
-//    NSString *myUserName = [[sender myJID]user];
+    //    NSString *myUserName = [[sender myJID]user];
     NSString *presenceFromUser = [[presence from]user];
     
     NSLog(@"Type:%@",presenceType);
@@ -108,6 +108,8 @@
 -(void)setupStream{
     NSAssert(xmppStream == nil, @"Method setupStream invoked multiple times");
     xmppStream = [[XMPPStream alloc]init];
+    xmppStream.hostPort=3088;
+    xmppStream.hostName = @"openfire.c56shequ.com";
     [xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
 }
 -(void)getOnline
@@ -134,16 +136,16 @@
     if (!xmppStream) {
         [self setupStream];
     }
-        
+    
     if (![xmppStream isDisconnected]) {
         return YES;
     }
     
-//    NSString *jabberID = [[NSUserDefaults standardUserDefaults]stringForKey:@"UserID"];
-//    NSString *jabeerpassword = [[NSUserDefaults standardUserDefaults]stringForKey:@"Password"];
-  
-     NSString *jabberID = @"jiaojiao@oumatoimac.local";
-	 NSString *jabeerpassword  = @"12345";
+    //    NSString *jabberID = [[NSUserDefaults standardUserDefaults]stringForKey:@"UserID"];
+    //    NSString *jabeerpassword = [[NSUserDefaults standardUserDefaults]stringForKey:@"Password"];
+    
+    NSString *jabberID = @"hbsxd001@openfire.c56shequ.com";
+    NSString *jabeerpassword  = @"123456";
     
     
     NSLog(@"用户名:%@",jabberID);
@@ -152,8 +154,10 @@
     if (jabberID == nil || jabeerpassword == nil) {
         return NO;
     }
-    
+
+   
     [xmppStream setMyJID:[XMPPJID jidWithString:jabberID]];
+ 
     password = jabeerpassword;
     
     NSError *error = nil;
@@ -178,8 +182,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-
-    BuddyListViewController *buddyVC = [[BuddyListViewController alloc]initWithNibName:@"BuddyListViewController" bundle:nil];    
+    
+    BuddyListViewController *buddyVC = [[BuddyListViewController alloc]initWithNibName:@"BuddyListViewController" bundle:nil];
     [self.window setRootViewController:buddyVC];
     
     [self.window makeKeyAndVisible];
@@ -194,7 +198,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
