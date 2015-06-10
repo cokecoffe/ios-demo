@@ -26,7 +26,7 @@ Apple官方的列表中图片异步加载
 ######9.RadioTable
 单选列表的实现，支持异步请求数据，支持联动选择
 ######10.CoreAnimationBegin
-CoreAnimation的简单入门
+CoreAnimation的简单入门,CABasicAnimation\CAKeyframeAnimation\CAAnimationGroup基本使用
 ######11.Pop_TableViewDemo
 二级联动选择列表
 ######12.Quartz2D
