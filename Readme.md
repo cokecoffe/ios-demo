@@ -1,11 +1,11 @@
-##数据库相关：
+## 数据库相关：
 
 1. SQLite的基本使用：
 一个联系人的Demo，可以存储用户名，地址，电话号码，并提供了查询功能。
 2. SQLiteSample：
 一个完整封装了的SQLite的使用例子,来源于 [易飞扬][yifiyang]的博客，我做了一些改动。	
 
-##视图方面
+## 视图方面
 
 1. UITableview的异步加载:
 Tableview:实现上提更新数据
@@ -49,7 +49,7 @@ UIView基本动画使用\UIView动画的 一些技巧
 20. tableviewHeadView
 滑动表格可以隐藏或消失表格上面的一个视图，比如搜索框。
 
-##Web方面
+## Web方面
 1. HTTP:
 演示IOS5的JSON解析支持与HTTP的POST、GET
 2. UeNetWork:
@@ -65,7 +65,7 @@ UIView基本动画使用\UIView动画的 一些技巧
 7. WSDL2ObjC_example
 webservice访问的例子，使用wsdl2objec解析wsdl
 
-##外设
+## 外设
 1. CustomCamera
 定制相机视图
 2. CameraWithAVFoudation
@@ -74,30 +74,29 @@ webservice访问的例子，使用wsdl2objec解析wsdl
 GPS定位解析地址,兼容IOS456
 
 
-##Other
-######1.KVO_TestDemo
+## Other
+1. KVO_TestDemo
 kvo基本使用
-######2.copy
+2. copy
 深拷贝，浅拷贝的理解，[我的博客][deepcopy]这里有说明
-######3.excel-plist
+3. excel-plist
 excel转plist
-######4.CaseTool
+4. CaseTool
 大小写转换
-######5.CrashLog
+5. CrashLog
 崩溃日志记录
-######6.appLifeCycle
+6. appLifeCycle
 app生命周期的应用
-######7.Dispatch_queue
+7. Dispatch_queue
 分发队列的练习，包括并行、串行队列。分组队列等。from <<ios5 cook book>>
-######8.TheElements
+8. TheElements
 苹果的元素周期表的demo，很好的展示了mvc的使用
 
+[deepcopy]（http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html）
 
-[deepcopy]: http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html
+[yifiyang]:(http://www.yifeiyang.net/iphone-developer-advanced-9-management-database-using-sqlite/)
 
-[yifiyang]: http://www.yifeiyang.net/iphone-developer-advanced-9-management-database-using-sqlite/
+[uiviewAnimal]:(http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html)
 
-[uiviewAnimal]:http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html
-
-[xmpp]: http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1
+[xmpp]: (http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1)
 
