@@ -92,11 +92,8 @@ app生命周期的应用
 8. TheElements
 苹果的元素周期表的demo，很好的展示了mvc的使用
 
-[deepcopy]（http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html）
-
-[yifiyang]:(http://www.yifeiyang.net/iphone-developer-advanced-9-management-database-using-sqlite/)
-
-[uiviewAnimal]:(http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html)
-
-[xmpp]: (http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1)
+[deepcopy](http://www.cnblogs.com/cokecoffe/archive/2012/07/25/2607477.html)
+[yifiyang](http://www.yifeiyang.net/iphone-developer-advanced-9-management-database-using-sqlite/)
+[uiviewAnimal](http://www.cnblogs.com/v2m_/archive/2011/10/28/2227979.html)
+[xmpp](http://www.cnblogs.com/cokecoffe/archive/2012/08/22/2651645.html?updated=1)
 
